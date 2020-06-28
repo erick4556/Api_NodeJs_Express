@@ -2,6 +2,7 @@ const express = require("express");
 const _ = require("underscore");
 const uuidv4 = require("uuid/v4");
 const productEjem = require("../../../databaseArr").productEjem;
+const middValidarProducto = require("../../../middleware");
 const productsRouter = express.Router();
 
 //Ejemplo usando un arreglo
@@ -10,12 +11,12 @@ productsRouter.get("/", (req, res) => {
   res.json(productEjem);
 });
 
-productsRouter.post("/", (req, res) => {
+productsRouter.post("/", middValidarProducto.validarPorducto, (req, res) => {
   let newProduct = req.body;
-  if (!newProduct.moneda || !newProduct.precio || !newProduct.titulo) {
+  /* if (!newProduct.moneda || !newProduct.precio || !newProduct.titulo) {
     res.status(400).send("Faltan algunos datos");
     return;
-  }
+  } */
 
   newProduct.id = uuidv4();
   productEjem.push(newProduct);
@@ -32,18 +33,9 @@ productsRouter.get("/:id", (req, res) => {
   res.status(404).send(`El producto con id ${req.params.id} no existe`);
 });
 
-productsRouter.put("/:id", (req, res) => {
+productsRouter.put("/:id", middValidarProducto.validarPorducto, (req, res) => {
   let id = req.params.id;
   let reemplazoProducto = req.body;
-
-  if (
-    !reemplazoProducto.moneda ||
-    !reemplazoProducto.precio ||
-    !reemplazoProducto.titulo
-  ) {
-    res.status(400).send("Faltan algunos datos");
-    return;
-  }
 
   let indice = _.findIndex(productEjem, (product) => product.id === id); //Encuentra el indice del array productEjem
 
