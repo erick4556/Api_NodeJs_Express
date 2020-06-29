@@ -2,7 +2,7 @@ const express = require("express");
 const _ = require("underscore");
 const uuidv4 = require("uuid/v4");
 const productEjem = require("../../../databaseArr").productEjem;
-const middValidarProducto = require("../../../middleware");
+const middValidarProducto = require("./middleware");
 const productsRouter = express.Router();
 
 //Ejemplo usando un arreglo
