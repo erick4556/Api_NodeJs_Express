@@ -1,4 +1,5 @@
 const Joi = require("@hapi/joi");
+const log = require("../../../utils/logger");
 
 const blueprintProducto = Joi.object({
   titulo: Joi.string().max(100).required(),
@@ -18,6 +19,8 @@ const validarPorducto = (req, res, netx) => {
     let errors = result.error.details.reduce((i, error) => {
       return i + `[${error.message}]`;
     }, ""); //El string vacio es lo que primero se le asigna a "i"
+
+    log.warn("El siguiente producto no paso la validación", req.body, errors);
     console.log(errors);
     res.status(400).send(errors);
   }

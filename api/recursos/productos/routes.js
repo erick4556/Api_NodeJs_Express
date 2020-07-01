@@ -4,6 +4,7 @@ const uuidv4 = require("uuid/v4");
 const productEjem = require("../../../databaseArr").productEjem;
 const middValidarProducto = require("./middleware");
 const productsRouter = express.Router();
+const log = require("../../../utils/logger");
 
 //Ejemplo usando un arreglo
 
@@ -20,6 +21,7 @@ productsRouter.post("/", middValidarProducto.validarPorducto, (req, res) => {
 
   newProduct.id = uuidv4();
   productEjem.push(newProduct);
+  log.info("Nuevo producto agregado", newProduct);
   res.status(201).json(newProduct);
 });
 
@@ -42,8 +44,10 @@ productsRouter.put("/:id", middValidarProducto.validarPorducto, (req, res) => {
   if (indice !== -1) {
     reemplazoProducto.id = id;
     productEjem[indice] = reemplazoProducto;
+    log.info(`El producto con id ${id} fue reemplazado`, reemplazoProducto);
     res.status(200).send(reemplazoProducto);
   } else {
+    log.warn(`El producto con id ${id} no existe`);
     res.status(404).send(`El producto con id ${id} no existe`);
   }
 });
@@ -54,9 +58,11 @@ productsRouter.delete("/:id", (req, res) => {
     (product) => product.id === req.params.id
   ); //Encuentra el indice del array productEjem
   if (indiceBorrar === -1) {
+    log.warn(`El producto con id ${req.params.id} no existe`);
     res.status(404).send(`El producto con id ${req.params.id} no existe`);
     return;
   } else {
+    log.warn(`El producto con id ${req.params.id} fue borrado`);
     let borrado = productEjem.splice(indiceBorrar, 1);
     res.json(borrado);
   }
