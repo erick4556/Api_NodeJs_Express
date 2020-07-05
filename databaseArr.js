@@ -13,6 +13,9 @@ const productEjem = [
   },
 ];
 
+const usuarios = [];
+
 module.exports = {
   productEjem,
+  usuarios,
 };

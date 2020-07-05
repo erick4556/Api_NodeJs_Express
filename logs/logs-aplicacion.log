@@ -1,1 +1,254 @@
 info: 2020-07-01T22:39:20.105Z Escuchando en el puerto 3000
+info: 2020-07-02T22:14:39.562Z Escuchando en el puerto 3000
+info: 2020-07-02T22:38:35.203Z Escuchando en el puerto 3000
+info: 2020-07-02T22:38:54.388Z ::1 - GET / HTTP/1.1 401 - - 2.481 ms
+info: 2020-07-02T22:38:59.924Z ::1 daniel GET / HTTP/1.1 401 - - 2.433 ms
+info: 2020-07-02T22:39:40.356Z ::1 sdsds GET / HTTP/1.1 401 - - 0.366 ms
+info: 2020-07-02T22:40:16.984Z ::1 daniel GET / HTTP/1.1 401 - - 0.278 ms
+info: 2020-07-02T22:40:27.510Z Escuchando en el puerto 3000
+info: 2020-07-02T22:40:29.810Z ::1 - GET / HTTP/1.1 401 - - 1.313 ms
+info: 2020-07-02T22:40:35.804Z ::1 daniel GET / HTTP/1.1 401 - - 2.344 ms
+info: 2020-07-02T22:41:28.474Z Escuchando en el puerto 3000
+info: 2020-07-02T22:41:37.366Z ::1 - GET / HTTP/1.1 401 - - 1.526 ms
+info: 2020-07-02T22:41:44.687Z ::1 daniel GET / HTTP/1.1 401 - - 2.209 ms
+info: 2020-07-02T22:44:23.849Z ::1 daniel GET / HTTP/1.1 401 - - 0.489 ms
+info: 2020-07-02T22:46:17.382Z Escuchando en el puerto 3000
+info: 2020-07-02T22:46:19.737Z ::1 - GET / HTTP/1.1 401 - - 1.272 ms
+info: 2020-07-02T22:46:25.151Z ::1 daniel GET / HTTP/1.1 200 13 - 5.449 ms
+info: 2020-07-02T22:46:25.392Z ::1 daniel GET /favicon.ico HTTP/1.1 404 150 - 1.129 ms
+info: 2020-07-02T22:46:32.738Z ::1 daniel GET / HTTP/1.1 304 - - 0.856 ms
+info: 2020-07-02T22:46:33.487Z ::1 daniel GET / HTTP/1.1 304 - - 0.604 ms
+info: 2020-07-02T22:46:34.152Z ::1 daniel GET / HTTP/1.1 304 - - 0.563 ms
+info: 2020-07-02T22:46:34.335Z ::1 daniel GET / HTTP/1.1 304 - - 0.407 ms
+info: 2020-07-02T22:46:34.517Z ::1 daniel GET / HTTP/1.1 304 - - 0.416 ms
+info: 2020-07-02T22:46:35.006Z ::1 daniel GET / HTTP/1.1 304 - - 0.404 ms
+info: 2020-07-02T22:46:35.160Z ::1 daniel GET / HTTP/1.1 304 - - 0.461 ms
+info: 2020-07-02T22:46:48.862Z Escuchando en el puerto 3000
+info: 2020-07-02T22:46:52.247Z ::1 daniel GET / HTTP/1.1 304 - - 7.004 ms
+info: 2020-07-02T22:46:52.927Z ::1 daniel GET / HTTP/1.1 304 - - 0.750 ms
+info: 2020-07-02T22:46:56.028Z ::1 daniel GET / HTTP/1.1 304 - - 0.614 ms
+info: 2020-07-02T22:47:16.468Z ::1 - GET / HTTP/1.1 401 - - 0.917 ms
+info: 2020-07-02T22:47:19.704Z ::1 erere GET / HTTP/1.1 401 - - 0.544 ms
+info: 2020-07-02T22:47:22.865Z ::1 34343 GET / HTTP/1.1 401 - - 0.345 ms
+info: 2020-07-02T22:47:29.159Z ::1 daniel GET / HTTP/1.1 401 - - 0.476 ms
+info: 2020-07-02T22:47:35.108Z ::1 daniel GET / HTTP/1.1 200 13 - 1.077 ms
+info: 2020-07-02T22:47:40.016Z ::1 daniel GET / HTTP/1.1 304 - - 0.422 ms
+info: 2020-07-02T22:47:41.182Z ::1 daniel GET / HTTP/1.1 304 - - 0.364 ms
+info: 2020-07-02T22:47:42.498Z ::1 daniel GET / HTTP/1.1 304 - - 0.460 ms
+info: 2020-07-02T22:47:49.959Z ::1 - GET / HTTP/1.1 401 - - 0.155 ms
+info: 2020-07-02T22:47:54.846Z ::1 - GET / HTTP/1.1 401 - - 0.191 ms
+info: 2020-07-02T22:48:00.582Z ::1 daniel GET / HTTP/1.1 200 13 - 1.464 ms
+info: 2020-07-02T22:48:05.377Z ::1 daniel GET / HTTP/1.1 304 - - 0.469 ms
+info: 2020-07-02T22:48:07.089Z ::1 daniel GET / HTTP/1.1 304 - - 0.485 ms
+info: 2020-07-02T22:48:08.032Z ::1 daniel GET / HTTP/1.1 304 - - 1.666 ms
+info: 2020-07-02T22:48:09.724Z ::1 daniel GET / HTTP/1.1 304 - - 0.354 ms
+info: 2020-07-02T22:48:15.041Z ::1 - GET / HTTP/1.1 401 - - 0.240 ms
+info: 2020-07-02T22:48:23.997Z ::1 daniel GET / HTTP/1.1 200 13 - 0.560 ms
+info: 2020-07-02T22:48:26.719Z ::1 daniel GET / HTTP/1.1 304 - - 0.466 ms
+info: 2020-07-02T22:48:27.307Z ::1 daniel GET / HTTP/1.1 304 - - 0.466 ms
+info: 2020-07-02T22:48:27.799Z ::1 daniel GET / HTTP/1.1 304 - - 0.332 ms
+info: 2020-07-02T22:48:28.450Z ::1 daniel GET / HTTP/1.1 304 - - 0.365 ms
+info: 2020-07-02T22:48:29.228Z ::1 daniel GET / HTTP/1.1 304 - - 0.323 ms
+info: 2020-07-02T22:48:30.146Z ::1 daniel GET / HTTP/1.1 304 - - 1.184 ms
+info: 2020-07-02T22:48:30.769Z ::1 daniel GET / HTTP/1.1 304 - - 0.380 ms
+info: 2020-07-02T22:48:31.529Z ::1 daniel GET / HTTP/1.1 304 - - 0.326 ms
+info: 2020-07-02T22:48:32.359Z ::1 daniel GET / HTTP/1.1 304 - - 0.385 ms
+info: 2020-07-02T22:54:05.977Z Escuchando en el puerto 3000
+error: 2020-07-04T19:18:17.714Z uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21) {"error":{},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:14:13)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)","exception":true,"date":"Sat Jul 04 2020 14:18:17 GMT-0500 (GMT-05:00)","process":{"pid":8036,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40259584,"heapTotal":28475392,"heapUsed":12201392,"external":1519289,"arrayBuffers":142839}},"os":{"loadavg":[0,0,0],"uptime":791320},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":510,"method":"<computed> [as post]","native":false},{"column":13,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false}]}
+error: 2020-07-04T19:20:51.143Z uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21) {"error":{},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:14:13)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)","exception":true,"date":"Sat Jul 04 2020 14:20:51 GMT-0500 (GMT-05:00)","process":{"pid":9372,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40169472,"heapTotal":28213248,"heapUsed":12209136,"external":1519289,"arrayBuffers":142839}},"os":{"loadavg":[0,0,0],"uptime":791473},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":510,"method":"<computed> [as post]","native":false},{"column":13,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false}]}
+error: 2020-07-04T19:24:11.493Z uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21) {"error":{},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:14:13)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)","exception":true,"date":"Sat Jul 04 2020 14:24:11 GMT-0500 (GMT-05:00)","process":{"pid":16064,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40525824,"heapTotal":28213248,"heapUsed":12200152,"external":1519289,"arrayBuffers":142839}},"os":{"loadavg":[0,0,0],"uptime":791673},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":510,"method":"<computed> [as post]","native":false},{"column":13,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false}]}
+error: 2020-07-04T19:24:16.550Z uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:14:13)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21) {"error":{},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:14:13)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)","exception":true,"date":"Sat Jul 04 2020 14:24:16 GMT-0500 (GMT-05:00)","process":{"pid":18020,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40267776,"heapTotal":28213248,"heapUsed":12203928,"external":1519289,"arrayBuffers":142839}},"os":{"loadavg":[0,0,0],"uptime":791679},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":510,"method":"<computed> [as post]","native":false},{"column":13,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":14,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false}]}
+info: 2020-07-04T19:25:23.382Z Escuchando en el puerto 3000
+info: 2020-07-04T19:25:30.287Z Escuchando en el puerto 3000
+info: 2020-07-04T19:26:20.460Z ::1 - GET /users HTTP/1.1 200 2 - 2.562 ms
+info: 2020-07-04T19:28:13.964Z ::1 - POST /users HTTP/1.1 500 1465 - 3.778 ms
+info: 2020-07-04T19:28:52.358Z Escuchando en el puerto 3000
+info: 2020-07-04T19:28:58.631Z ::1 - POST /users HTTP/1.1 500 1479 - 2.136 ms
+info: 2020-07-04T19:30:16.024Z Escuchando en el puerto 3000
+info: 2020-07-04T19:30:23.764Z ::1 - POST /users HTTP/1.1 500 1479 - 2.091 ms
+info: 2020-07-04T19:30:35.285Z Escuchando en el puerto 3000
+info: 2020-07-04T19:31:02.292Z ::1 - POST /users HTTP/1.1 500 1479 - 2.460 ms
+info: 2020-07-04T19:36:08.588Z Escuchando en el puerto 3000
+info: 2020-07-04T19:36:19.679Z ::1 - POST /users HTTP/1.1 500 1479 - 3.092 ms
+info: 2020-07-04T19:37:28.957Z Escuchando en el puerto 3000
+info: 2020-07-04T19:37:41.672Z Nuevo producto agregado {"titulo":"Prueba590","precio":42,"moneda":"PAB","id":"8f37e798-a137-4d04-a18c-7e5477cf9456"}
+info: 2020-07-04T19:37:41.710Z ::1 - POST /products/ HTTP/1.1 201 93 - 5.940 ms
+info: 2020-07-04T19:37:49.240Z ::1 - GET /products HTTP/1.1 200 212 - 0.557 ms
+info: 2020-07-04T19:38:32.468Z ::1 - POST /users HTTP/1.1 500 1479 - 1.492 ms
+info: 2020-07-04T19:39:39.268Z Escuchando en el puerto 3000
+info: 2020-07-04T19:39:42.537Z ::1 - POST /users HTTP/1.1 500 1486 - 6.586 ms
+info: 2020-07-04T19:40:18.991Z Escuchando en el puerto 3000
+info: 2020-07-04T19:40:22.171Z Falló la validación del usuario 
+info: 2020-07-04T19:40:22.185Z ::1 - POST /users HTTP/1.1 400 53 - 6.742 ms
+info: 2020-07-04T19:40:32.416Z Escuchando en el puerto 3000
+info: 2020-07-04T19:40:44.922Z Falló la validación del usuario 
+info: 2020-07-04T19:40:44.939Z ::1 - POST /users HTTP/1.1 400 54 - 7.030 ms
+info: 2020-07-04T19:41:25.308Z Escuchando en el puerto 3000
+info: 2020-07-04T19:41:28.304Z Falló la validación del usuario 
+info: 2020-07-04T19:41:28.318Z ::1 - POST /users HTTP/1.1 400 54 - 11.416 ms
+info: 2020-07-04T19:41:49.523Z Escuchando en el puerto 3000
+info: 2020-07-04T19:41:58.726Z Falló la validación del usuario 
+info: 2020-07-04T19:41:58.734Z ::1 - POST /users HTTP/1.1 400 54 - 12.427 ms
+info: 2020-07-04T19:44:45.262Z Escuchando en el puerto 3000
+info: 2020-07-04T19:44:48.944Z ::1 - POST /users HTTP/1.1 201 28 - 80.973 ms
+info: 2020-07-04T19:45:04.476Z ::1 - GET /users HTTP/1.1 200 119 - 1.092 ms
+info: 2020-07-04T19:45:39.823Z Email o username ya existe.
+info: 2020-07-04T19:45:39.825Z ::1 - POST /users HTTP/1.1 409 30 - 2.144 ms
+info: 2020-07-04T19:45:46.166Z ::1 - GET /users HTTP/1.1 200 119 - 0.372 ms
+info: 2020-07-04T19:45:51.954Z ::1 - GET /users HTTP/1.1 200 119 - 0.366 ms
+info: 2020-07-04T19:45:59.143Z ::1 - POST /users HTTP/1.1 201 28 - 75.168 ms
+info: 2020-07-04T19:46:01.113Z ::1 - GET /users HTTP/1.1 200 239 - 0.439 ms
+info: 2020-07-04T19:46:14.077Z Escuchando en el puerto 3000
+info: 2020-07-04T19:46:24.455Z ::1 - POST /users HTTP/1.1 201 30 - 78.120 ms
+info: 2020-07-04T19:47:17.241Z ::1 - POST /users HTTP/1.1 201 30 - 70.787 ms
+info: 2020-07-04T19:47:35.747Z ::1 - POST /users HTTP/1.1 201 30 - 72.913 ms
+info: 2020-07-04T19:47:40.844Z ::1 - GET /users HTTP/1.1 200 364 - 0.423 ms
+info: 2020-07-04T19:47:56.963Z ::1 - POST /users HTTP/1.1 201 30 - 70.756 ms
+info: 2020-07-04T19:47:59.421Z ::1 - GET /users HTTP/1.1 200 484 - 0.445 ms
+info: 2020-07-04T19:48:10.035Z ::1 - POST /users HTTP/1.1 201 30 - 71.341 ms
+info: 2020-07-04T19:48:15.544Z ::1 - GET /users HTTP/1.1 200 604 - 0.278 ms
+info: 2020-07-04T19:48:21.761Z Falló la validación del usuario  "password" is required {"_original":{"username":"test7","email":"test7@test.com"},"details":[{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"label":"password","key":"password"}}],"stack":"ValidationError: \"password\" is required"}
+info: 2020-07-04T19:48:21.763Z ::1 - POST /users HTTP/1.1 400 54 - 21.953 ms
+info: 2020-07-04T19:48:54.866Z Escuchando en el puerto 3000
+info: 2020-07-04T19:48:58.538Z Falló la validación del usuario  {"0":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"label":"password","key":"password"}}}
+info: 2020-07-04T19:48:58.553Z ::1 - POST /users HTTP/1.1 400 54 - 28.516 ms
+info: 2020-07-04T19:49:48.382Z Escuchando en el puerto 3000
+info: 2020-07-04T19:49:51.283Z Escuchando en el puerto 3000
+info: 2020-07-04T19:49:54.192Z Falló la validación del usuario  {"0":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"label":"password","key":"password"}}}
+info: 2020-07-04T19:49:54.198Z ::1 - POST /users HTTP/1.1 400 54 - 27.141 ms
+info: 2020-07-04T19:50:29.684Z Falló la validación del usuario  {"0":{"message":"\"username\" length must be at least 3 characters long","path":["username"],"type":"string.min","context":{"limit":3,"value":"t","label":"username","key":"username"}}}
+info: 2020-07-04T19:50:29.686Z ::1 - POST /users HTTP/1.1 400 54 - 21.424 ms
+info: 2020-07-04T19:51:15.866Z Falló la validación del usuario  {"0":{"message":"\"username\" length must be at least 3 characters long","path":["username"],"type":"string.min","context":{"limit":3,"value":"t","label":"username","key":"username"}}}
+info: 2020-07-04T19:51:15.868Z ::1 - POST /users HTTP/1.1 400 54 - 17.772 ms
+info: 2020-07-04T19:51:47.202Z ::1 - POST /users HTTP/1.1 201 30 - 75.706 ms
+info: 2020-07-04T19:52:04.261Z Falló la validación del usuario  {"0":{"message":"\"username\" length must be at least 3 characters long","path":["username"],"type":"string.min","context":{"limit":3,"value":"t","label":"username","key":"username"}}}
+info: 2020-07-04T19:52:04.272Z ::1 - POST /users HTTP/1.1 400 54 - 17.023 ms
+info: 2020-07-04T19:52:34.826Z ::1 - POST /users HTTP/1.1 201 30 - 122.920 ms
+info: 2020-07-04T19:53:17.577Z ::1 - GET /products HTTP/1.1 200 118 - 0.703 ms
+info: 2020-07-04T19:53:18.411Z ::1 - GET /products HTTP/1.1 200 118 - 0.459 ms
+info: 2020-07-04T19:53:19.208Z ::1 - GET /products HTTP/1.1 200 118 - 0.471 ms
+info: 2020-07-04T19:53:19.806Z ::1 - GET /products HTTP/1.1 200 118 - 0.330 ms
+info: 2020-07-04T19:54:14.837Z Falló la validación del usuario  {"0":{"message":"\"password\" length must be at least 6 characters long","path":["password"],"type":"string.min","context":{"limit":6,"value":"123","label":"password","key":"password"}}}
+info: 2020-07-04T19:54:14.839Z ::1 - POST /users HTTP/1.1 400 54 - 16.430 ms
+info: 2020-07-04T19:55:22.510Z Falló la validación del usuario  {"0":{"message":"\"password\" length must be at least 6 characters long","path":["password"],"type":"string.min","context":{"limit":6,"value":"1233","label":"password","key":"password"}}}
+info: 2020-07-04T19:55:22.520Z ::1 - POST /users HTTP/1.1 400 54 - 19.469 ms
+info: 2020-07-04T19:55:26.624Z Email o username ya existe.
+info: 2020-07-04T19:55:26.625Z ::1 - POST /users HTTP/1.1 409 30 - 1.264 ms
+info: 2020-07-04T19:56:00.981Z Email o username ya existe.
+info: 2020-07-04T19:56:00.982Z ::1 - POST /users HTTP/1.1 409 30 - 1.334 ms
+info: 2020-07-04T19:56:58.958Z Escuchando en el puerto 3000
+info: 2020-07-04T19:57:30.044Z Falló la validación del usuario  {"0":{"message":"\"password\" length must be at least 6 characters long","path":["password"],"type":"string.min","context":{"limit":6,"value":"tes","label":"password","key":"password"}}}
+info: 2020-07-04T19:57:30.051Z ::1 - POST /users HTTP/1.1 400 54 - 33.781 ms
+info: 2020-07-04T19:58:19.611Z Escuchando en el puerto 3000
+info: 2020-07-04T19:59:36.053Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-04T19:59:36.065Z ::1 - POST /users HTTP/1.1 400 54 - 13.029 ms
+info: 2020-07-04T20:00:29.014Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long","1":"\"email\" must be a valid email"}
+info: 2020-07-04T20:00:29.027Z ::1 - POST /users HTTP/1.1 400 54 - 3.457 ms
+info: 2020-07-04T20:02:51.843Z Escuchando en el puerto 3000
+info: 2020-07-04T20:03:07.611Z Escuchando en el puerto 3000
+info: 2020-07-04T20:03:33.502Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long","1":"\"email\" must be a valid email"}
+info: 2020-07-04T20:03:33.507Z ::1 - POST /users HTTP/1.1 400 54 - 23.457 ms
+info: 2020-07-04T20:04:04.277Z Escuchando en el puerto 3000
+info: 2020-07-04T20:04:06.553Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long","1":"\"email\" must be a valid email"}
+info: 2020-07-04T20:04:06.557Z ::1 - POST /users HTTP/1.1 400 54 - 16.867 ms
+info: 2020-07-05T19:12:59.156Z Escuchando en el puerto 3000
+info: 2020-07-05T19:13:08.725Z ::1 - GET / HTTP/1.1 401 - - 1.622 ms
+info: 2020-07-05T19:13:22.945Z ::1 daniel GET / HTTP/1.1 200 13 - 4.078 ms
+info: 2020-07-05T19:13:23.169Z ::1 daniel GET /favicon.ico HTTP/1.1 404 150 - 1.165 ms
+info: 2020-07-05T19:20:22.255Z Escuchando en el puerto 3000
+info: 2020-07-05T19:20:53.719Z ::1 - GET / HTTP/1.1 401 - - 2.231 ms
+info: 2020-07-05T19:21:07.792Z ::1 - POST /users HTTP/1.1 201 30 - 175.813 ms
+info: 2020-07-05T19:21:11.511Z ::1 - GET /users HTTP/1.1 200 121 - 0.393 ms
+info: 2020-07-05T19:21:15.833Z ::1 - GET / HTTP/1.1 401 - - 0.181 ms
+info: 2020-07-05T19:21:38.215Z Usuario daniel no existe.
+info: 2020-07-05T19:21:38.237Z ::1 daniel GET / HTTP/1.1 401 - - 5.483 ms
+info: 2020-07-05T19:21:55.771Z ::1 test8 GET / HTTP/1.1 500 1522 - 2.754 ms
+info: 2020-07-05T19:22:05.634Z ::1 test8 GET / HTTP/1.1 500 1522 - 1.160 ms
+info: 2020-07-05T19:22:06.535Z ::1 test8 GET / HTTP/1.1 500 1522 - 0.849 ms
+info: 2020-07-05T19:22:09.516Z ::1 test8 GET / HTTP/1.1 500 1522 - 0.739 ms
+info: 2020-07-05T19:22:54.265Z Escuchando en el puerto 3000
+error: 2020-07-05T19:23:29.488Z uncaughtException: Unexpected token ')'
+D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\libs\auth.js:28
+    ); //Comparo las dos contraseñas
+    ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1054:16)
+    at Module._compile (internal/modules/cjs/loader.js:1102:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:10:14)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10) {"error":{},"stack":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\libs\\auth.js:28\n    ); //Comparo las dos contraseñas\n    ^\n\nSyntaxError: Unexpected token ')'\n    at wrapSafe (internal/modules/cjs/loader.js:1054:16)\n    at Module._compile (internal/modules/cjs/loader.js:1102:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:10:14)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)","exception":true,"date":"Sun Jul 05 2020 14:23:29 GMT-0500 (GMT-05:00)","process":{"pid":8448,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40345600,"heapTotal":28213248,"heapUsed":13205192,"external":1610284,"arrayBuffers":233834}},"os":{"loadavg":[0,0,0],"uptime":878031},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1054,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1102,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":14,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":10,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false}]}
+info: 2020-07-05T19:24:44.750Z Escuchando en el puerto 3000
+info: 2020-07-05T19:24:54.986Z Escuchando en el puerto 3000
+info: 2020-07-05T19:24:59.257Z Usuario test8 no existe.
+info: 2020-07-05T19:24:59.274Z ::1 test8 GET / HTTP/1.1 401 - - 4.935 ms
+info: 2020-07-05T19:25:10.528Z Usuario test8 no existe.
+info: 2020-07-05T19:25:10.530Z ::1 test8 GET / HTTP/1.1 401 - - 1.369 ms
+info: 2020-07-05T19:25:25.500Z Usuario test8 no existe.
+info: 2020-07-05T19:25:25.502Z ::1 test8 GET / HTTP/1.1 401 - - 1.365 ms
+info: 2020-07-05T19:25:29.070Z ::1 - GET /users HTTP/1.1 200 2 - 2.327 ms
+info: 2020-07-05T19:25:31.557Z ::1 - POST /users HTTP/1.1 201 30 - 82.669 ms
+info: 2020-07-05T19:25:39.314Z Usuario test8 no completo la autenticación, contraseña incorrecta.
+info: 2020-07-05T19:25:39.315Z ::1 test8 GET / HTTP/1.1 401 - - 73.285 ms
+info: 2020-07-05T19:25:52.353Z Usuario test8 completó la autenticación.
+info: 2020-07-05T19:25:52.363Z ::1 test8 GET / HTTP/1.1 200 13 - 77.401 ms
+info: 2020-07-05T19:26:37.545Z Escuchando en el puerto 3000
+info: 2020-07-05T19:26:43.093Z Usuario test8 no existe.
+info: 2020-07-05T19:26:43.105Z ::1 test8 GET / HTTP/1.1 401 - - 4.002 ms
+info: 2020-07-05T19:26:46.637Z ::1 - GET /users HTTP/1.1 200 2 - 2.797 ms
+info: 2020-07-05T19:26:48.557Z ::1 - POST /users HTTP/1.1 201 30 - 78.316 ms
+info: 2020-07-05T19:26:56.543Z Usuario test8 no completo la autenticación, contraseña incorrecta.
+info: 2020-07-05T19:26:56.544Z ::1 test8 GET / HTTP/1.1 401 - - 75.865 ms
+info: 2020-07-05T19:27:08.688Z Usuario test91 no existe.
+info: 2020-07-05T19:27:08.702Z ::1 test91 GET / HTTP/1.1 401 - - 1.233 ms
+info: 2020-07-05T19:27:26.109Z Usuario test8 completó la autenticación.
+info: 2020-07-05T19:27:26.121Z ::1 test8 GET / HTTP/1.1 304 - - 75.537 ms
