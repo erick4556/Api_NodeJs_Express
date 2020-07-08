@@ -252,3 +252,149 @@ info: 2020-07-05T19:27:08.688Z Usuario test91 no existe.
 info: 2020-07-05T19:27:08.702Z ::1 test91 GET / HTTP/1.1 401 - - 1.233 ms
 info: 2020-07-05T19:27:26.109Z Usuario test8 completó la autenticación.
 info: 2020-07-05T19:27:26.121Z ::1 test8 GET / HTTP/1.1 304 - - 75.537 ms
+info: 2020-07-07T19:32:17.680Z Escuchando en el puerto 3000
+info: 2020-07-07T19:40:51.229Z Escuchando en el puerto 3000
+info: 2020-07-07T19:52:31.385Z Escuchando en el puerto 3000
+info: 2020-07-07T19:53:03.510Z Escuchando en el puerto 3000
+info: 2020-07-07T19:53:10.150Z Escuchando en el puerto 3000
+info: 2020-07-07T19:53:56.560Z Escuchando en el puerto 3000
+info: 2020-07-07T19:54:48.130Z Escuchando en el puerto 3000
+info: 2020-07-07T20:25:57.707Z Escuchando en el puerto 3000
+info: 2020-07-07T20:27:16.524Z Escuchando en el puerto 3000
+info: 2020-07-07T20:27:25.381Z Escuchando en el puerto 3000
+error: 2020-07-07T20:29:02.838Z uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:16:13)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21) {"error":{},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as post] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:16:13)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)","exception":true,"date":"Tue Jul 07 2020 15:29:02 GMT-0500 (GMT-05:00)","process":{"pid":14720,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":40615936,"heapTotal":28475392,"heapUsed":13524792,"external":1625559,"arrayBuffers":249109}},"os":{"loadavg":[0,0,0],"uptime":1054765},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":510,"method":"<computed> [as post]","native":false},{"column":13,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":16,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false}]}
+info: 2020-07-07T20:29:22.238Z Escuchando en el puerto 3000
+info: 2020-07-07T20:29:39.843Z Escuchando en el puerto 3000
+info: 2020-07-07T20:33:50.824Z ::1 - POST /users HTTP/1.1 201 30 - 241.674 ms
+info: 2020-07-07T20:33:57.406Z ::1 - GET /users HTTP/1.1 200 165 - 0.613 ms
+info: 2020-07-07T20:37:39.537Z ::1 - POST /users/login HTTP/1.1 400 38 - 2.814 ms
+info: 2020-07-07T20:37:48.562Z ::1 - GET /users HTTP/1.1 200 165 - 0.546 ms
+info: 2020-07-07T20:37:51.351Z ::1 - POST /users/login HTTP/1.1 400 38 - 1.677 ms
+info: 2020-07-07T20:38:16.144Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:38:16.146Z ::1 - POST /users/login HTTP/1.1 200 199 - 102.275 ms
+info: 2020-07-07T20:38:37.054Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:38:37.056Z ::1 - POST /users/login HTTP/1.1 200 199 - 73.483 ms
+info: 2020-07-07T20:38:38.143Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:38:38.169Z ::1 - POST /users/login HTTP/1.1 200 199 - 92.824 ms
+info: 2020-07-07T20:38:48.795Z Usuario test8 no completo la autenticación, contraseña incorrecta.
+info: 2020-07-07T20:38:48.797Z ::1 - POST /users/login HTTP/1.1 400 81 - 93.836 ms
+info: 2020-07-07T20:38:59.387Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:38:59.389Z ::1 - POST /users/login HTTP/1.1 200 199 - 123.930 ms
+info: 2020-07-07T20:39:59.570Z ::1 - POST /users/login HTTP/1.1 400 38 - 0.822 ms
+info: 2020-07-07T20:40:03.131Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:40:03.133Z ::1 - POST /users/login HTTP/1.1 200 199 - 72.320 ms
+info: 2020-07-07T20:40:08.125Z Escuchando en el puerto 3000
+info: 2020-07-07T20:40:18.769Z ::1 - POST /users/login HTTP/1.1 400 44 - 4.892 ms
+info: 2020-07-07T20:40:33.750Z Escuchando en el puerto 3000
+info: 2020-07-07T20:40:36.855Z ::1 - POST /users/login HTTP/1.1 400 56 - 4.483 ms
+info: 2020-07-07T20:40:47.097Z Escuchando en el puerto 3000
+info: 2020-07-07T20:40:50.974Z ::1 - POST /users/login HTTP/1.1 400 56 - 5.712 ms
+info: 2020-07-07T20:40:52.143Z ::1 - POST /users/login HTTP/1.1 400 56 - 0.958 ms
+info: 2020-07-07T20:40:57.557Z Escuchando en el puerto 3000
+info: 2020-07-07T20:41:00.109Z ::1 - POST /users/login HTTP/1.1 400 57 - 6.929 ms
+info: 2020-07-07T20:41:03.704Z Escuchando en el puerto 3000
+info: 2020-07-07T20:41:06.495Z ::1 - POST /users/login HTTP/1.1 400 56 - 4.426 ms
+info: 2020-07-07T20:41:09.370Z ::1 - POST /users/login HTTP/1.1 400 56 - 0.472 ms
+info: 2020-07-07T20:41:29.654Z Usuario test8 no existe.
+info: 2020-07-07T20:41:29.697Z ::1 - POST /users/login HTTP/1.1 400 47 - 9.919 ms
+info: 2020-07-07T20:41:33.668Z ::1 - GET /users HTTP/1.1 200 2 - 0.562 ms
+info: 2020-07-07T20:41:37.064Z ::1 - POST /users HTTP/1.1 201 30 - 137.066 ms
+info: 2020-07-07T20:41:42.561Z ::1 - GET /users HTTP/1.1 200 165 - 0.272 ms
+info: 2020-07-07T20:41:44.416Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-07T20:41:44.419Z ::1 - POST /users/login HTTP/1.1 200 199 - 92.399 ms
+info: 2020-07-08T23:19:41.529Z Escuchando en el puerto 3000
+info: 2020-07-08T23:20:04.101Z ::1 - POST /users HTTP/1.1 201 30 - 103.223 ms
+info: 2020-07-08T23:20:12.685Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:20:12.686Z ::1 - POST /users/login HTTP/1.1 200 199 - 79.788 ms
+info: 2020-07-08T23:21:01.542Z ::1 - GET / HTTP/1.1 401 - - 1.162 ms
+info: 2020-07-08T23:21:18.899Z ::1 - GET /users HTTP/1.1 200 165 - 0.445 ms
+info: 2020-07-08T23:21:27.304Z ::1 - GET / HTTP/1.1 401 - - 0.173 ms
+info: 2020-07-08T23:21:27.875Z ::1 - GET / HTTP/1.1 401 - - 1.024 ms
+info: 2020-07-08T23:21:30.654Z ::1 - GET / HTTP/1.1 401 - - 0.285 ms
+info: 2020-07-08T23:21:31.371Z ::1 - GET / HTTP/1.1 401 - - 0.398 ms
+info: 2020-07-08T23:21:39.296Z ::1 - GET / HTTP/1.1 401 - - 0.260 ms
+info: 2020-07-08T23:22:59.756Z ::1 - GET / HTTP/1.1 401 - - 0.216 ms
+info: 2020-07-08T23:23:32.886Z ::1 - GET / HTTP/1.1 401 - - 0.261 ms
+info: 2020-07-08T23:23:35.523Z ::1 - GET / HTTP/1.1 401 - - 0.156 ms
+info: 2020-07-08T23:24:24.999Z Escuchando en el puerto 3000
+info: 2020-07-08T23:24:28.783Z ::1 - GET /users HTTP/1.1 200 2 - 4.641 ms
+info: 2020-07-08T23:24:31.886Z ::1 - GET / HTTP/1.1 401 - - 0.727 ms
+info: 2020-07-08T23:24:35.723Z ::1 - POST /users HTTP/1.1 201 30 - 78.830 ms
+info: 2020-07-08T23:24:38.172Z ::1 - GET /users HTTP/1.1 200 165 - 0.355 ms
+info: 2020-07-08T23:24:42.115Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:24:42.117Z ::1 - POST /users/login HTTP/1.1 200 199 - 74.691 ms
+info: 2020-07-08T23:25:03.919Z ::1 - GET / HTTP/1.1 401 - - 0.223 ms
+info: 2020-07-08T23:25:04.732Z ::1 - GET / HTTP/1.1 401 - - 0.301 ms
+info: 2020-07-08T23:25:05.119Z ::1 - GET / HTTP/1.1 401 - - 0.232 ms
+info: 2020-07-08T23:25:05.421Z ::1 - GET / HTTP/1.1 401 - - 0.215 ms
+info: 2020-07-08T23:25:19.083Z ::1 - GET / HTTP/1.1 401 - - 0.276 ms
+info: 2020-07-08T23:25:23.982Z ::1 - GET / HTTP/1.1 401 - - 0.206 ms
+info: 2020-07-08T23:25:24.568Z ::1 - GET / HTTP/1.1 401 - - 0.250 ms
+info: 2020-07-08T23:25:26.838Z ::1 - GET /users HTTP/1.1 200 165 - 0.325 ms
+info: 2020-07-08T23:26:32.923Z ::1 - GET / HTTP/1.1 401 - - 0.252 ms
+info: 2020-07-08T23:26:33.805Z ::1 - GET / HTTP/1.1 401 - - 0.266 ms
+info: 2020-07-08T23:26:34.344Z ::1 - GET / HTTP/1.1 401 - - 0.213 ms
+info: 2020-07-08T23:26:35.874Z ::1 - GET / HTTP/1.1 401 - - 0.236 ms
+info: 2020-07-08T23:26:38.310Z ::1 - GET /users HTTP/1.1 200 165 - 0.390 ms
+info: 2020-07-08T23:26:40.876Z ::1 - GET / HTTP/1.1 401 - - 0.359 ms
+info: 2020-07-08T23:26:41.434Z ::1 - GET / HTTP/1.1 401 - - 0.237 ms
+info: 2020-07-08T23:26:41.809Z ::1 - GET / HTTP/1.1 401 - - 0.158 ms
+info: 2020-07-08T23:29:04.966Z Escuchando en el puerto 3000
+info: 2020-07-08T23:29:17.362Z ::1 - POST /users HTTP/1.1 201 30 - 81.859 ms
+info: 2020-07-08T23:29:19.306Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:29:19.307Z ::1 - POST /users/login HTTP/1.1 200 199 - 80.260 ms
+info: 2020-07-08T23:29:27.527Z ::1 - GET / HTTP/1.1 401 - - 2.263 ms
+info: 2020-07-08T23:29:38.830Z Escuchando en el puerto 3000
+info: 2020-07-08T23:29:45.352Z Usuario test8 no existe.
+info: 2020-07-08T23:29:45.361Z ::1 - POST /users/login HTTP/1.1 400 47 - 5.983 ms
+info: 2020-07-08T23:29:49.329Z ::1 - POST /users HTTP/1.1 201 30 - 116.055 ms
+info: 2020-07-08T23:29:52.354Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:29:52.356Z ::1 - POST /users/login HTTP/1.1 200 199 - 135.714 ms
+info: 2020-07-08T23:30:00.764Z ::1 - GET / HTTP/1.1 401 - - 1.140 ms
+info: 2020-07-08T23:30:01.533Z ::1 - GET / HTTP/1.1 401 - - 0.443 ms
+info: 2020-07-08T23:30:01.925Z ::1 - GET / HTTP/1.1 401 - - 0.214 ms
+info: 2020-07-08T23:30:03.711Z ::1 - GET / HTTP/1.1 401 - - 0.172 ms
+info: 2020-07-08T23:30:06.125Z ::1 - GET / HTTP/1.1 401 - - 0.155 ms
+info: 2020-07-08T23:31:45.604Z Escuchando en el puerto 3000
+info: 2020-07-08T23:31:49.400Z ::1 - POST /users HTTP/1.1 201 30 - 83.108 ms
+info: 2020-07-08T23:31:51.423Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:31:51.425Z ::1 - POST /users/login HTTP/1.1 200 199 - 78.025 ms
+info: 2020-07-08T23:31:59.495Z ::1 - GET / HTTP/1.1 401 - - 1.212 ms
+info: 2020-07-08T23:32:00.215Z ::1 - GET / HTTP/1.1 401 - - 0.249 ms
+info: 2020-07-08T23:32:00.562Z ::1 - GET / HTTP/1.1 401 - - 0.219 ms
+info: 2020-07-08T23:32:21.073Z Escuchando en el puerto 3000
+info: 2020-07-08T23:32:24.091Z ::1 - POST /users HTTP/1.1 201 30 - 86.781 ms
+info: 2020-07-08T23:32:26.183Z ::1 - GET /users HTTP/1.1 200 165 - 0.888 ms
+info: 2020-07-08T23:37:08.407Z Escuchando en el puerto 3000
+info: 2020-07-08T23:37:12.374Z ::1 - POST /users HTTP/1.1 201 30 - 91.444 ms
+info: 2020-07-08T23:37:14.190Z ::1 - GET /users HTTP/1.1 200 165 - 0.738 ms
+info: 2020-07-08T23:37:15.748Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:37:15.751Z ::1 - POST /users/login HTTP/1.1 200 199 - 79.807 ms
+info: 2020-07-08T23:37:23.465Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-08T23:37:23.466Z [object Object]
+info: 2020-07-08T23:37:23.478Z ::1 - GET / HTTP/1.1 200 13 - 5.421 ms
+info: 2020-07-08T23:37:27.521Z ::1 - GET / HTTP/1.1 401 - - 0.993 ms
+info: 2020-07-08T23:37:30.078Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-08T23:37:30.079Z [object Object]
+info: 2020-07-08T23:37:30.081Z ::1 - GET / HTTP/1.1 200 13 - 2.948 ms
+info: 2020-07-08T23:38:23.934Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-08T23:38:23.935Z [object Object]
+info: 2020-07-08T23:38:23.937Z ::1 - GET / HTTP/1.1 200 13 - 2.494 ms
+info: 2020-07-08T23:42:57.444Z Escuchando en el puerto 3000
+info: 2020-07-08T23:43:20.183Z ::1 - POST /users HTTP/1.1 201 30 - 82.995 ms
+info: 2020-07-08T23:43:23.113Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-08T23:43:23.115Z ::1 - POST /users/login HTTP/1.1 200 199 - 76.960 ms
+info: 2020-07-08T23:43:35.951Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-08T23:43:35.954Z [object Object]
+info: 2020-07-08T23:43:35.965Z ::1 - GET / HTTP/1.1 200 13 - 6.194 ms

@@ -29,6 +29,26 @@ const validarUsuario = (req, res, next) => {
   }
 };
 
+const bluePrintRequestLogin = Joi.object({
+  username: Joi.string().required(),
+  password: Joi.string().required(),
+});
+
+const validarLogin = (req, res, next) => {
+  const result = bluePrintRequestLogin.validate(req.body, {
+    abortEarly: false,
+    convert: false,
+  });
+  if (result.error === undefined) {
+    next();
+  } else {
+    res
+      .status(400)
+      .json({ error: "Login falló, debes llenar todos los campos." });
+  }
+};
+
 module.exports = {
   validarUsuario,
+  validarLogin,
 };

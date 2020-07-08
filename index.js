@@ -4,12 +4,11 @@ const productsRouter = require("./api/recursos/productos/productos.routes");
 const usersRouter = require("./api/recursos/usuarios/usuarios.routes");
 const logger = require("./utils/logger");
 const morgan = require("morgan");
+const authJWT = require("./api/libs/auth");
 const passport = require("passport");
-//Autenticación basica de contraseña y usuario
-const basicStrategy = require("passport-http").BasicStrategy;
-const auth = require("./api/libs/auth");
 
-passport.use(new basicStrategy(auth));
+passport.use(authJWT);
+
 /* 
 //Prueba del logger
 logger.info(__dirname);
@@ -34,8 +33,9 @@ app.use(passport.initialize()); // Le digo a express que use passport
 app.use("/products", productsRouter);
 app.use("/users", usersRouter);
 
-app.get("/", passport.authenticate("basic", { session: false }), (req, res) => {
+app.get("/", passport.authenticate("jwt", { session: false }), (req, res) => {
   //session:false que no tenga de cookie ni sesiones
+  logger.info(req.user); //Viene del auth, del objeto que se le pasa a next()
   res.send("Api de prueba");
 });
 
