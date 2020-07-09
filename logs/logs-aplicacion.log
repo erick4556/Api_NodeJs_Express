@@ -398,3 +398,108 @@ info: 2020-07-08T23:43:23.115Z ::1 - POST /users/login HTTP/1.1 200 199 - 76.960
 info: 2020-07-08T23:43:35.951Z Usuario test8 suministró token válido. Autenticación completada.
 info: 2020-07-08T23:43:35.954Z [object Object]
 info: 2020-07-08T23:43:35.965Z ::1 - GET / HTTP/1.1 200 13 - 6.194 ms
+info: 2020-07-09T22:04:21.390Z Escuchando en el puerto 3000
+info: 2020-07-09T22:04:30.665Z JWT token no es válido. Usuario con id d8b4d779-f5fb-4bef-b06e-9b5f76ca5ff9 no existe.
+info: 2020-07-09T22:04:30.670Z ::1 - GET / HTTP/1.1 401 - - 4.093 ms
+info: 2020-07-09T22:04:44.870Z ::1 - POST /users HTTP/1.1 201 30 - 155.314 ms
+info: 2020-07-09T22:04:57.821Z ::1 - POST /users HTTP/1.1 201 30 - 74.450 ms
+info: 2020-07-09T22:05:00.443Z ::1 - GET /users HTTP/1.1 200 329 - 0.622 ms
+info: 2020-07-09T22:05:22.602Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-09T22:05:22.604Z ::1 - POST /users/login HTTP/1.1 200 199 - 77.568 ms
+info: 2020-07-09T22:05:30.310Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:05:30.312Z [object Object]
+info: 2020-07-09T22:05:30.325Z ::1 - GET / HTTP/1.1 200 13 - 3.619 ms
+info: 2020-07-09T22:05:50.341Z ::1 - GET /products HTTP/1.1 200 118 - 0.494 ms
+info: 2020-07-09T22:06:09.139Z ::1 - POST /products/ HTTP/1.1 401 - - 0.242 ms
+info: 2020-07-09T22:06:27.312Z ::1 - POST /products/ HTTP/1.1 401 - - 0.680 ms
+info: 2020-07-09T22:06:44.148Z ::1 - POST /products/ HTTP/1.1 401 - - 0.225 ms
+info: 2020-07-09T22:07:02.832Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:07:02.835Z Nuevo producto agregado {"titulo":"Prueba590","precio":42,"moneda":"PAB","id":"0a0e8680-b5aa-430e-aa59-fabc10805834","owner":"test8"}
+info: 2020-07-09T22:07:02.849Z ::1 - POST /products/ HTTP/1.1 201 109 - 4.387 ms
+info: 2020-07-09T22:07:05.976Z ::1 - GET /products HTTP/1.1 200 228 - 0.667 ms
+info: 2020-07-09T22:07:29.878Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:07:29.879Z Nuevo producto agregado {"titulo":"Test12","precio":424,"moneda":"PAB","id":"fd82f564-a2d7-4f25-871b-7c8b52ec622b","owner":"test8"}
+info: 2020-07-09T22:07:29.882Z ::1 - POST /products/ HTTP/1.1 201 107 - 2.237 ms
+info: 2020-07-09T22:07:36.486Z ::1 - GET /products HTTP/1.1 200 336 - 0.378 ms
+info: 2020-07-09T22:09:36.865Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:09:36.867Z Nuevo producto agregado {"titulo":"Test20","precio":424,"moneda":"PAB","id":"73d2d7b0-4461-4202-b6f0-0d2dc1018711","owner":"test8"}
+info: 2020-07-09T22:09:36.883Z ::1 - POST /products/ HTTP/1.1 201 107 - 2.649 ms
+info: 2020-07-09T22:09:40.272Z ::1 - GET /products HTTP/1.1 200 444 - 0.673 ms
+info: 2020-07-09T22:10:24.234Z ::1 - PUT /products/fd82f564-a2d7-4f25-871b-7c8b52ec622b HTTP/1.1 401 - - 0.669 ms
+info: 2020-07-09T22:10:33.395Z ::1 - GET /products HTTP/1.1 200 444 - 0.348 ms
+info: 2020-07-09T22:10:34.844Z ::1 - GET /products HTTP/1.1 200 444 - 0.435 ms
+info: 2020-07-09T22:10:51.069Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:10:51.071Z El producto con id fd82f564-a2d7-4f25-871b-7c8b52ec622b fue reemplazado {"titulo":"Prueba00","precio":23.23,"moneda":"USD","id":"fd82f564-a2d7-4f25-871b-7c8b52ec622b","owner":"test8"}
+info: 2020-07-09T22:10:51.086Z ::1 - PUT /products/fd82f564-a2d7-4f25-871b-7c8b52ec622b HTTP/1.1 200 111 - 3.128 ms
+info: 2020-07-09T22:10:52.548Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:10:52.549Z El producto con id fd82f564-a2d7-4f25-871b-7c8b52ec622b fue reemplazado {"titulo":"Prueba00","precio":23.23,"moneda":"USD","id":"fd82f564-a2d7-4f25-871b-7c8b52ec622b","owner":"test8"}
+info: 2020-07-09T22:10:52.551Z ::1 - PUT /products/fd82f564-a2d7-4f25-871b-7c8b52ec622b HTTP/1.1 200 111 - 1.744 ms
+info: 2020-07-09T22:10:59.158Z ::1 - GET /products HTTP/1.1 200 448 - 0.655 ms
+info: 2020-07-09T22:11:16.092Z ::1 - PUT /products/fd82f564-a2d7-4f25-871b-7c8b52ec622b HTTP/1.1 401 - - 0.265 ms
+info: 2020-07-09T22:11:19.628Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:11:19.629Z El producto con id fd82f564-a2d7-4f25-871b-7c8b52ec622b fue reemplazado {"titulo":"Test100","precio":500,"moneda":"USD","id":"fd82f564-a2d7-4f25-871b-7c8b52ec622b","owner":"test8"}
+info: 2020-07-09T22:11:19.630Z ::1 - PUT /products/fd82f564-a2d7-4f25-871b-7c8b52ec622b HTTP/1.1 200 108 - 1.886 ms
+info: 2020-07-09T22:11:23.796Z ::1 - GET /products HTTP/1.1 200 445 - 0.432 ms
+warn: 2020-07-09T22:12:35.418Z El producto con id 73d2d7b0-4461-4202-b6f0-0d2dc1018711 fue borrado
+info: 2020-07-09T22:12:35.419Z ::1 - DELETE /products/73d2d7b0-4461-4202-b6f0-0d2dc1018711 HTTP/1.1 200 109 - 1.554 ms
+info: 2020-07-09T22:12:42.767Z ::1 - GET /products HTTP/1.1 200 337 - 0.230 ms
+info: 2020-07-09T22:12:51.912Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:12:51.913Z Nuevo producto agregado {"titulo":"Test11","precio":4214,"moneda":"PAB","id":"ce3798d5-64ff-4bff-b1e5-48c1af8d3478","owner":"test8"}
+info: 2020-07-09T22:12:51.914Z ::1 - POST /products/ HTTP/1.1 201 108 - 2.121 ms
+info: 2020-07-09T22:12:54.568Z ::1 - GET /products HTTP/1.1 200 446 - 0.251 ms
+info: 2020-07-09T22:13:17.405Z Escuchando en el puerto 3000
+info: 2020-07-09T22:13:23.863Z ::1 - GET /products HTTP/1.1 200 118 - 2.412 ms
+info: 2020-07-09T22:13:25.426Z ::1 - GET /products HTTP/1.1 200 118 - 0.276 ms
+info: 2020-07-09T22:13:26.028Z ::1 - GET /products HTTP/1.1 200 118 - 0.816 ms
+info: 2020-07-09T22:13:26.454Z ::1 - GET /products HTTP/1.1 200 118 - 0.455 ms
+info: 2020-07-09T22:13:31.243Z JWT token no es válido. Usuario con id 90d51cf7-79fc-47a2-8568-a754a96557a2 no existe.
+info: 2020-07-09T22:13:31.256Z ::1 - POST /products/ HTTP/1.1 401 - - 4.640 ms
+info: 2020-07-09T22:13:43.661Z ::1 - POST /users HTTP/1.1 201 30 - 90.562 ms
+info: 2020-07-09T22:13:58.570Z JWT token no es válido. Usuario con id 90d51cf7-79fc-47a2-8568-a754a96557a2 no existe.
+info: 2020-07-09T22:13:58.571Z ::1 - POST /products/ HTTP/1.1 401 - - 1.187 ms
+info: 2020-07-09T22:14:02.638Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-09T22:14:02.641Z ::1 - POST /users/login HTTP/1.1 200 199 - 78.338 ms
+info: 2020-07-09T22:14:19.245Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:14:19.257Z Nuevo producto agregado {"titulo":"Test20","precio":424,"moneda":"PAB","id":"3b0aacc9-1311-4951-9531-3ff94378f4b8","owner":"test8"}
+info: 2020-07-09T22:14:19.258Z ::1 - POST /products/ HTTP/1.1 201 107 - 12.747 ms
+info: 2020-07-09T22:14:30.640Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:14:30.641Z Nuevo producto agregado {"titulo":"Test210","precio":4241,"moneda":"PAB","id":"79b10f79-493e-42ae-bcba-7fcd16b5e81d","owner":"test8"}
+info: 2020-07-09T22:14:30.656Z ::1 - POST /products/ HTTP/1.1 201 109 - 2.527 ms
+info: 2020-07-09T22:14:34.204Z ::1 - GET /products HTTP/1.1 200 336 - 0.348 ms
+info: 2020-07-09T22:15:11.472Z ::1 - DELETE /products/79b10f79-493e-42ae-bcba-7fcd16b5e81d HTTP/1.1 401 - - 0.635 ms
+info: 2020-07-09T22:15:13.227Z ::1 - DELETE /products/79b10f79-493e-42ae-bcba-7fcd16b5e81d HTTP/1.1 401 - - 0.233 ms
+info: 2020-07-09T22:15:13.870Z ::1 - DELETE /products/79b10f79-493e-42ae-bcba-7fcd16b5e81d HTTP/1.1 401 - - 0.265 ms
+info: 2020-07-09T22:15:27.849Z ::1 - GET /products HTTP/1.1 200 336 - 0.279 ms
+info: 2020-07-09T22:15:33.904Z Usuario test8 suministró token válido. Autenticación completada.
+warn: 2020-07-09T22:15:33.906Z El producto con id 79b10f79-493e-42ae-bcba-7fcd16b5e81d fue borrado
+info: 2020-07-09T22:15:33.928Z ::1 - DELETE /products/79b10f79-493e-42ae-bcba-7fcd16b5e81d HTTP/1.1 200 111 - 4.254 ms
+info: 2020-07-09T22:15:38.722Z ::1 - GET /products HTTP/1.1 200 226 - 0.272 ms
+info: 2020-07-09T22:16:03.025Z ::1 - POST /users HTTP/1.1 201 30 - 73.419 ms
+info: 2020-07-09T22:16:13.776Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-09T22:16:13.778Z ::1 - POST /users/login HTTP/1.1 200 199 - 73.269 ms
+info: 2020-07-09T22:16:48.910Z ::1 - GET /products HTTP/1.1 200 226 - 0.424 ms
+info: 2020-07-09T22:17:06.257Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:17:06.258Z Usuario test9 no es dueño del producto con id 3b0aacc9-1311-4951-9531-3ff94378f4b8. Dueño real es test8.
+info: 2020-07-09T22:17:06.260Z ::1 - PUT /products/3b0aacc9-1311-4951-9531-3ff94378f4b8 HTTP/1.1 401 120 - 2.646 ms
+info: 2020-07-09T22:17:37.445Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:17:37.446Z Usuario test9 no es dueño del producto con id 3b0aacc9-1311-4951-9531-3ff94378f4b8. Dueño real es test8.
+info: 2020-07-09T22:17:37.459Z ::1 - DELETE /products/3b0aacc9-1311-4951-9531-3ff94378f4b8 HTTP/1.1 401 119 - 1.905 ms
+info: 2020-07-09T22:17:52.162Z JWT token no es válido. Usuario con id 90d51cf7-79fc-47a2-8568-a754a96557a2 no existe.
+info: 2020-07-09T22:17:52.163Z ::1 - POST /products/ HTTP/1.1 401 - - 1.160 ms
+info: 2020-07-09T22:18:05.845Z Usuario test9 suministró token válido. Autenticación completada.
+warn: 2020-07-09T22:18:05.848Z El siguiente producto no paso la validación {"titulo":"Test210","precio":424.234,"moneda":"PAB"}
+info: 2020-07-09T22:18:05.864Z ::1 - POST /products/ HTTP/1.1 400 50 - 19.289 ms
+info: 2020-07-09T22:18:11.499Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:18:11.500Z Nuevo producto agregado {"titulo":"Test210","precio":424.23,"moneda":"PAB","id":"9244780b-ebbc-4d24-9bc5-dc45bc760c2a","owner":"test9"}
+info: 2020-07-09T22:18:11.503Z ::1 - POST /products/ HTTP/1.1 201 111 - 3.241 ms
+info: 2020-07-09T22:18:14.815Z ::1 - GET /products HTTP/1.1 200 338 - 0.537 ms
+info: 2020-07-09T22:18:53.644Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:18:53.644Z Usuario test9 no es dueño del producto con id 3b0aacc9-1311-4951-9531-3ff94378f4b8. Dueño real es test8.
+info: 2020-07-09T22:18:53.646Z ::1 - PUT /products/3b0aacc9-1311-4951-9531-3ff94378f4b8 HTTP/1.1 401 120 - 2.202 ms
+info: 2020-07-09T22:19:06.018Z ::1 - GET /products HTTP/1.1 200 338 - 0.392 ms
+info: 2020-07-09T22:19:07.610Z ::1 - GET /products HTTP/1.1 200 338 - 0.343 ms
+info: 2020-07-09T22:19:38.010Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-09T22:19:38.011Z El producto con id 9244780b-ebbc-4d24-9bc5-dc45bc760c2a fue reemplazado {"titulo":"Test80","precio":5020,"moneda":"USD","id":"9244780b-ebbc-4d24-9bc5-dc45bc760c2a","owner":"test9"}
+info: 2020-07-09T22:19:38.023Z ::1 - PUT /products/9244780b-ebbc-4d24-9bc5-dc45bc760c2a HTTP/1.1 200 108 - 2.296 ms
+info: 2020-07-09T22:19:44.534Z ::1 - GET /products HTTP/1.1 200 335 - 0.472 ms
+info: 2020-07-09T22:21:19.628Z ::1 - GET /users HTTP/1.1 200 329 - 0.294 ms
