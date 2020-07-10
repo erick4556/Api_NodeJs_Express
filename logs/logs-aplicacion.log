@@ -503,3 +503,55 @@ info: 2020-07-09T22:19:38.011Z El producto con id 9244780b-ebbc-4d24-9bc5-dc45bc
 info: 2020-07-09T22:19:38.023Z ::1 - PUT /products/9244780b-ebbc-4d24-9bc5-dc45bc760c2a HTTP/1.1 200 108 - 2.296 ms
 info: 2020-07-09T22:19:44.534Z ::1 - GET /products HTTP/1.1 200 335 - 0.472 ms
 info: 2020-07-09T22:21:19.628Z ::1 - GET /users HTTP/1.1 200 329 - 0.294 ms
+info: 2020-07-10T23:03:57.768Z Escuchando en el puerto 3000
+info: 2020-07-10T23:04:33.903Z Escuchando en el puerto 3000
+info: 2020-07-10T23:06:30.983Z Escuchando en el puerto 3000
+error: 2020-07-10T23:15:09.051Z uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\libs\auth.js:13:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:7:17)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30) {"error":{},"stack":"TypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\libs\\auth.js:13:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:7:17)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)","exception":true,"date":"Fri Jul 10 2020 18:15:08 GMT-0500 (GMT-05:00)","process":{"pid":13900,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":41848832,"heapTotal":28213248,"heapUsed":14973856,"external":1668731,"arrayBuffers":292281}},"os":{"loadavg":[0,0,0],"uptime":1323931},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\libs\\auth.js","function":null,"line":13,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":17,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":7,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false}]}
+info: 2020-07-10T23:16:05.351Z Escuchando en el puerto 3000
+info: 2020-07-10T23:16:34.650Z ::1 - POST /users HTTP/1.1 201 30 - 85.612 ms
+info: 2020-07-10T23:17:21.494Z Usuario test9 no existe.
+info: 2020-07-10T23:17:21.495Z ::1 - POST /users/login HTTP/1.1 400 47 - 1.384 ms
+error: 2020-07-10T23:17:33.276Z uncaughtException: "expiresIn" should be a number of seconds or string representing a timespan
+Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\jsonwebtoken\sign.js:52:15
+    at Array.forEach (<anonymous>)
+    at validate (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\jsonwebtoken\sign.js:43:6)
+    at validateOptions (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\jsonwebtoken\sign.js:58:10)
+    at Object.module.exports [as sign] (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\node_modules\jsonwebtoken\sign.js:141:5)
+    at D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:66:27 {"error":{},"stack":"Error: \"expiresIn\" should be a number of seconds or string representing a timespan\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js:52:15\n    at Array.forEach (<anonymous>)\n    at validate (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js:43:6)\n    at validateOptions (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js:58:10)\n    at Object.module.exports [as sign] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js:141:5)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:66:27","exception":true,"date":"Fri Jul 10 2020 18:17:33 GMT-0500 (GMT-05:00)","process":{"pid":9432,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":34537472,"heapTotal":11644928,"heapUsed":10182360,"external":1508014,"arrayBuffers":121856}},"os":{"loadavg":[0,0,0],"uptime":1324075},"trace":[{"column":15,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js","function":null,"line":52,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":6,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js","function":"validate","line":43,"method":null,"native":false},{"column":10,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js","function":"validateOptions","line":58,"method":null,"native":false},{"column":5,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\jsonwebtoken\\sign.js","function":"Object.module.exports [as sign]","line":141,"method":"exports [as sign]","native":false},{"column":27,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":66,"method":null,"native":false}]}
+info: 2020-07-10T23:18:44.838Z Escuchando en el puerto 3000
+info: 2020-07-10T23:18:49.053Z ::1 - POST /users HTTP/1.1 201 30 - 77.430 ms
+info: 2020-07-10T23:18:53.392Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-10T23:18:53.393Z ::1 - POST /users/login HTTP/1.1 200 199 - 75.410 ms
+info: 2020-07-10T23:19:02.454Z ::1 - POST /products/ HTTP/1.1 401 - - 3.252 ms
+info: 2020-07-10T23:19:08.593Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-10T23:19:08.596Z Nuevo producto agregado {"titulo":"Test210","precio":424.23,"moneda":"PAB","id":"c02e6812-72d9-475f-b890-63d1ac4c9d36","owner":"test8"}
+info: 2020-07-10T23:19:08.601Z ::1 - POST /products/ HTTP/1.1 201 111 - 4.291 ms
+info: 2020-07-10T23:19:20.206Z ::1 - GET /products HTTP/1.1 200 230 - 0.654 ms
+info: 2020-07-10T23:19:31.897Z ::1 - PUT /products/c02e6812-72d9-475f-b890-63d1ac4c9d36 HTTP/1.1 401 - - 0.794 ms
+info: 2020-07-10T23:19:57.858Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-10T23:19:57.859Z El producto con id c02e6812-72d9-475f-b890-63d1ac4c9d36 fue reemplazado {"titulo":"Test80","precio":5020,"moneda":"USD","id":"c02e6812-72d9-475f-b890-63d1ac4c9d36","owner":"test8"}
+info: 2020-07-10T23:19:57.874Z ::1 - PUT /products/c02e6812-72d9-475f-b890-63d1ac4c9d36 HTTP/1.1 200 108 - 2.344 ms
+info: 2020-07-10T23:20:08.201Z Email o username ya existe.
+info: 2020-07-10T23:20:08.203Z ::1 - POST /users HTTP/1.1 409 30 - 1.770 ms
+info: 2020-07-10T23:20:14.408Z ::1 - POST /users HTTP/1.1 201 30 - 73.447 ms
+info: 2020-07-10T23:20:22.451Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-10T23:20:22.452Z ::1 - POST /users/login HTTP/1.1 200 199 - 74.170 ms
+info: 2020-07-10T23:20:31.545Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-10T23:20:31.546Z Usuario test9 no es dueño del producto con id c02e6812-72d9-475f-b890-63d1ac4c9d36. Dueño real es test8.
+info: 2020-07-10T23:20:31.547Z ::1 - PUT /products/c02e6812-72d9-475f-b890-63d1ac4c9d36 HTTP/1.1 401 120 - 1.963 ms
+info: 2020-07-10T23:20:41.390Z ::1 - GET /users HTTP/1.1 200 329 - 0.390 ms
+info: 2020-07-10T23:20:58.513Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-10T23:20:58.528Z ::1 - POST /users/login HTTP/1.1 200 199 - 72.305 ms
+info: 2020-07-10T23:21:01.696Z ::1 - GET /users HTTP/1.1 200 329 - 0.316 ms

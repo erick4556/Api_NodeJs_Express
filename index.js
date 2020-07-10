@@ -6,6 +6,7 @@ const logger = require("./utils/logger");
 const morgan = require("morgan");
 const authJWT = require("./api/libs/auth");
 const passport = require("passport");
+const config = require("./config");
 
 passport.use(authJWT);
 
@@ -39,6 +40,6 @@ app.get("/", passport.authenticate("jwt", { session: false }), (req, res) => {
   res.send("Api de prueba");
 });
 
-app.listen(3000, () => {
+app.listen(config.puerto, () => {
   logger.info("Escuchando en el puerto 3000");
 });

@@ -3,9 +3,10 @@ const log = require("./../../utils/logger");
 const usuarios = require("./../../databaseArr").usuarios;
 const bcrypt = require("bcrypt");
 const passportJWT = require("passport-jwt");
+const config = require("../../config");
 
 let jwtOptions = {
-  secretOrKey: "secreto", //Se necesita el secreto de la ruta de usuarios para descifrar el token
+  secretOrKey: config.jwt.secret, //Se necesita el secreto de la ruta de usuarios para descifrar el token
   jwtFromRequest: passportJWT.ExtractJwt.fromAuthHeaderAsBearerToken(), //Busca el token en el header del request que es un bearer
 };
 

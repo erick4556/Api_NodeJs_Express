@@ -8,6 +8,7 @@ const usersRouter = express.Router();
 const log = require("../../../utils/logger");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const config = require("../../../config");
 
 usersRouter.get("/", (req, res) => {
   res.json(usuarios);
@@ -62,11 +63,9 @@ usersRouter.post("/login", middValidarLogin, (req, res) => {
       (err, iguales) => {
         if (iguales) {
           //Generar y enviar Token
-          let token = jwt.sign(
-            { id: usuarios[index].id },
-            "secreto",
-            { expiresIn: 86400 } //Válido por 24 horas el token }
-          );
+          let token = jwt.sign({ id: usuarios[index].id }, config.jwt.secret, {
+            expiresIn: config.jwt.expirationTime,
+          });
           log.info(
             `Usuario ${userNotAuthenticated.username} completó autenticación exitosamente.`
           );
