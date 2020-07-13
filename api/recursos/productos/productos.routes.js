@@ -7,25 +7,38 @@ const productsRouter = express.Router();
 const log = require("../../../utils/logger");
 const passport = require("passport");
 const jwtAuth = passport.authenticate("jwt", { session: false });
+const productController = require("./product.controller");
 //Ejemplo usando un arreglo
 
 productsRouter.get("/", (req, res) => {
-  res.json(productEjem);
+  productController
+    .getProducts()
+    .then((products) => {
+      res.json(products);
+    })
+    .catch((err) => {
+      err
+        .status(500)
+        .send("Error al obtener los productos de la base de datos.");
+    });
 });
 
 productsRouter.post(
   "/",
   [jwtAuth, middValidarProducto.validarPorducto],
   (req, res) => {
-    let newProduct = {
-      ...req.body,
-      id: uuidv4(),
-      owner: req.user.username,
-    };
-
-    productEjem.push(newProduct);
-    log.info("Nuevo producto agregado", newProduct);
-    res.status(201).json(newProduct);
+    productController
+      .createProduct(req.body, req.user.username)
+      .then((product) => {
+        log.info("Nuevo producto agregado", product);
+        res.status(201).json(product);
+      })
+      .catch((err) => {
+        log.error("Producto no pudo ser creado", err);
+        res.status(500).send({
+          error: "Error al tratar de crear el producto",
+        });
+      });
   }
 );
 

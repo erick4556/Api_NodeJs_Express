@@ -7,17 +7,16 @@ const morgan = require("morgan");
 const authJWT = require("./api/libs/auth");
 const passport = require("passport");
 const config = require("./config");
+const mongoose = require("mongoose");
 
 passport.use(authJWT);
 
-/* 
-//Prueba del logger
-logger.info(__dirname);
-logger.info("Winston");
-logger.error("Explotó");
-logger.warn("Algo pasó");
-logger.debug("Debug");
- */
+mongoose.connect("mongodb://127.0.0.1:27017/sellProducts");
+mongoose.connection.on("error", () => {
+  logger.error("Falló la conexión a mongodb");
+  process.exit(1); //Mata el proceso de node
+});
+
 const app = express();
 
 app.use(bodyParser.json());

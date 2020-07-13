@@ -555,3 +555,72 @@ info: 2020-07-10T23:20:41.390Z ::1 - GET /users HTTP/1.1 200 329 - 0.390 ms
 info: 2020-07-10T23:20:58.513Z Usuario test8 completó autenticación exitosamente.
 info: 2020-07-10T23:20:58.528Z ::1 - POST /users/login HTTP/1.1 200 199 - 72.305 ms
 info: 2020-07-10T23:21:01.696Z ::1 - GET /users HTTP/1.1 200 329 - 0.316 ms
+info: 2020-07-12T16:20:52.019Z Escuchando en el puerto 3000
+info: 2020-07-12T16:22:00.186Z Escuchando en el puerto 3000
+info: 2020-07-12T16:25:13.529Z Escuchando en el puerto 3000
+info: 2020-07-12T16:32:49.367Z Escuchando en el puerto 3000
+info: 2020-07-12T16:36:23.197Z Escuchando en el puerto 3000
+info: 2020-07-12T16:37:50.466Z Escuchando en el puerto 3000
+info: 2020-07-13T22:27:18.444Z Escuchando en el puerto 3000
+info: 2020-07-13T22:27:30.722Z ::1 - POST /users HTTP/1.1 201 30 - 116.959 ms
+info: 2020-07-13T22:27:34.924Z ::1 - GET /users HTTP/1.1 200 165 - 0.516 ms
+info: 2020-07-13T22:27:39.438Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:27:39.441Z ::1 - POST /users/login HTTP/1.1 200 199 - 114.786 ms
+info: 2020-07-13T22:27:52.692Z ::1 - GET /products HTTP/1.1 200 2 - 11.854 ms
+info: 2020-07-13T22:28:12.835Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:28:12.855Z ::1 - POST /products/ HTTP/1.1 500 2277 - 16.682 ms
+info: 2020-07-13T22:28:37.813Z Escuchando en el puerto 3000
+info: 2020-07-13T22:29:57.251Z JWT token no es válido. Usuario con id 99cbc6ad-d1fa-4e8f-a1c1-ab030672123d no existe.
+info: 2020-07-13T22:29:57.287Z ::1 - POST /products/ HTTP/1.1 401 - - 4.574 ms
+info: 2020-07-13T22:30:04.929Z ::1 - POST /users HTTP/1.1 201 30 - 197.265 ms
+info: 2020-07-13T22:30:07.984Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:30:07.985Z ::1 - POST /users/login HTTP/1.1 200 199 - 81.480 ms
+info: 2020-07-13T22:30:42.343Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:30:42.360Z ::1 - POST /products/ HTTP/1.1 500 2277 - 14.513 ms
+info: 2020-07-13T22:33:01.328Z Escuchando en el puerto 3000
+info: 2020-07-13T22:33:07.078Z Escuchando en el puerto 3000
+info: 2020-07-13T22:37:27.296Z Escuchando en el puerto 3000
+info: 2020-07-13T22:39:33.133Z Escuchando en el puerto 3000
+info: 2020-07-13T22:39:43.972Z ::1 - POST /users HTTP/1.1 201 30 - 81.474 ms
+info: 2020-07-13T22:39:46.183Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:39:46.184Z ::1 - POST /users/login HTTP/1.1 200 199 - 76.328 ms
+info: 2020-07-13T22:39:58.824Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:39:58.851Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0ce2be56bbd8102860d534","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0ce2be56bbd8102860d534","titulo":"Test210","precio":424.23,"moneda":"PAB","owner":"test8","__v":0}}
+info: 2020-07-13T22:39:58.872Z ::1 - POST /products/ HTTP/1.1 201 108 - 31.866 ms
+info: 2020-07-13T22:40:09.532Z Escuchando en el puerto 3000
+info: 2020-07-13T22:40:19.850Z JWT token no es válido. Usuario con id 88a91884-56ff-4fa8-a5b8-7c3159c5d96e no existe.
+info: 2020-07-13T22:40:19.869Z ::1 - POST /products/ HTTP/1.1 401 - - 6.183 ms
+info: 2020-07-13T22:40:23.392Z ::1 - POST /users HTTP/1.1 201 30 - 79.792 ms
+info: 2020-07-13T22:40:25.633Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:40:25.634Z ::1 - POST /users/login HTTP/1.1 200 199 - 81.345 ms
+info: 2020-07-13T22:40:35.653Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:40:35.681Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0ce2e30d9825435ccb1469","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0ce2e30d9825435ccb1469","titulo":"Test10","precio":41.23,"moneda":"PAB","owner":"test8","__v":0}}
+info: 2020-07-13T22:40:35.683Z ::1 - POST /products/ HTTP/1.1 201 106 - 29.572 ms
+info: 2020-07-13T22:41:03.560Z Escuchando en el puerto 3000
+info: 2020-07-13T22:41:09.535Z ::1 - POST /users HTTP/1.1 201 30 - 82.890 ms
+info: 2020-07-13T22:41:12.107Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:41:12.109Z ::1 - POST /users/login HTTP/1.1 200 199 - 75.486 ms
+info: 2020-07-13T22:41:39.085Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:41:39.113Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0ce323587bc52db8a751e3","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0ce323587bc52db8a751e3","titulo":"Test80","precio":50.23,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-13T22:41:39.115Z ::1 - POST /products/ HTTP/1.1 201 121 - 32.462 ms
+info: 2020-07-13T22:41:58.724Z Escuchando en el puerto 3000
+info: 2020-07-13T22:42:05.683Z ::1 - POST /users HTTP/1.1 201 30 - 81.751 ms
+info: 2020-07-13T22:42:09.969Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:42:09.971Z ::1 - POST /users/login HTTP/1.1 200 199 - 82.630 ms
+info: 2020-07-13T22:42:26.364Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:42:26.388Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0ce35253fe0f1c4429f199","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0ce35253fe0f1c4429f199","titulo":"Test1002","precio":50.23,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-13T22:42:26.392Z ::1 - POST /products/ HTTP/1.1 201 120 - 27.242 ms
+info: 2020-07-13T22:42:33.181Z Escuchando en el puerto 3000
+info: 2020-07-13T22:42:37.946Z ::1 - POST /users HTTP/1.1 201 30 - 84.099 ms
+info: 2020-07-13T22:42:40.555Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-13T22:42:40.571Z ::1 - POST /users/login HTTP/1.1 200 199 - 81.721 ms
+info: 2020-07-13T22:42:52.730Z Usuario test8 suministró token válido. Autenticación completada.
+warn: 2020-07-13T22:42:52.742Z El siguiente producto no paso la validación {"titulo":"Test1002","precio":50.213,"moneda":"USD"}
+info: 2020-07-13T22:42:52.758Z ::1 - POST /products/ HTTP/1.1 400 50 - 15.425 ms
+info: 2020-07-13T22:43:02.515Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-13T22:43:02.537Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0ce3765081223f70a4c5c4","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0ce3765081223f70a4c5c4","titulo":"Test1002","precio":50.13,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-13T22:43:02.540Z ::1 - POST /products/ HTTP/1.1 201 108 - 24.008 ms
+info: 2020-07-13T22:43:21.437Z ::1 - GET /products HTTP/1.1 200 760 - 12.887 ms
+info: 2020-07-13T22:43:40.234Z ::1 - GET /products HTTP/1.1 200 760 - 6.061 ms
+info: 2020-07-13T22:46:05.326Z Escuchando en el puerto 3000
+info: 2020-07-13T22:46:25.503Z ::1 - GET /products HTTP/1.1 200 760 - 23.521 ms
