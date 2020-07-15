@@ -624,3 +624,283 @@ info: 2020-07-13T22:43:21.437Z ::1 - GET /products HTTP/1.1 200 760 - 12.887 ms
 info: 2020-07-13T22:43:40.234Z ::1 - GET /products HTTP/1.1 200 760 - 6.061 ms
 info: 2020-07-13T22:46:05.326Z Escuchando en el puerto 3000
 info: 2020-07-13T22:46:25.503Z ::1 - GET /products HTTP/1.1 200 760 - 23.521 ms
+info: 2020-07-14T22:45:07.968Z Escuchando en el puerto 3000
+info: 2020-07-14T22:46:29.337Z ::1 - GET /products HTTP/1.1 200 760 - 19.631 ms
+error: 2020-07-14T22:46:37.047Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:46:37.051Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 16.923 ms
+info: 2020-07-14T22:46:58.020Z Escuchando en el puerto 3000
+info: 2020-07-14T22:47:09.886Z Escuchando en el puerto 3000
+error: 2020-07-14T22:47:16.933Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:47:16.937Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 18.912 ms
+error: 2020-07-14T22:47:17.690Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:47:17.691Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 2.749 ms
+error: 2020-07-14T22:47:43.860Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:47:43.862Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 4.671 ms
+info: 2020-07-14T22:47:53.966Z Escuchando en el puerto 3000
+error: 2020-07-14T22:48:04.982Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:48:04.999Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 23.672 ms
+info: 2020-07-14T22:48:30.145Z ::1 - GET /products HTTP/1.1 200 760 - 6.334 ms
+info: 2020-07-14T22:48:34.238Z ::1 - GET /products HTTP/1.1 200 760 - 4.009 ms
+error: 2020-07-14T22:48:37.608Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:48:37.609Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 3.345 ms
+info: 2020-07-14T22:49:03.010Z ::1 - GET /products/5f0cdffc78b879282466a18934 HTTP/1.1 - - - - ms
+error: 2020-07-14T22:49:08.526Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:49:08.528Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 2.117 ms
+info: 2020-07-14T22:50:18.446Z Escuchando en el puerto 3000
+info: 2020-07-14T22:51:03.427Z ::1 - GET /products/5f0cdffc78b879282466a18934 HTTP/1.1 - - - - ms
+error: 2020-07-14T22:51:07.268Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:51:07.288Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 20.101 ms
+error: 2020-07-14T22:51:14.296Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:51:14.297Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 2.708 ms
+info: 2020-07-14T22:51:23.119Z Escuchando en el puerto 3000
+error: 2020-07-14T22:51:25.312Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:51:25.315Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 30.804 ms
+info: 2020-07-14T22:51:42.570Z Escuchando en el puerto 3000
+error: 2020-07-14T22:51:44.598Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:51:44.612Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 23.836 ms
+info: 2020-07-14T22:51:57.511Z Escuchando en el puerto 3000
+error: 2020-07-14T22:51:59.549Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:51:59.570Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 25.337 ms
+info: 2020-07-14T22:55:16.159Z Escuchando en el puerto 3000
+error: 2020-07-14T22:55:21.458Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a189 
+info: 2020-07-14T22:55:21.461Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 500 108 - 30.114 ms
+info: 2020-07-14T22:56:00.820Z Escuchando en el puerto 3000
+info: 2020-07-14T22:56:07.959Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 23.334 ms
+error: 2020-07-14T22:56:16.754Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a18934  Cast to ObjectId failed for value "5f0cdffc78b879282466a18934" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a18934\"","kind":"ObjectId","value":"5f0cdffc78b879282466a18934","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a18934\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:49:6\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:317:13)"}
+info: 2020-07-14T22:56:16.757Z ::1 - GET /products/5f0cdffc78b879282466a18934 HTTP/1.1 500 74 - 29.020 ms
+info: 2020-07-14T22:56:27.808Z ::1 - GET /products/5f0cdffc78b879282466a180 HTTP/1.1 404 53 - 2.964 ms
+info: 2020-07-14T22:56:33.673Z ::1 - GET /products/5f0cdffc78b879282466a180 HTTP/1.1 404 53 - 2.260 ms
+info: 2020-07-14T22:56:45.065Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 2.438 ms
+error: 2020-07-14T22:57:01.589Z Error al tratar de obtener el producto con id: 5f0cdffc78b879282466a1894  Cast to ObjectId failed for value "5f0cdffc78b879282466a1894" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a1894\"","kind":"ObjectId","value":"5f0cdffc78b879282466a1894","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a1894\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:49:6\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\express\\lib\\router\\index.js:317:13)"}
+info: 2020-07-14T22:57:01.591Z ::1 - GET /products/5f0cdffc78b879282466a1894 HTTP/1.1 500 73 - 29.761 ms
+info: 2020-07-14T23:06:29.737Z Escuchando en el puerto 3000
+info: 2020-07-14T23:06:49.933Z Escuchando en el puerto 3000
+info: 2020-07-14T23:06:55.308Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 25.668 ms
+info: 2020-07-14T23:06:59.570Z ::1 - GET /products/5f0cdffc78b879282466a1893434 HTTP/1.1 401 72 - 0.805 ms
+info: 2020-07-14T23:07:18.527Z ::1 - GET /products/5f0cdffc78b879282466a181 HTTP/1.1 404 53 - 4.303 ms
+info: 2020-07-14T23:07:23.415Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 2.999 ms
+info: 2020-07-14T23:07:41.507Z ::1 - GET /products/5f0cdffc78b879282466a18 HTTP/1.1 401 67 - 0.562 ms
+info: 2020-07-14T23:07:45.839Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 2.733 ms
+info: 2020-07-14T23:10:35.736Z Escuchando en el puerto 3000
+info: 2020-07-14T23:11:03.648Z Escuchando en el puerto 3000
+info: 2020-07-14T23:11:24.157Z Escuchando en el puerto 3000
+info: 2020-07-14T23:16:36.341Z Escuchando en el puerto 3000
+info: 2020-07-14T23:16:42.624Z Escuchando en el puerto 3000
+info: 2020-07-14T23:18:06.686Z Escuchando en el puerto 3000
+info: 2020-07-14T23:20:32.251Z Escuchando en el puerto 3000
+info: 2020-07-14T23:20:57.009Z Escuchando en el puerto 3000
+info: 2020-07-14T23:21:12.802Z Escuchando en el puerto 3000
+info: 2020-07-14T23:27:12.730Z Escuchando en el puerto 3000
+info: 2020-07-14T23:27:28.723Z Escuchando en el puerto 3000
+info: 2020-07-14T23:29:44.436Z ::1 - POST /users HTTP/1.1 201 30 - 90.540 ms
+info: 2020-07-14T23:29:54.142Z ::1 - POST /users HTTP/1.1 201 30 - 73.023 ms
+info: 2020-07-14T23:30:30.561Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:30:30.563Z ::1 - POST /users/login HTTP/1.1 200 199 - 73.830 ms
+info: 2020-07-14T23:30:59.151Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:30:59.176Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0e403326fd412ed0f870aa","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0e403326fd412ed0f870aa","titulo":"Test8","precio":50.13,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-14T23:30:59.178Z ::1 - POST /products/ HTTP/1.1 201 105 - 28.401 ms
+info: 2020-07-14T23:31:06.012Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-14T23:31:06.013Z ::1 - POST /users/login HTTP/1.1 200 199 - 80.354 ms
+info: 2020-07-14T23:31:19.912Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:31:19.929Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0e404726fd412ed0f870ab","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0e404726fd412ed0f870ab","titulo":"Test9","precio":50.13,"moneda":"USD","owner":"test9","__v":0}}
+info: 2020-07-14T23:31:19.931Z ::1 - POST /products/ HTTP/1.1 201 105 - 18.685 ms
+info: 2020-07-14T23:31:26.271Z ::1 - GET /products HTTP/1.1 200 972 - 16.152 ms
+info: 2020-07-14T23:31:50.062Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:31:50.064Z ::1 - POST /users/login HTTP/1.1 200 199 - 73.806 ms
+info: 2020-07-14T23:32:33.134Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:33:05.213Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab HTTP/1.1 - - - - ms
+info: 2020-07-14T23:33:15.986Z ::1 - GET /products HTTP/1.1 200 972 - 5.366 ms
+info: 2020-07-14T23:33:31.607Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:33:40.988Z ::1 - GET /users HTTP/1.1 200 329 - 0.391 ms
+info: 2020-07-14T23:33:45.331Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab HTTP/1.1 - - - - ms
+info: 2020-07-14T23:40:41.969Z ::1 - GET /products HTTP/1.1 200 972 - 3.659 ms
+info: 2020-07-14T23:41:19.924Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:43:19.927Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab HTTP/1.1 - - - - ms
+info: 2020-07-14T23:44:10.314Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:44:16.559Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:44:16.560Z ::1 - POST /users/login HTTP/1.1 200 199 - 70.320 ms
+info: 2020-07-14T23:44:25.445Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab HTTP/1.1 - - - - ms
+info: 2020-07-14T23:44:35.841Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:44:39.101Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab HTTP/1.1 - - - - ms
+info: 2020-07-14T23:44:41.874Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:46:41.877Z ::1 - DELETE /products/5f0e404726fd412ed0f870ab34 HTTP/1.1 - - - - ms
+info: 2020-07-14T23:48:11.712Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:49:02.637Z Escuchando en el puerto 3000
+info: 2020-07-14T23:49:27.754Z ::1 - POST /users HTTP/1.1 201 30 - 77.319 ms
+info: 2020-07-14T23:49:33.930Z Email o username ya existe.
+info: 2020-07-14T23:49:33.936Z ::1 - POST /users HTTP/1.1 409 30 - 2.946 ms
+info: 2020-07-14T23:49:38.260Z Usuario test8 no existe.
+info: 2020-07-14T23:49:38.262Z ::1 - POST /users/login HTTP/1.1 400 47 - 2.403 ms
+info: 2020-07-14T23:49:45.027Z ::1 - GET /users HTTP/1.1 200 165 - 0.680 ms
+info: 2020-07-14T23:49:56.371Z ::1 - POST /users HTTP/1.1 201 30 - 71.457 ms
+info: 2020-07-14T23:49:59.255Z ::1 - GET /users HTTP/1.1 200 329 - 0.712 ms
+info: 2020-07-14T23:50:03.157Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:50:03.158Z ::1 - POST /users/login HTTP/1.1 200 199 - 75.356 ms
+info: 2020-07-14T23:50:16.628Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:50:16.650Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0e44b857a40054f07a5a2a","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0e44b857a40054f07a5a2a","titulo":"Test1002","precio":50.13,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-14T23:50:16.653Z ::1 - POST /products/ HTTP/1.1 201 108 - 25.195 ms
+info: 2020-07-14T23:50:28.618Z ::1 - GET /products HTTP/1.1 200 219 - 13.741 ms
+info: 2020-07-14T23:50:36.850Z ::1 - GET /products/5f0e44b857a40054f07a5a2a HTTP/1.1 200 108 - 5.231 ms
+info: 2020-07-14T23:51:13.252Z ::1 - DELETE /products/5f0e44b857a40054f07a5a2a HTTP/1.1 401 - - 0.904 ms
+info: 2020-07-14T23:51:28.876Z ::1 - DELETE /products/5f0e44b857a40054f07a5a2a HTTP/1.1 401 - - 0.573 ms
+info: 2020-07-14T23:51:30.379Z ::1 - DELETE /products/5f0e44b857a40054f07a5a2a HTTP/1.1 401 - - 0.592 ms
+info: 2020-07-14T23:51:48.963Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:51:48.965Z ::1 - POST /users/login HTTP/1.1 200 199 - 73.368 ms
+info: 2020-07-14T23:52:00.741Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:52:13.632Z ::1 - DELETE /products/5f0e44b857a40054f07a5a2a HTTP/1.1 - - - - ms
+info: 2020-07-14T23:52:15.799Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:54:15.803Z ::1 - DELETE /products/5f0e44b857a40054f07a5a2a HTTP/1.1 - - - - ms
+info: 2020-07-14T23:55:57.468Z Escuchando en el puerto 3000
+info: 2020-07-14T23:56:06.269Z ::1 - POST /users HTTP/1.1 201 30 - 79.495 ms
+info: 2020-07-14T23:56:12.757Z ::1 - POST /users HTTP/1.1 201 30 - 73.466 ms
+info: 2020-07-14T23:56:39.795Z ::1 - POST /products/ HTTP/1.1 401 - - 2.823 ms
+info: 2020-07-14T23:56:46.552Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:56:46.554Z ::1 - POST /users/login HTTP/1.1 200 199 - 76.869 ms
+info: 2020-07-14T23:56:58.531Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:56:58.559Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0e464aee82443924f2baed","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0e464aee82443924f2baed","titulo":"Test8","precio":50.13,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-14T23:56:58.574Z ::1 - POST /products/ HTTP/1.1 201 105 - 29.895 ms
+info: 2020-07-14T23:57:08.606Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-14T23:57:08.607Z ::1 - POST /users/login HTTP/1.1 200 199 - 76.592 ms
+info: 2020-07-14T23:57:15.030Z ::1 - GET /products HTTP/1.1 200 216 - 13.585 ms
+info: 2020-07-14T23:57:39.045Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:57:39.062Z Usuario test9 no es dueño del producto con id 5f0e464aee82443924f2baed. Dueño real es test8.
+info: 2020-07-14T23:57:39.077Z ::1 - DELETE /products/5f0e464aee82443924f2baed HTTP/1.1 401 107 - 19.230 ms
+info: 2020-07-14T23:57:50.432Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-14T23:57:50.433Z ::1 - POST /users/login HTTP/1.1 200 199 - 75.279 ms
+info: 2020-07-14T23:58:10.912Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-14T23:58:10.930Z El producto con id 5f0e464aee82443924f2baed fue borrado
+info: 2020-07-14T23:58:10.932Z ::1 - DELETE /products/5f0e464aee82443924f2baed HTTP/1.1 200 105 - 19.493 ms
+info: 2020-07-15T22:03:25.640Z Escuchando en el puerto 3000
+error: 2020-07-15T22:03:27.643Z Falló la conexión a mongodb
+info: 2020-07-15T22:19:08.708Z Escuchando en el puerto 3000
+info: 2020-07-15T22:20:00.651Z ::1 - POST /users HTTP/1.1 201 30 - 316.767 ms
+info: 2020-07-15T22:20:08.687Z ::1 - POST /users HTTP/1.1 201 30 - 73.850 ms
+info: 2020-07-15T22:20:14.382Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-15T22:20:14.383Z ::1 - POST /users/login HTTP/1.1 200 199 - 106.171 ms
+info: 2020-07-15T22:20:28.800Z ::1 - GET /products HTTP/1.1 200 110 - 25.035 ms
+info: 2020-07-15T22:21:25.431Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:21:25.448Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:21:25.451Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 500 59 - 21.918 ms
+info: 2020-07-15T22:23:55.545Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:23:55.566Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:23:55.569Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 500 59 - 22.918 ms
+info: 2020-07-15T22:24:24.465Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:24:24.484Z Nuevo producto agregado {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5f0f8218d831290548c7a5e1","wasPopulated":false,"activePaths":{"paths":{"owner":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"owner":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0f8218d831290548c7a5e1","titulo":"Test12","precio":50.9,"moneda":"USD","owner":"test8","__v":0}}
+info: 2020-07-15T22:24:24.487Z ::1 - POST /products/ HTTP/1.1 201 105 - 21.386 ms
+info: 2020-07-15T22:24:28.348Z ::1 - GET /products HTTP/1.1 200 216 - 2.973 ms
+info: 2020-07-15T22:24:38.037Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:24:38.056Z Error al tratar de ediar el producto con id: 5f0f8218d831290548c7a5e1  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:24:38.059Z ::1 - PUT /products/5f0f8218d831290548c7a5e1 HTTP/1.1 500 59 - 19.808 ms
+info: 2020-07-15T22:24:39.249Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:24:39.269Z Error al tratar de ediar el producto con id: 5f0f8218d831290548c7a5e1  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:24:39.271Z ::1 - PUT /products/5f0f8218d831290548c7a5e1 HTTP/1.1 500 59 - 21.128 ms
+info: 2020-07-15T22:24:44.940Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:24:44.944Z Error al tratar de ediar el producto con id: 5f0f8218d831290548c7a5e1  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:24:44.963Z ::1 - PUT /products/5f0f8218d831290548c7a5e1 HTTP/1.1 500 59 - 4.823 ms
+info: 2020-07-15T22:24:45.689Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:24:45.704Z Error al tratar de ediar el producto con id: 5f0f8218d831290548c7a5e1  productToDelete is not defined {"stack":"ReferenceError: productToDelete is not defined\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\productos\\productos.routes.js:74:19\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:24:45.706Z ::1 - PUT /products/5f0f8218d831290548c7a5e1 HTTP/1.1 500 59 - 16.868 ms
+info: 2020-07-15T22:25:08.930Z Escuchando en el puerto 3000
+info: 2020-07-15T22:25:12.761Z Usuario test8 no existe.
+info: 2020-07-15T22:25:12.782Z ::1 - POST /users/login HTTP/1.1 400 47 - 5.581 ms
+info: 2020-07-15T22:26:56.798Z Escuchando en el puerto 3000
+info: 2020-07-15T22:27:02.952Z ::1 - GET /products HTTP/1.1 200 216 - 21.566 ms
+info: 2020-07-15T22:27:33.529Z ::1 - POST /users HTTP/1.1 201 30 - 83.862 ms
+info: 2020-07-15T22:27:36.636Z ::1 - POST /users HTTP/1.1 201 30 - 72.940 ms
+info: 2020-07-15T22:27:41.300Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-15T22:27:41.302Z ::1 - POST /users/login HTTP/1.1 200 199 - 75.394 ms
+info: 2020-07-15T22:28:02.784Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:28:02.813Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test210","precio":424.23,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:28:02.830Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 108 - 33.854 ms
+info: 2020-07-15T22:28:28.050Z ::1 - GET /products HTTP/1.1 200 212 - 2.741 ms
+info: 2020-07-15T22:28:58.503Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:28:58.527Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test1","precio":10.1,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:28:58.542Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 104 - 25.590 ms
+info: 2020-07-15T22:30:38.378Z Escuchando en el puerto 3000
+info: 2020-07-15T22:31:00.865Z ::1 - POST /users HTTP/1.1 201 30 - 81.718 ms
+info: 2020-07-15T22:31:04.377Z ::1 - POST /users HTTP/1.1 201 30 - 71.680 ms
+info: 2020-07-15T22:31:10.669Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-15T22:31:10.687Z ::1 - POST /users/login HTTP/1.1 200 199 - 79.863 ms
+info: 2020-07-15T22:31:34.143Z ::1 - GET /products HTTP/1.1 200 212 - 19.641 ms
+info: 2020-07-15T22:31:40.613Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:31:40.655Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:31:40.677Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 45.107 ms
+info: 2020-07-15T22:31:46.281Z ::1 - GET /products HTTP/1.1 200 213 - 2.482 ms
+info: 2020-07-15T22:31:57.278Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-15T22:31:57.280Z ::1 - POST /users/login HTTP/1.1 200 199 - 93.573 ms
+info: 2020-07-15T22:32:14.562Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:32:14.583Z Usuario test9 no es dueño del producto con id 5f0cdffc78b879282466a189. Dueño real es test8.
+info: 2020-07-15T22:32:14.589Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 401 104 - 22.248 ms
+info: 2020-07-15T22:32:25.624Z Usuario test8 completó autenticación exitosamente.
+info: 2020-07-15T22:32:25.625Z ::1 - POST /users/login HTTP/1.1 200 199 - 77.720 ms
+info: 2020-07-15T22:32:35.164Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:32:35.184Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:32:35.186Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 20.815 ms
+info: 2020-07-15T22:32:40.780Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:32:40.798Z El producto con id 5f0cdffc78b879282466a181 no existe
+info: 2020-07-15T22:32:40.801Z ::1 - PUT /products/5f0cdffc78b879282466a181 HTTP/1.1 404 53 - 20.936 ms
+info: 2020-07-15T22:33:33.815Z Usuario test8 suministró token válido. Autenticación completada.
+warn: 2020-07-15T22:33:33.819Z El siguiente producto no paso la validación {"titulo":"Test90","precio":80.9,"moneda":"PAAB"}
+info: 2020-07-15T22:33:33.822Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 400 43 - 5.758 ms
+info: 2020-07-15T22:33:42.806Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:42.823Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189343  Cast to ObjectId failed for value "5f0cdffc78b879282466a189343" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a189343\"","kind":"ObjectId","value":"5f0cdffc78b879282466a189343","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a189343\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:42.825Z ::1 - PUT /products/5f0cdffc78b879282466a189343 HTTP/1.1 500 63 - 18.278 ms
+info: 2020-07-15T22:33:44.569Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:44.586Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189343  Cast to ObjectId failed for value "5f0cdffc78b879282466a189343" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a189343\"","kind":"ObjectId","value":"5f0cdffc78b879282466a189343","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a189343\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:44.588Z ::1 - PUT /products/5f0cdffc78b879282466a189343 HTTP/1.1 500 63 - 18.170 ms
+info: 2020-07-15T22:33:48.919Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:48.938Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189343  Cast to ObjectId failed for value "5f0cdffc78b879282466a189343" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a189343\"","kind":"ObjectId","value":"5f0cdffc78b879282466a189343","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a189343\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:48.943Z ::1 - PUT /products/5f0cdffc78b879282466a189343 HTTP/1.1 500 63 - 19.808 ms
+info: 2020-07-15T22:33:49.721Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:49.734Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a189343  Cast to ObjectId failed for value "5f0cdffc78b879282466a189343" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a189343\"","kind":"ObjectId","value":"5f0cdffc78b879282466a189343","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a189343\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:49.736Z ::1 - PUT /products/5f0cdffc78b879282466a189343 HTTP/1.1 500 63 - 14.522 ms
+info: 2020-07-15T22:33:55.942Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:55.985Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a1892  Cast to ObjectId failed for value "5f0cdffc78b879282466a1892" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a1892\"","kind":"ObjectId","value":"5f0cdffc78b879282466a1892","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a1892\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:55.988Z ::1 - PUT /products/5f0cdffc78b879282466a1892 HTTP/1.1 500 61 - 45.764 ms
+info: 2020-07-15T22:33:56.951Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:56.971Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a1892  Cast to ObjectId failed for value "5f0cdffc78b879282466a1892" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a1892\"","kind":"ObjectId","value":"5f0cdffc78b879282466a1892","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a1892\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:56.974Z ::1 - PUT /products/5f0cdffc78b879282466a1892 HTTP/1.1 500 61 - 22.047 ms
+info: 2020-07-15T22:33:57.679Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:33:57.693Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a1892  Cast to ObjectId failed for value "5f0cdffc78b879282466a1892" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a1892\"","kind":"ObjectId","value":"5f0cdffc78b879282466a1892","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a1892\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:33:57.695Z ::1 - PUT /products/5f0cdffc78b879282466a1892 HTTP/1.1 500 61 - 15.535 ms
+info: 2020-07-15T22:34:00.025Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:34:00.074Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:34:00.076Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 52.134 ms
+info: 2020-07-15T22:34:03.756Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:34:03.771Z El producto con id 5f0cdffc78b879282466a180 no existe
+info: 2020-07-15T22:34:03.773Z ::1 - PUT /products/5f0cdffc78b879282466a180 HTTP/1.1 404 53 - 17.215 ms
+info: 2020-07-15T22:34:07.220Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:34:07.253Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:34:07.255Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 34.078 ms
+info: 2020-07-15T22:34:26.464Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:34:26.478Z El producto con id 5f0cdffc78b879282466a181 no existe
+info: 2020-07-15T22:34:26.480Z ::1 - PUT /products/5f0cdffc78b879282466a181 HTTP/1.1 404 53 - 16.073 ms
+info: 2020-07-15T22:34:31.050Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:34:31.075Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:34:31.078Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 28.039 ms
+info: 2020-07-15T22:36:17.439Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:36:17.469Z El producto con id 5f0cdffc78b879282466a189 fue modificado {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5f0cdffc78b879282466a189","wasPopulated":false,"activePaths":{"paths":{"owner":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"owner":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5f0cdffc78b879282466a189","titulo":"Test90","precio":80.9,"moneda":"PAB","owner":"test8","__v":0},"$init":true}
+info: 2020-07-15T22:36:17.470Z ::1 - PUT /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 31.476 ms
+info: 2020-07-15T22:36:38.175Z Usuario test8 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:36:38.189Z El producto con id 5f0cdffc78b879282466a181 no existe
+info: 2020-07-15T22:36:38.191Z ::1 - PUT /products/5f0cdffc78b879282466a181 HTTP/1.1 404 53 - 15.875 ms
+info: 2020-07-15T22:36:42.823Z Usuario test8 suministró token válido. Autenticación completada.
+error: 2020-07-15T22:36:42.834Z Error al tratar de ediar el producto con id: 5f0cdffc78b879282466a1819  Cast to ObjectId failed for value "5f0cdffc78b879282466a1819" at path "_id" for model "products" {"stringValue":"\"5f0cdffc78b879282466a1819\"","kind":"ObjectId","value":"5f0cdffc78b879282466a1819","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0cdffc78b879282466a1819\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-15T22:36:42.836Z ::1 - PUT /products/5f0cdffc78b879282466a1819 HTTP/1.1 500 61 - 12.561 ms
+info: 2020-07-15T22:36:53.249Z Escuchando en el puerto 3000
+info: 2020-07-15T22:37:00.120Z ::1 - GET /products HTTP/1.1 200 213 - 18.421 ms
+info: 2020-07-15T22:37:09.427Z ::1 - GET /products/5f0cdffc78b879282466a189 HTTP/1.1 200 105 - 7.203 ms
+info: 2020-07-15T22:37:14.171Z ::1 - GET /products/5f0cdffc78b879282466a18934 HTTP/1.1 401 70 - 0.635 ms
+info: 2020-07-15T22:38:00.553Z ::1 - GET /products HTTP/1.1 200 213 - 3.151 ms
+info: 2020-07-15T22:43:13.415Z Escuchando en el puerto 3000
+info: 2020-07-15T22:43:35.311Z Escuchando en el puerto 3000
+info: 2020-07-15T22:43:53.939Z ::1 - POST /users HTTP/1.1 201 30 - 95.116 ms
+info: 2020-07-15T22:44:00.938Z Usuario test9 completó autenticación exitosamente.
+info: 2020-07-15T22:44:00.940Z ::1 - POST /users/login HTTP/1.1 200 199 - 77.458 ms
+info: 2020-07-15T22:44:40.162Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:44:40.188Z Nuevo producto agregado {"_id":"5f0f86d8e91a1f1ed488d30d","titulo":"Test92","precio":50.98,"moneda":"USD","owner":"test9","__v":0}
+info: 2020-07-15T22:44:40.190Z ::1 - POST /products/ HTTP/1.1 201 106 - 30.249 ms
+info: 2020-07-15T22:45:29.137Z Usuario test9 suministró token válido. Autenticación completada.
+info: 2020-07-15T22:45:29.151Z Nuevo producto agregado {"_id":"5f0f8709e91a1f1ed488d30e","titulo":"Prueba1","precio":50.98,"moneda":"USD","owner":"test9","__v":0}
+info: 2020-07-15T22:45:29.153Z ::1 - POST /products/ HTTP/1.1 201 107 - 15.363 ms
+info: 2020-07-15T22:45:55.643Z Escuchando en el puerto 3000

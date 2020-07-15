@@ -8,7 +8,28 @@ function createProduct(product, owner) {
   return new Product({ ...product, owner }).save();
 }
 
+const getProductId = (id) => {
+  return Product.findById(id);
+};
+
+const editProduct = (id, product, username) => {
+  return Product.findOneAndUpdate(
+    { _id: id },
+    { ...product, owner: username },
+    {
+      new: true, //Permite que una vez que haya hecho el update, que retorne el objeto modificado.
+    }
+  );
+};
+
+const deleteProduct = (id) => {
+  return Product.findByIdAndRemove(id);
+};
+
 module.exports = {
   createProduct,
   getProducts,
+  getProductId,
+  editProduct,
+  deleteProduct,
 };
