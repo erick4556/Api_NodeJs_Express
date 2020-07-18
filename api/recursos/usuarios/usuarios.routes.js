@@ -9,38 +9,64 @@ const log = require("../../../utils/logger");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("../../../config");
+const userController = require("../usuarios/usuario.controller");
 
 usersRouter.get("/", (req, res) => {
-  res.json(usuarios);
+  userController
+    .getUsers()
+    .then((users) => {
+      res.json(users);
+    })
+    .catch((err) => {
+      log.error("Error al obtener los usuarios", err);
+      res.sendStatus(500);
+    });
 });
 
-usersRouter.post("/", middValidarUsuario, (req, res) => {
+usersRouter.post("/", middValidarUsuario, async (req, res) => {
   let newUser = req.body;
+  let userExists;
 
-  let indice = _.findIndex(usuarios, (usuario) => {
-    return (
-      usuario.username === newUser.username || usuario.email === newUser.email
+  try {
+    userExists = await userController.userExists(
+      newUser.username,
+      newUser.email
     );
-  });
+    console.log(userExists);
+    if (userExists) {
+      log.warn(
+        `Email ${newUser.email} o username ${newUser.username} ya existen en la base de datos`
+      );
+      res
+        .status(409)
+        .send("El email o usuario ya existen en la base de datos.");
+      return;
+    }
 
-  if (indice !== -1) {
-    log.info("Email o username ya existe.");
-    res.status(409).send("El email o username ya existe.");
-  } else {
     bcrypt.hash(newUser.password, 10, (err, hashedPassword) => {
       if (err) {
-        log.error("Error al obtener el hash de una constraseña.", err);
-        res.status(500).send("Ocurrió un error creando al usuario");
+        log.error("Error al tratar de obtener el hash de la contraseña", err);
+        res.status(500).send("Error creando al usuario.");
       } else {
-        usuarios.push({
-          id: uuidv4(),
-          username: newUser.username,
-          email: newUser.email,
-          password: hashedPassword,
-        });
-        res.status(201).json("Usuario creado exitosamente.");
+        userController
+          .createUser(newUser, hashedPassword)
+          .then((newUser) => {
+            log.info("Nuevo producto agregado", newUser.toObject());
+            res.status(201).send(newUser);
+          })
+          .catch((err) => {
+            log.error("Error ocurrió al tratar de crear nuevo usuario", err);
+            res
+              .status(500)
+              .send("Error ocurrio al tratar de crear nuevo usuario");
+          });
       }
-    }); //10 es la cantidad de rondas de hash del password
+    });
+  } catch (error) {
+    log.error(
+      `Error al tratar de verificar si usuario ${newUser.username} con email ${newUser.email} ya existe.`
+    );
+    res.status(500).send("Error al crear un nuevo usuario.");
   }
 });
 

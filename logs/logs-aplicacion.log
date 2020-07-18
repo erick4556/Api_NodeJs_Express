@@ -904,3 +904,36 @@ info: 2020-07-15T22:45:29.137Z Usuario test9 suministró token válido. Autentic
 info: 2020-07-15T22:45:29.151Z Nuevo producto agregado {"_id":"5f0f8709e91a1f1ed488d30e","titulo":"Prueba1","precio":50.98,"moneda":"USD","owner":"test9","__v":0}
 info: 2020-07-15T22:45:29.153Z ::1 - POST /products/ HTTP/1.1 201 107 - 15.363 ms
 info: 2020-07-15T22:45:55.643Z Escuchando en el puerto 3000
+info: 2020-07-17T23:31:55.111Z Escuchando en el puerto 3000
+error: 2020-07-17T23:31:57.114Z Falló la conexión a mongodb
+info: 2020-07-17T23:33:24.068Z Escuchando en el puerto 3000
+info: 2020-07-17T23:33:27.783Z ::1 - GET /users HTTP/1.1 200 2 - 22.626 ms
+info: 2020-07-17T23:35:29.247Z Escuchando en el puerto 3000
+info: 2020-07-17T23:45:37.396Z Escuchando en el puerto 3000
+info: 2020-07-17T23:47:25.054Z Escuchando en el puerto 3000
+info: 2020-07-17T23:50:00.782Z Escuchando en el puerto 3000
+info: 2020-07-17T23:53:26.602Z Escuchando en el puerto 3000
+info: 2020-07-17T23:54:36.480Z Escuchando en el puerto 3000
+info: 2020-07-18T00:01:11.914Z Escuchando en el puerto 3000
+info: 2020-07-18T00:01:49.296Z Escuchando en el puerto 3000
+info: 2020-07-18T00:03:15.052Z Escuchando en el puerto 3000
+info: 2020-07-18T00:03:42.609Z Escuchando en el puerto 3000
+info: 2020-07-18T00:05:01.495Z Escuchando en el puerto 3000
+info: 2020-07-18T00:05:20.282Z Nuevo producto agregado {"_id":"5f123cc02ee08b1adc8fed5d","username":"test1","password":"$2b$10$xwwOUsG8K/15a4LHRMmmouMh43VV1Ck2DqW0EKEzSG0xmpXh/yZZq","email":"test1@test.com","__v":0}
+info: 2020-07-18T00:05:20.339Z ::1 - POST /users HTTP/1.1 201 160 - 244.566 ms
+info: 2020-07-18T00:06:14.268Z ::1 - GET /users HTTP/1.1 200 162 - 5.486 ms
+info: 2020-07-18T00:06:49.242Z Escuchando en el puerto 3000
+warn: 2020-07-18T00:07:21.056Z Email [test1@test.com] o username [test1] ya existen en la base de datos
+info: 2020-07-18T00:07:21.070Z ::1 - POST /users HTTP/1.1 409 50 - 23.806 ms
+warn: 2020-07-18T00:07:34.907Z Email [test1@test.com] o username [test2] ya existen en la base de datos
+info: 2020-07-18T00:07:34.927Z ::1 - POST /users HTTP/1.1 409 50 - 4.719 ms
+info: 2020-07-18T00:07:42.586Z Nuevo producto agregado {"_id":"5f123d4eeda0c64674caf00a","username":"test2","password":"$2b$10$SyLKLdsaizTzLhcLlJbp5ez5NDcfudmiRVDKDWbM7XxRk6V0H28Lm","email":"test2@test.com","__v":0}
+info: 2020-07-18T00:07:42.588Z ::1 - POST /users HTTP/1.1 201 160 - 124.208 ms
+info: 2020-07-18T00:07:45.318Z ::1 - GET /users HTTP/1.1 200 323 - 4.133 ms
+warn: 2020-07-18T00:08:03.221Z Email [test1@test.com] o username [test2] ya existen en la base de datos
+info: 2020-07-18T00:08:03.238Z ::1 - POST /users HTTP/1.1 409 50 - 3.756 ms
+warn: 2020-07-18T00:08:08.312Z Email [test2@test.com] o username [test3] ya existen en la base de datos
+info: 2020-07-18T00:08:08.314Z ::1 - POST /users HTTP/1.1 409 50 - 3.758 ms
+info: 2020-07-18T00:09:17.444Z Escuchando en el puerto 3000
+warn: 2020-07-18T00:09:30.827Z Email test2@test.com o username test2 ya existen en la base de datos
+info: 2020-07-18T00:09:30.840Z ::1 - POST /users HTTP/1.1 409 50 - 23.891 ms
