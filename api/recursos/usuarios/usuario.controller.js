@@ -21,8 +21,19 @@ const userExists = (username, email) => {
   });
 };
 
+//Permite buscar mediante el id o username
+const getUser = ({ id, username }) => {
+  if (id) return User.findById(id);
+  if (username) return User.findOne({ username });
+
+  throw new Error(
+    "Función par obtener usuario del controller fue llamada sin especificar el id o username."
+  ); //Mando un error para que el catch lo maneje.
+};
+
 module.exports = {
   getUsers,
   createUser,
   userExists,
+  getUser,
 };

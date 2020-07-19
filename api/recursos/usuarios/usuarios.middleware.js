@@ -48,7 +48,14 @@ const validarLogin = (req, res, next) => {
   }
 };
 
+const trasnformBodyToLowerCase = (req, res, next) => {
+  req.body.username && (req.body.username = req.body.username.toLowerCase());
+  req.body.email && (req.body.email = req.body.email.toLowerCase());
+  next();
+};
+
 module.exports = {
   validarUsuario,
   validarLogin,
+  trasnformBodyToLowerCase,
 };

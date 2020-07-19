@@ -937,3 +937,97 @@ info: 2020-07-18T00:08:08.314Z ::1 - POST /users HTTP/1.1 409 50 - 3.758 ms
 info: 2020-07-18T00:09:17.444Z Escuchando en el puerto 3000
 warn: 2020-07-18T00:09:30.827Z Email test2@test.com o username test2 ya existen en la base de datos
 info: 2020-07-18T00:09:30.840Z ::1 - POST /users HTTP/1.1 409 50 - 23.891 ms
+info: 2020-07-19T15:42:29.456Z Escuchando en el puerto 3000
+info: 2020-07-19T15:42:38.573Z ::1 - GET /users HTTP/1.1 200 323 - 22.387 ms
+info: 2020-07-19T15:44:20.122Z Nuevo producto agregado {"_id":"5f146a5415bee643d8f06df3","username":"Test3","password":"$2b$10$vij8vAy84Ur6u7KbApBpZOOCBF5.NIzdTt.Lfy0tQ70U97YW6lMQ6","email":"Test3@test.com","__v":0}
+info: 2020-07-19T15:44:20.177Z ::1 - POST /users HTTP/1.1 201 160 - 171.253 ms
+info: 2020-07-19T15:44:25.628Z ::1 - GET /users HTTP/1.1 200 484 - 3.327 ms
+info: 2020-07-19T15:46:05.863Z ::1 - GET /users HTTP/1.1 200 323 - 2.839 ms
+info: 2020-07-19T15:46:32.109Z Nuevo producto agregado {"_id":"5f146ad815bee643d8f06df4","username":"testP3","password":"$2b$10$PoAIYorD5pDfOECo7fpPiuMIPjUXx17qd.SuEhgAUKv0ROSotgaB.","email":"test3@test.com","__v":0}
+info: 2020-07-19T15:46:32.111Z ::1 - POST /users HTTP/1.1 201 161 - 79.397 ms
+info: 2020-07-19T15:46:46.045Z ::1 - GET /users HTTP/1.1 200 485 - 2.660 ms
+error: 2020-07-19T15:48:36.372Z uncaughtException: Invalid left-hand side in assignment
+D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.middleware.js:52
+  req.body.username && req.body.username = req.body.username.toLowerCase();
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at wrapSafe (internal/modules/cjs/loader.js:1054:16)
+    at Module._compile (internal/modules/cjs/loader.js:1102:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\api\recursos\usuarios\usuarios.routes.js:5:28)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Escritorio\Programacion\NodeJs\Api-NodeJs\index.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30) {"error":{},"stack":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.middleware.js:52\n  req.body.username && req.body.username = req.body.username.toLowerCase();\n  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nSyntaxError: Invalid left-hand side in assignment\n    at wrapSafe (internal/modules/cjs/loader.js:1054:16)\n    at Module._compile (internal/modules/cjs/loader.js:1102:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:5:28)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Object.<anonymous> (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js:4:21)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)","exception":true,"date":"Sun Jul 19 2020 10:48:36 GMT-0500 (GMT-05:00)","process":{"pid":8228,"uid":null,"gid":null,"cwd":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.18.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js"],"memoryUsage":{"rss":60272640,"heapTotal":51982336,"heapUsed":17900712,"external":19744865,"arrayBuffers":18263230}},"os":{"loadavg":[0,0,0],"uptime":323377},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1054,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1102,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":28,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":5,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":21,"file":"D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\index.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false}]}
+info: 2020-07-19T15:48:56.908Z Escuchando en el puerto 3000
+info: 2020-07-19T15:49:15.259Z Nuevo producto agregado {"_id":"5f146b7baefbc41d34e2b876","username":"testpr3","password":"$2b$10$ZN4kOesYbLXyGUqITuo9s.6RuZbsxDb6eMMMRytlR8Fu3LeFZKrCi","email":"testpr3@test.com","__v":0}
+info: 2020-07-19T15:49:15.263Z ::1 - POST /users HTTP/1.1 201 164 - 106.295 ms
+info: 2020-07-19T15:49:25.119Z ::1 - GET /users HTTP/1.1 200 488 - 4.808 ms
+info: 2020-07-19T15:49:41.203Z ::1 - GET /users HTTP/1.1 200 323 - 2.219 ms
+info: 2020-07-19T16:29:33.846Z Escuchando en el puerto 3000
+info: 2020-07-19T16:30:17.154Z ::1 - GET /users HTTP/1.1 200 323 - 23.148 ms
+error: 2020-07-19T16:31:47.897Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:31:47.913Z ::1 - POST /users/login HTTP/1.1 500 35 - 6.461 ms
+info: 2020-07-19T16:32:21.017Z Escuchando en el puerto 3000
+error: 2020-07-19T16:32:50.461Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:32:50.479Z ::1 - POST /users/login HTTP/1.1 500 35 - 36.094 ms
+error: 2020-07-19T16:32:51.459Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:32:51.462Z ::1 - POST /users/login HTTP/1.1 500 35 - 4.323 ms
+info: 2020-07-19T16:35:41.640Z Nuevo producto agregado {"_id":"5f14765dfcf3a93d4c575007","username":"test3","password":"$2b$10$sZbSaY0/7i845AuJ5RWSvOR.wrl26GHDG6OKZhL3MpmGD46ySWK.W","email":"test3@test.com","__v":0}
+info: 2020-07-19T16:35:41.653Z ::1 - POST /users HTTP/1.1 201 160 - 93.509 ms
+info: 2020-07-19T16:35:43.832Z ::1 - GET /users HTTP/1.1 200 484 - 4.017 ms
+error: 2020-07-19T16:35:53.016Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:35:53.018Z ::1 - POST /users/login HTTP/1.1 500 35 - 4.358 ms
+error: 2020-07-19T16:35:57.939Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:35:57.942Z ::1 - POST /users/login HTTP/1.1 500 35 - 4.630 ms
+error: 2020-07-19T16:35:59.096Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:35:59.099Z ::1 - POST /users/login HTTP/1.1 500 35 - 3.614 ms
+error: 2020-07-19T16:35:59.647Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:35:59.667Z ::1 - POST /users/login HTTP/1.1 500 35 - 4.685 ms
+error: 2020-07-19T16:36:02.246Z Error al tratar de verificar si la contraseña es correcta data and hash arguments required {"stack":"Error: data and hash arguments required\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:110:40\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-19T16:36:02.249Z ::1 - POST /users/login HTTP/1.1 500 35 - 6.002 ms
+info: 2020-07-19T16:36:26.763Z Escuchando en el puerto 3000
+info: 2020-07-19T16:36:38.492Z Escuchando en el puerto 3000
+info: 2020-07-19T16:36:43.985Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:36:43.996Z ::1 - POST /users/login HTTP/1.1 200 183 - 92.497 ms
+info: 2020-07-19T16:36:48.100Z Usuario test4 no existe.
+info: 2020-07-19T16:36:48.103Z ::1 - POST /users/login HTTP/1.1 400 69 - 4.362 ms
+info: 2020-07-19T16:37:05.231Z Escuchando en el puerto 3000
+info: 2020-07-19T16:37:10.037Z Usuario test4 no existe.
+info: 2020-07-19T16:37:10.050Z ::1 - POST /users/login HTTP/1.1 400 69 - 16.851 ms
+info: 2020-07-19T16:37:16.066Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:37:16.077Z ::1 - POST /users/login HTTP/1.1 200 183 - 86.424 ms
+info: 2020-07-19T16:37:29.710Z Escuchando en el puerto 3000
+info: 2020-07-19T16:37:35.801Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:37:35.810Z ::1 - POST /users/login HTTP/1.1 200 183 - 113.637 ms
+info: 2020-07-19T16:37:36.658Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:37:36.659Z ::1 - POST /users/login HTTP/1.1 200 183 - 76.977 ms
+info: 2020-07-19T16:37:37.336Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:37:37.338Z ::1 - POST /users/login HTTP/1.1 200 183 - 75.153 ms
+info: 2020-07-19T16:38:02.910Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:02.912Z ::1 - POST /users/login HTTP/1.1 200 183 - 77.208 ms
+info: 2020-07-19T16:38:04.360Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:04.361Z ::1 - POST /users/login HTTP/1.1 200 183 - 75.723 ms
+info: 2020-07-19T16:38:05.035Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:05.037Z ::1 - POST /users/login HTTP/1.1 200 183 - 77.374 ms
+info: 2020-07-19T16:38:05.619Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:05.621Z ::1 - POST /users/login HTTP/1.1 200 183 - 74.257 ms
+info: 2020-07-19T16:38:07.101Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:07.103Z ::1 - POST /users/login HTTP/1.1 200 183 - 75.627 ms
+info: 2020-07-19T16:38:09.794Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:09.796Z ::1 - POST /users/login HTTP/1.1 200 183 - 76.097 ms
+info: 2020-07-19T16:38:13.163Z Usuario test3 no completo la autenticación, contraseña incorrecta.
+info: 2020-07-19T16:38:13.166Z ::1 - POST /users/login HTTP/1.1 400 81 - 77.738 ms
+info: 2020-07-19T16:38:19.301Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-19T16:38:19.302Z ::1 - POST /users/login HTTP/1.1 200 183 - 76.068 ms
+info: 2020-07-19T16:38:22.616Z Usuario test3 no completo la autenticación, contraseña incorrecta.
+info: 2020-07-19T16:38:22.618Z ::1 - POST /users/login HTTP/1.1 400 81 - 76.609 ms
