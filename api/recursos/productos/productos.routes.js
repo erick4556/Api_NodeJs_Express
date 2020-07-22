@@ -1,7 +1,6 @@
 const express = require("express");
 const _ = require("underscore");
 const uuidv4 = require("uuid/v4");
-const productEjem = require("../../../databaseArr").productEjem;
 const middValidarProducto = require("./productos.middleware");
 const productsRouter = express.Router();
 const log = require("../../../utils/logger");

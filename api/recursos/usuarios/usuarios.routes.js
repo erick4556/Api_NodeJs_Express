@@ -1,7 +1,6 @@
 const express = require("express");
 const _ = require("underscore");
 const uuidv4 = require("uuid/v4");
-const usuarios = require("../../../databaseArr").usuarios;
 const middValidarUsuario = require("./usuarios.middleware").validarUsuario;
 const middValidarLogin = require("./usuarios.middleware").validarLogin;
 const middValidarLetra = require("./usuarios.middleware")

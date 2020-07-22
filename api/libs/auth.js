@@ -1,9 +1,7 @@
-const _ = require("underscore");
 const log = require("./../../utils/logger");
-const usuarios = require("./../../databaseArr").usuarios;
-const bcrypt = require("bcrypt");
 const passportJWT = require("passport-jwt");
 const config = require("../../config");
+const userController = require("../recursos/usuarios/usuario.controller");
 
 let jwtOptions = {
   secretOrKey: config.jwt.secret, //Se necesita el secreto de la ruta de usuarios para descifrar el token
@@ -12,21 +10,29 @@ let jwtOptions = {
 
 const jwtStrategy = new passportJWT.Strategy(jwtOptions, (jwtPayload, next) => {
   //jwtPayload es el token decifrado
-  let index = _.findIndex(usuarios, (usuario) => usuario.id === jwtPayload.id);
-  if (index === -1) {
-    log.info(
-      `JWT token no es válido. Usuario con id ${jwtPayload.id} no existe.`
-    );
-    next(null, false);
-  } else {
-    log.info(
-      `Usuario ${usuarios[index].username} suministró token válido. Autenticación completada.`
-    );
-    next(null, {
-      id: usuarios[index].id,
-      username: usuarios[index].username,
+
+  userController
+    .getUser({ id: jwtPayload.id })
+    .then((user) => {
+      if (!user) {
+        log.info(
+          `JWT token no es válido. Usuario con id ${jwtPayload.id} no existe.`
+        );
+        next(null, false);
+      } else {
+        log.info(
+          `Usuario ${user.username} suministró token válido. Autenticación completada.`
+        );
+        next(null, {
+          id: user.id,
+          username: user.username,
+        });
+      }
+    })
+    .catch((err) => {
+      log.error("Error al tratar de validar el token.", err);
+      next(err);
     });
-  }
 });
 
 module.exports = jwtStrategy;
