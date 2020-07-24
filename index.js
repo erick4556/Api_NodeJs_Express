@@ -8,6 +8,7 @@ const authJWT = require("./api/libs/auth");
 const passport = require("passport");
 const config = require("./config");
 const mongoose = require("mongoose");
+const errorHandler = require("./api/libs/errorHandler");
 
 passport.use(authJWT);
 
@@ -32,6 +33,15 @@ app.use(passport.initialize()); // Le digo a express que use passport
 
 app.use("/products", productsRouter);
 app.use("/users", usersRouter);
+
+//Manejo de errores para las rutas
+app.use(errorHandler.processErrorsDb);
+if (config === "prod") {
+  app.use(errorHandler.errorsInProduction);
+} else {
+  app.use(errorHandler.errorsInDevelopment);
+}
+//----------------
 
 app.get("/", passport.authenticate("jwt", { session: false }), (req, res) => {
   //session:false que no tenga de cookie ni sesiones

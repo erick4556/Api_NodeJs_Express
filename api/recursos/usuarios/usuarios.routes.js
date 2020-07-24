@@ -12,18 +12,16 @@ const jwt = require("jsonwebtoken");
 const config = require("../../../config");
 const userController = require("../usuarios/usuario.controller");
 const usuarioController = require("../usuarios/usuario.controller");
+const errorHandler = require("../../libs/errorHandler");
 
-usersRouter.get("/", (req, res) => {
-  userController
-    .getUsers()
-    .then((users) => {
+usersRouter.get(
+  "/",
+  errorHandler.processErrors((req, res) => {
+    return userController.getUsers().then((users) => {
       res.json(users);
-    })
-    .catch((err) => {
-      log.error("Error al obtener los usuarios", err);
-      res.sendStatus(500);
     });
-});
+  })
+);
 
 usersRouter.post(
   "/",

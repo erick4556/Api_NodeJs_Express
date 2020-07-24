@@ -8,57 +8,44 @@ const passport = require("passport");
 const jwtAuth = passport.authenticate("jwt", { session: false });
 const productController = require("./product.controller");
 const productosMiddleware = require("./productos.middleware");
+const errorHandler = require("../../libs/errorHandler");
 
-productsRouter.get("/", (req, res) => {
-  productController
-    .getProducts()
-    .then((products) => {
+productsRouter.get(
+  "/",
+  errorHandler.processErrors((req, res) => {
+    return productController.getProducts().then((products) => {
       res.json(products);
-    })
-    .catch((err) => {
-      err
-        .status(500)
-        .send("Error al obtener los productos de la base de datos.");
     });
-});
+  })
+);
 
 productsRouter.post(
   "/",
   [jwtAuth, middValidarProducto.validarPorducto],
-  (req, res) => {
-    productController
+  errorHandler.processErrors((req, res) => {
+    return productController
       .createProduct(req.body, req.user.username)
       .then((product) => {
         log.info("Nuevo producto agregado", product.toObject());
         res.status(201).json(product);
-      })
-      .catch((err) => {
-        log.error("Producto no pudo ser creado", err);
-        res.status(500).send({
-          error: "Error al tratar de crear el producto",
-        });
       });
-  }
+  })
 );
 
-productsRouter.get("/:id", productosMiddleware.validarId, (req, res) => {
-  let id = req.params.id;
-  productController
-    .getProductId(id)
-    .then((product) => {
+productsRouter.get(
+  "/:id",
+  productosMiddleware.validarId,
+  errorHandler.processErrors((req, res) => {
+    let id = req.params.id;
+    return productController.getProductId(id).then((product) => {
       if (!product) {
         res.status(404).send(`El producto con id ${req.params.id} no existe`);
       } else {
         res.status(200).json(product);
       }
-    })
-    .catch((err) => {
-      log.error(`Error al tratar de obtener el producto con id: ${id} `, err);
-      res
-        .status(500)
-        .send(`Error al tratar de obtener el producto con id: ${id} `);
     });
-});
+  })
+);
 
 productsRouter.put(
   "/:id",
