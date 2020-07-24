@@ -1287,3 +1287,82 @@ info: 2020-07-24T00:03:17.049Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d30e4 
 info: 2020-07-24T00:03:26.748Z Escuchando en el puerto 3000
 info: 2020-07-24T00:03:31.071Z Usuario test3 suministró token válido. Autenticación completada.
 info: 2020-07-24T00:03:31.083Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d30e4 HTTP/1.1 401 69 - 33.437 ms
+info: 2020-07-24T23:24:05.279Z Escuchando en el puerto 3000
+info: 2020-07-24T23:28:43.092Z ::1 - GET /products/ HTTP/1.1 200 428 - 19.223 ms
+info: 2020-07-24T23:29:00.534Z ::1 - GET /users HTTP/1.1 200 484 - 3.208 ms
+info: 2020-07-24T23:29:10.922Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:29:10.924Z ::1 - POST /users/login HTTP/1.1 200 183 - 82.072 ms
+info: 2020-07-24T23:29:34.244Z ::1 - GET /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 200 107 - 11.293 ms
+info: 2020-07-24T23:29:39.002Z ::1 - GET /products/5f0f8709e91a1f1ed488d300 HTTP/1.1 404 332 - 3.082 ms
+info: 2020-07-24T23:29:47.190Z ::1 - GET /products/5f0f8709e91a1f1ed488d300 HTTP/1.1 404 332 - 2.481 ms
+info: 2020-07-24T23:29:48.262Z ::1 - GET /products/5f0f8709e91a1f1ed488d300 HTTP/1.1 404 332 - 1.778 ms
+info: 2020-07-24T23:29:58.720Z Escuchando en el puerto 3000
+info: 2020-07-24T23:30:01.299Z ::1 - GET /products/5f0f8709e91a1f1ed488d300 HTTP/1.1 404 338 - 19.318 ms
+info: 2020-07-24T23:30:07.962Z Escuchando en el puerto 3000
+info: 2020-07-24T23:30:08.266Z ::ffff:127.0.0.1 - GET /products/5f0f8709e91a1f1ed488d300 HTTP/1.1 404 332 - 19.262 ms
+info: 2020-07-24T23:30:13.814Z ::1 - GET /products/5f0f8709e91a1f1ed488d30 HTTP/1.1 401 67 - 0.630 ms
+info: 2020-07-24T23:30:20.592Z ::1 - GET /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 200 107 - 8.640 ms
+info: 2020-07-24T23:30:38.508Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:30:38.509Z ::1 - POST /users/login HTTP/1.1 200 183 - 82.105 ms
+info: 2020-07-24T23:30:48.367Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:30:48.382Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:31:08.658Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 - - - - ms
+info: 2020-07-24T23:31:20.860Z Usuario test3 suministró token válido. Autenticación completada.
+error: 2020-07-24T23:31:20.876Z Error al tratar de editar el producto con id: 5f0f8709e91a1f1ed488d30e4  Cast to ObjectId failed for value "5f0f8709e91a1f1ed488d30e4" at path "_id" for model "products" {"stringValue":"\"5f0f8709e91a1f1ed488d30e4\"","kind":"ObjectId","value":"5f0f8709e91a1f1ed488d30e4","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0f8709e91a1f1ed488d30e4\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-24T23:31:20.878Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30e4 HTTP/1.1 500 61 - 19.730 ms
+info: 2020-07-24T23:31:40.732Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:31:40.747Z El producto con id 5f0f8709e91a1f1ed488d309 no existe
+info: 2020-07-24T23:31:40.749Z ::1 - PUT /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 404 53 - 19.179 ms
+info: 2020-07-24T23:31:47.440Z Escuchando en el puerto 3000
+info: 2020-07-24T23:31:49.848Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:31:49.870Z El producto con id 5f0f8709e91a1f1ed488d309 no existe
+info: 2020-07-24T23:32:10.601Z ::1 - PUT /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 - - - - ms
+info: 2020-07-24T23:32:11.928Z Usuario test3 suministró token válido. Autenticación completada.
+error: 2020-07-24T23:32:11.933Z Error al tratar de editar el producto con id: 5f0f8709e91a1f1ed488d30  Cast to ObjectId failed for value "5f0f8709e91a1f1ed488d30" at path "_id" for model "products" {"stringValue":"\"5f0f8709e91a1f1ed488d30\"","kind":"ObjectId","value":"5f0f8709e91a1f1ed488d30","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5f0f8709e91a1f1ed488d30\" at path \"_id\" for model \"products\"\n    at model.Query.exec (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (D:\\Escritorio\\Programacion\\NodeJs\\Api-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-07-24T23:32:11.951Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30 HTTP/1.1 500 59 - 14.597 ms
+info: 2020-07-24T23:32:16.705Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:32:16.722Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:32:26.862Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 - - - - ms
+info: 2020-07-24T23:32:49.579Z Escuchando en el puerto 3000
+info: 2020-07-24T23:33:02.541Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:33:02.554Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:33:02.561Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 401 107 - 37.425 ms
+info: 2020-07-24T23:33:07.524Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:33:07.538Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:33:07.540Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 401 107 - 17.224 ms
+info: 2020-07-24T23:33:12.916Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:33:12.928Z El producto con id 5f0f8709e91a1f1ed488d309 no existe
+info: 2020-07-24T23:33:12.930Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 404 53 - 16.195 ms
+info: 2020-07-24T23:33:24.593Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:33:24.606Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:33:24.614Z ::1 - DELETE /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 401 107 - 16.843 ms
+info: 2020-07-24T23:33:41.071Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:33:41.093Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:33:41.094Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 401 105 - 26.185 ms
+info: 2020-07-24T23:34:11.733Z Usuario test3 suministró token válido. Autenticación completada.
+info: 2020-07-24T23:34:11.747Z Usuario test3 no es dueño del producto con id 5f0f8709e91a1f1ed488d30e. Dueño real es test9.
+info: 2020-07-24T23:34:11.749Z ::1 - PUT /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 401 105 - 17.423 ms
+info: 2020-07-24T23:34:19.273Z ::1 - GET /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 200 107 - 3.134 ms
+info: 2020-07-24T23:34:23.195Z ::1 - GET /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 404 332 - 2.494 ms
+info: 2020-07-24T23:43:49.419Z ::1 - GET /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 404 332 - 2.596 ms
+info: 2020-07-24T23:45:17.330Z ::1 - GET /products/5f0f8709e91a1f1ed488d309 HTTP/1.1 404 332 - 1.736 ms
+info: 2020-07-24T23:45:24.852Z ::1 - GET /products/5f0f8709e91a1f1ed488d30e HTTP/1.1 200 107 - 2.447 ms
+info: 2020-07-24T23:45:28.079Z ::1 - GET /products/5f0f8709e91a1f1ed488d30e3 HTTP/1.1 401 69 - 0.249 ms
+info: 2020-07-24T23:47:45.073Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:47:45.075Z ::1 - POST /users/login HTTP/1.1 200 183 - 77.368 ms
+info: 2020-07-24T23:47:56.400Z Escuchando en el puerto 3000
+info: 2020-07-24T23:48:00.029Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:00.042Z ::1 - POST /users/login HTTP/1.1 200 183 - 94.730 ms
+info: 2020-07-24T23:48:07.461Z Escuchando en el puerto 3000
+info: 2020-07-24T23:48:10.102Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:10.113Z ::1 - POST /users/login HTTP/1.1 200 183 - 92.458 ms
+info: 2020-07-24T23:48:27.177Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:27.179Z ::1 - POST /users/login HTTP/1.1 200 183 - 82.971 ms
+info: 2020-07-24T23:48:28.305Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:28.307Z ::1 - POST /users/login HTTP/1.1 200 183 - 85.752 ms
+info: 2020-07-24T23:48:29.522Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:29.524Z ::1 - POST /users/login HTTP/1.1 200 183 - 71.468 ms
+info: 2020-07-24T23:48:30.750Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:30.752Z ::1 - POST /users/login HTTP/1.1 200 183 - 73.701 ms
+info: 2020-07-24T23:48:31.841Z Usuario test3 completó autenticación exitosamente.
+info: 2020-07-24T23:48:31.843Z ::1 - POST /users/login HTTP/1.1 200 183 - 72.286 ms

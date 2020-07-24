@@ -13,6 +13,10 @@ const config = require("../../../config");
 const userController = require("../usuarios/usuario.controller");
 const usuarioController = require("../usuarios/usuario.controller");
 const errorHandler = require("../../libs/errorHandler");
+const {
+  DatosEnUso,
+  CredencialesIncorrectas,
+} = require("../usuarios/usuarios.error");
 
 usersRouter.get(
   "/",

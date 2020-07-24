@@ -5,7 +5,7 @@ const getProducts = () => {
 };
 
 function createProduct(product, owner) {
-  return Promise.reject("Prueba de falla!!");
+  //return Promise.reject("Prueba de falla!!");
   return new Product({ ...product, owner }).save();
 }
 
