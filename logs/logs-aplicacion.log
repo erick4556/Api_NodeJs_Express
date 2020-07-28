@@ -1417,3 +1417,273 @@ info: 2020-07-28T00:24:15.498Z Escuchando en el puerto 3000
 info: 2020-07-28T00:24:15.555Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 9.032 ms
 info: 2020-07-28T00:25:10.852Z Escuchando en el puerto 3000
 info: 2020-07-28T00:25:10.916Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 12.984 ms
+info: 2020-07-28T19:43:36.723Z Escuchando en el puerto 3000
+info: 2020-07-28T19:43:36.804Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 14.344 ms
+info: 2020-07-28T19:43:36.864Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 315 - 5.329 ms
+info: 2020-07-28T19:55:38.336Z Escuchando en el puerto 3000
+info: 2020-07-28T19:55:38.401Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 10.803 ms
+info: 2020-07-28T19:55:38.430Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 315 - 4.673 ms
+info: 2020-07-28T19:55:38.961Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T19:55:38.962Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 29.469 ms
+info: 2020-07-28T20:01:17.589Z Escuchando en el puerto 3000
+info: 2020-07-28T20:01:17.644Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.223 ms
+info: 2020-07-28T20:01:17.675Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 314 - 3.545 ms
+info: 2020-07-28T20:01:17.735Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T20:01:17.737Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 17.286 ms
+info: 2020-07-28T20:06:02.018Z Escuchando en el puerto 3000
+info: 2020-07-28T20:06:02.075Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.740 ms
+info: 2020-07-28T20:06:02.122Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 314 - 4.551 ms
+info: 2020-07-28T20:06:02.149Z ::ffff:127.0.0.1 - POST /usuarios HTTP/1.1 404 148 - 0.636 ms
+info: 2020-07-28T20:12:42.172Z Escuchando en el puerto 3000
+info: 2020-07-28T20:12:56.060Z ::1 - GET /users HTTP/1.1 200 2 - 13.385 ms
+info: 2020-07-28T20:13:02.629Z Nuevo producto agregado {"_id":"5f2086ce7fbbb124d432c089","username":"test2","password":"$2b$10$UkRjDCRdVSB8Iq.KTEVFTeORqXK70l44lJgncGBDi.62WENSa.sJ.","email":"test2@test.com","__v":0}
+info: 2020-07-28T20:13:02.630Z ::1 - POST /users HTTP/1.1 201 160 - 99.995 ms
+info: 2020-07-28T20:13:11.554Z Nuevo producto agregado {"_id":"5f2086d77fbbb124d432c08a","username":"test","password":"$2b$10$uoNI/r5lukttccXu1QsJOe4A0SqK4zQtzS321bDzO3lhTP1G0nWpC","email":"test@test.com","__v":0}
+info: 2020-07-28T20:13:11.556Z ::1 - POST /users HTTP/1.1 201 158 - 79.074 ms
+info: 2020-07-28T20:14:34.806Z Escuchando en el puerto 3000
+info: 2020-07-28T20:14:34.902Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 16.231 ms
+info: 2020-07-28T20:14:34.938Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 314 - 4.198 ms
+info: 2020-07-28T20:14:34.972Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T20:14:34.973Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 9.350 ms
+info: 2020-07-28T20:15:39.026Z Escuchando en el puerto 3000
+info: 2020-07-28T20:16:34.100Z Nuevo producto agregado {"_id":"5f2087a2d07ab02594235d6e","username":"test","password":"$2b$10$hVpEkhvNBxgacViU3E5cceIq1yW9zsQ0qKiIbR8YrDaGPAKdWkom6","email":"test@test.com","__v":0}
+info: 2020-07-28T20:16:34.111Z ::1 - POST /users HTTP/1.1 201 158 - 103.730 ms
+info: 2020-07-28T20:17:15.717Z Escuchando en el puerto 3000
+info: 2020-07-28T20:17:15.770Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.612 ms
+info: 2020-07-28T20:17:15.800Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.421 ms
+info: 2020-07-28T20:17:15.903Z Nuevo producto agregado {"_id":"5f2087cbfd237e2b8039127f","username":"test","email":"test@test.com","password":"$2b$10$ltGOD2raALHxIHh5l30r.uisGyNcOhApORUjPQpkQqC8v6KyDUcMe","__v":0}
+info: 2020-07-28T20:17:15.904Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 79.804 ms
+info: 2020-07-28T20:17:54.363Z Escuchando en el puerto 3000
+info: 2020-07-28T20:17:54.409Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.453 ms
+info: 2020-07-28T20:17:54.442Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.886 ms
+info: 2020-07-28T20:17:54.623Z Nuevo producto agregado {"_id":"5f2087f2c8e89e4a4cda336d","username":"test","email":"test@test.com","password":"$2b$10$bqw8BMl7wj5OCvKHA//Sw.pZUXW5wje7ZicC2ZMu/Fw.2Z2xPn3IO","__v":0}
+info: 2020-07-28T20:17:54.624Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 142.570 ms
+info: 2020-07-28T20:18:48.055Z Escuchando en el puerto 3000
+info: 2020-07-28T20:18:48.104Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.672 ms
+info: 2020-07-28T20:18:48.136Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.614 ms
+info: 2020-07-28T20:18:48.251Z Nuevo producto agregado {"_id":"5f208828a298cf10bcb62018","username":"test","email":"test@test.com","password":"$2b$10$qEnwRYIAod/iTXYtGXYjdeJGgd2LI32fqtOAdlOcx3T3Y64MGq8Rq","__v":0}
+info: 2020-07-28T20:18:48.252Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 89.429 ms
+info: 2020-07-28T20:20:02.195Z Escuchando en el puerto 3000
+info: 2020-07-28T20:20:02.249Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.395 ms
+info: 2020-07-28T20:20:02.282Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.962 ms
+info: 2020-07-28T20:20:02.388Z Nuevo producto agregado {"_id":"5f208872be963c1098574e4c","username":"test","email":"test@test.com","password":"$2b$10$HY6J.iE/8NdwxJtIkp9QUOcWKM.lTssKDocHDzKlq0Tbx4Vh.hTXi","__v":0}
+info: 2020-07-28T20:20:02.389Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 81.472 ms
+info: 2020-07-28T23:04:09.078Z Escuchando en el puerto 3000
+info: 2020-07-28T23:04:09.138Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 9.893 ms
+info: 2020-07-28T23:04:09.178Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.587 ms
+info: 2020-07-28T23:04:09.292Z Nuevo producto agregado {"_id":"5f20aee9f35c3d2d0cc31fca","username":"test","email":"test@test.com","password":"$2b$10$SUKlp5uUQmLKDHa7Kgl1kum4ds4ATbrSHG.0eEwQbH6mxqwWbAqim","__v":0}
+info: 2020-07-28T23:04:09.292Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 83.755 ms
+info: 2020-07-28T23:06:18.233Z Escuchando en el puerto 3000
+info: 2020-07-28T23:06:18.285Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 9.652 ms
+info: 2020-07-28T23:06:18.320Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 7.361 ms
+info: 2020-07-28T23:06:18.445Z Nuevo producto agregado {"_id":"5f20af6ac4fa002db453f367","username":"test","email":"test@test.com","password":"$2b$10$JVv/CJU0o/tf9dY/81I0De.QO2odb8CO6yh8x/JwOXk8Wwz2yWCbq","__v":0}
+info: 2020-07-28T23:06:18.446Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 88.055 ms
+info: 2020-07-28T23:07:23.189Z Escuchando en el puerto 3000
+info: 2020-07-28T23:07:23.245Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.493 ms
+info: 2020-07-28T23:07:23.276Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.532 ms
+info: 2020-07-28T23:07:23.382Z Nuevo producto agregado {"_id":"5f20afabfdcd700b54f55359","username":"test","email":"test@test.com","password":"$2b$10$H37lnap.BDgFBjDYqD4oZ.b92i7ET.CcpyV4i65W88Gpnh/ur9Hae","__v":0}
+info: 2020-07-28T23:07:23.383Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 81.505 ms
+info: 2020-07-28T23:08:02.563Z Escuchando en el puerto 3000
+info: 2020-07-28T23:08:02.620Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.988 ms
+info: 2020-07-28T23:08:02.654Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 5.076 ms
+info: 2020-07-28T23:08:02.813Z Nuevo producto agregado {"_id":"5f20afd229b9bd31fce8ebc4","username":"test","email":"test@test.com","password":"$2b$10$KqsVre6ZRHygC.909RqYq.w/3h3AydBsgfnZ3ugy7CYfkz4Lxes9.","__v":0}
+info: 2020-07-28T23:08:02.814Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 134.993 ms
+info: 2020-07-28T23:08:37.024Z Escuchando en el puerto 3000
+info: 2020-07-28T23:08:37.077Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.067 ms
+info: 2020-07-28T23:08:37.108Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.611 ms
+info: 2020-07-28T23:08:37.215Z Nuevo producto agregado {"_id":"5f20aff5b644bd19000a9541","username":"test","email":"test@test.com","password":"$2b$10$ZnxdrlGK1pry9ptUooRjUuD8.3943MQpeB48cA8zIQuclCjuR/Kmy","__v":0}
+info: 2020-07-28T23:08:37.216Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 81.983 ms
+info: 2020-07-28T23:09:33.626Z Escuchando en el puerto 3000
+info: 2020-07-28T23:09:33.675Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.820 ms
+info: 2020-07-28T23:09:33.707Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.378 ms
+info: 2020-07-28T23:09:33.832Z Nuevo producto agregado {"_id":"5f20b02d42b90604c4496787","username":"test","email":"test@test.com","password":"$2b$10$zCzTInRuiPSBFrcXPBtiZuslVg3wOch5JNeIggCtFC/LsSpm1LQzK","__v":0}
+info: 2020-07-28T23:09:33.833Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 100.945 ms
+info: 2020-07-28T23:19:19.024Z Escuchando en el puerto 3000
+info: 2020-07-28T23:19:19.074Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.164 ms
+info: 2020-07-28T23:19:19.106Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.385 ms
+info: 2020-07-28T23:19:19.226Z Nuevo producto agregado {"_id":"5f20b277ab22d32a94afc2d2","username":"test","email":"test@test.com","password":"$2b$10$O6wDJ8LfzxO5SXHxyfKd6eB5n.NTaqseP8TLPu90Uo3Bt1lGDiQfa","__v":0}
+info: 2020-07-28T23:19:19.227Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 93.089 ms
+warn: 2020-07-28T23:19:19.314Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:19:19.315Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.773 ms
+info: 2020-07-28T23:19:19.338Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:19:19.339Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 15.869 ms
+info: 2020-07-28T23:21:52.233Z Escuchando en el puerto 3000
+info: 2020-07-28T23:21:52.288Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.449 ms
+info: 2020-07-28T23:21:52.318Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.341 ms
+info: 2020-07-28T23:21:52.421Z Nuevo producto agregado {"_id":"5f20b31001b4703f741fb140","username":"test","email":"test@test.com","password":"$2b$10$nKgmt4Dw2hz6647Y9cRb..Iw30ZmA8rsh76bSkG.iMi3NMTJ8bUxa","__v":0}
+info: 2020-07-28T23:21:52.422Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 79.901 ms
+warn: 2020-07-28T23:21:52.502Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:21:52.503Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.676 ms
+info: 2020-07-28T23:21:52.517Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:21:52.518Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 6.879 ms
+info: 2020-07-28T23:22:36.455Z Escuchando en el puerto 3000
+info: 2020-07-28T23:22:36.509Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.475 ms
+info: 2020-07-28T23:22:36.537Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.401 ms
+info: 2020-07-28T23:22:36.665Z Nuevo producto agregado {"_id":"5f20b33cd7af6630305d91c0","username":"test","email":"test@test.com","password":"$2b$10$2sg1AoSJqnDWNQJ3Dc.oN.V.tGorq2eTXAD0kO.K92IFiUBbeq8M.","__v":0}
+info: 2020-07-28T23:22:36.666Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 104.922 ms
+warn: 2020-07-28T23:22:36.776Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:22:36.776Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 3.552 ms
+info: 2020-07-28T23:22:36.796Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:22:36.797Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 10.781 ms
+info: 2020-07-28T23:24:07.047Z Escuchando en el puerto 3000
+info: 2020-07-28T23:24:07.098Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.157 ms
+info: 2020-07-28T23:24:07.126Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.555 ms
+info: 2020-07-28T23:24:07.230Z Nuevo producto agregado {"_id":"5f20b39705ee313dd88a31ee","username":"test","email":"test@test.com","password":"$2b$10$cYPHiAyhZtgS3tmLbk2V6e9gYBnGMOFmVi75WjH2RDW/F7ClfOxiG","__v":0}
+info: 2020-07-28T23:24:07.231Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 79.999 ms
+warn: 2020-07-28T23:24:07.311Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:24:07.312Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.876 ms
+info: 2020-07-28T23:24:07.326Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:24:07.327Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.356 ms
+info: 2020-07-28T23:24:41.939Z Escuchando en el puerto 3000
+info: 2020-07-28T23:24:41.992Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.917 ms
+info: 2020-07-28T23:24:42.020Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.307 ms
+info: 2020-07-28T23:24:42.123Z Nuevo producto agregado {"_id":"5f20b3baabf379352c9f231e","username":"test","email":"test@test.com","password":"$2b$10$w60ESK6UIIjyvmk3BMyEm.78/CooTvuIFMqf38vs60IO/4I7CY0UC","__v":0}
+info: 2020-07-28T23:24:42.123Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 80.019 ms
+warn: 2020-07-28T23:24:42.240Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:24:42.241Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.888 ms
+info: 2020-07-28T23:24:42.257Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:24:42.258Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.952 ms
+info: 2020-07-28T23:25:24.585Z Escuchando en el puerto 3000
+info: 2020-07-28T23:25:24.634Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.231 ms
+info: 2020-07-28T23:25:24.662Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.395 ms
+info: 2020-07-28T23:25:24.765Z Nuevo producto agregado {"_id":"5f20b3e4e7ed89172c6fd4c2","username":"test","email":"test@test.com","password":"$2b$10$F8yBaoLoxFHzjpqyiXAUG.c1MPJXqQ/rRe2GKr3fxU3rhmw2GT.s2","__v":0}
+info: 2020-07-28T23:25:24.766Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 79.543 ms
+warn: 2020-07-28T23:25:24.890Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:25:24.891Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 5.079 ms
+info: 2020-07-28T23:25:24.908Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:25:24.909Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 8.530 ms
+info: 2020-07-28T23:42:50.624Z Escuchando en el puerto 3000
+info: 2020-07-28T23:42:50.679Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 10.622 ms
+info: 2020-07-28T23:42:50.717Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.577 ms
+info: 2020-07-28T23:42:50.851Z Nuevo producto agregado {"_id":"5f20b7fa5fb6460f142e7ecb","username":"test","email":"test@test.com","password":"$2b$10$PfMXOLP2z/gV0Fd/csaSSeLxV67o.z4sZvi2mws9Ij7hs6cYY.MBi","__v":0}
+info: 2020-07-28T23:42:50.852Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 106.283 ms
+warn: 2020-07-28T23:42:50.933Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:42:50.935Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 5.044 ms
+info: 2020-07-28T23:42:50.950Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:42:50.951Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.064 ms
+info: 2020-07-28T23:42:50.982Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-07-28T23:42:50.983Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.793 ms
+info: 2020-07-28T23:42:50.990Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-07-28T23:42:50.990Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 2.026 ms
+info: 2020-07-28T23:42:50.995Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-07-28T23:42:50.996Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.463 ms
+info: 2020-07-28T23:42:51.003Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-07-28T23:42:51.004Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 2.119 ms
+info: 2020-07-28T23:42:51.011Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-07-28T23:42:51.011Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.318 ms
+info: 2020-07-28T23:42:51.019Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long"}
+info: 2020-07-28T23:42:51.020Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.669 ms
+info: 2020-07-28T23:42:51.026Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:42:51.026Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.260 ms
+info: 2020-07-28T23:42:51.034Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-07-28T23:42:51.034Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.233 ms
+info: 2020-07-28T23:42:51.114Z Nuevo producto agregado {"_id":"5f20b7fb5fb6460f142e7ed2","username":"daniel","email":"appdelante@gmail.com","password":"$2b$10$OYveWY1Khhqwf2xxIAgaNerugmXFcG1kiV1Q7T3.ARN3BaDniHq3W","__v":0}
+info: 2020-07-28T23:42:51.114Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 167 - 75.078 ms
+info: 2020-07-28T23:44:48.123Z Escuchando en el puerto 3000
+info: 2020-07-28T23:44:48.207Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 19.316 ms
+info: 2020-07-28T23:44:48.279Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 8.221 ms
+info: 2020-07-28T23:44:48.410Z Nuevo producto agregado {"_id":"5f20b87052089d2e6004dc09","username":"test","email":"test@test.com","password":"$2b$10$oGW/OXkvR4odESG0U.j.o.eaxQIE1exKTFmKbOdd71Ip.GhOZ2M76","__v":0}
+info: 2020-07-28T23:44:48.411Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 88.606 ms
+warn: 2020-07-28T23:44:48.526Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:44:48.527Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 3.529 ms
+info: 2020-07-28T23:44:48.543Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:44:48.544Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.722 ms
+info: 2020-07-28T23:44:48.553Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-07-28T23:44:48.554Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.517 ms
+info: 2020-07-28T23:44:48.560Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-07-28T23:44:48.560Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.634 ms
+info: 2020-07-28T23:44:48.567Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-07-28T23:44:48.567Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.575 ms
+info: 2020-07-28T23:44:48.572Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-07-28T23:44:48.573Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.353 ms
+info: 2020-07-28T23:44:48.579Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-07-28T23:44:48.580Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.357 ms
+info: 2020-07-28T23:44:48.587Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long"}
+info: 2020-07-28T23:44:48.588Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.927 ms
+info: 2020-07-28T23:44:48.594Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:44:48.594Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.387 ms
+info: 2020-07-28T23:44:48.600Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-07-28T23:44:48.601Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.255 ms
+info: 2020-07-28T23:44:48.696Z Nuevo producto agregado {"_id":"5f20b87052089d2e6004dc10","username":"daniel","email":"appdelante@gmail.com","password":"$2b$10$NL8Ebe7pvG9EsHXdJMh74.fu6O47atTr11r6b2YDM36u3/UdKnFzi","__v":0}
+info: 2020-07-28T23:44:48.697Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 167 - 90.741 ms
+info: 2020-07-28T23:47:36.176Z Escuchando en el puerto 3000
+info: 2020-07-28T23:47:36.235Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.032 ms
+info: 2020-07-28T23:47:36.266Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.948 ms
+info: 2020-07-28T23:47:36.368Z Nuevo producto agregado {"_id":"5f20b9180113383f7446c0e6","username":"test","email":"test@test.com","password":"$2b$10$aZovSzyVHwqqd43BZMAeBOs2fc0eG/KytO5khDmJBN35uIkjUBpEy","__v":0}
+info: 2020-07-28T23:47:36.369Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 79.780 ms
+warn: 2020-07-28T23:47:36.450Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:47:36.450Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.693 ms
+info: 2020-07-28T23:47:36.465Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:47:36.465Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.226 ms
+info: 2020-07-28T23:47:36.490Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-07-28T23:47:36.490Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.558 ms
+info: 2020-07-28T23:47:36.503Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-07-28T23:47:36.504Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.458 ms
+info: 2020-07-28T23:47:36.517Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-07-28T23:47:36.518Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.670 ms
+info: 2020-07-28T23:47:36.526Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-07-28T23:47:36.527Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.910 ms
+info: 2020-07-28T23:47:36.535Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-07-28T23:47:36.536Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.966 ms
+info: 2020-07-28T23:47:36.545Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:47:36.547Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 2.000 ms
+info: 2020-07-28T23:47:36.554Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:47:36.554Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.323 ms
+info: 2020-07-28T23:47:36.560Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-07-28T23:47:36.560Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.287 ms
+info: 2020-07-28T23:47:36.642Z Nuevo producto agregado {"_id":"5f20b9180113383f7446c0ed","username":"test","email":"helptest@test.com","password":"$2b$10$5JhN.PBCIBau.a0XHB2TWeB889PZEGoVAQO0OPfDCBgZUKA1fXW3i","__v":0}
+info: 2020-07-28T23:47:36.643Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 76.457 ms
+info: 2020-07-28T23:48:18.903Z Escuchando en el puerto 3000
+info: 2020-07-28T23:48:18.955Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.856 ms
+info: 2020-07-28T23:48:18.983Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.352 ms
+info: 2020-07-28T23:48:19.084Z Nuevo producto agregado {"_id":"5f20b9437f0b1425d88bee88","username":"test","email":"test@test.com","password":"$2b$10$JzZL3.0fD2g3sX4RDfc8BOB1kUGe1m1TZ3/39/nJOBe6xeKxpj4Xq","__v":0}
+info: 2020-07-28T23:48:19.085Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 78.618 ms
+warn: 2020-07-28T23:48:19.174Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:48:19.174Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 3.111 ms
+warn: 2020-07-28T23:48:19.189Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:48:19.190Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 6.265 ms
+info: 2020-07-28T23:48:19.203Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-07-28T23:48:19.205Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 9.019 ms
+info: 2020-07-28T23:48:19.213Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-07-28T23:48:19.213Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.877 ms
+info: 2020-07-28T23:48:19.220Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-07-28T23:48:19.221Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 2.658 ms
+info: 2020-07-28T23:48:19.226Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-07-28T23:48:19.227Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.400 ms
+info: 2020-07-28T23:48:19.233Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-07-28T23:48:19.234Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.325 ms
+info: 2020-07-28T23:48:19.241Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:48:19.242Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.624 ms
+info: 2020-07-28T23:48:19.248Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:48:19.248Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.590 ms
+info: 2020-07-28T23:48:19.255Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-07-28T23:48:19.255Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.261 ms
+info: 2020-07-28T23:48:19.372Z Nuevo producto agregado {"_id":"5f20b9437f0b1425d88bee8f","username":"test","email":"helptest@test.com","password":"$2b$10$vfkc6YaWsScqRQR5vndevulGuOyvmZMNTFg.DUe/duYuWIly9auZm","__v":0}
+info: 2020-07-28T23:48:19.373Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 112.449 ms
+info: 2020-07-28T23:49:10.545Z Escuchando en el puerto 3000
+info: 2020-07-28T23:49:10.598Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.550 ms
+info: 2020-07-28T23:49:10.644Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.364 ms
+info: 2020-07-28T23:49:10.750Z Nuevo producto agregado {"_id":"5f20b976c6efd538587db6bb","username":"test","email":"test@test.com","password":"$2b$10$P3.Hy/dD37rf9vNFBXSbg.UtCW.L.E8wza6C9w5BCk.rD.UnTX2.K","__v":0}
+info: 2020-07-28T23:49:10.751Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 80.951 ms
+warn: 2020-07-28T23:49:10.862Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-07-28T23:49:10.863Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 3.974 ms
+warn: 2020-07-28T23:49:10.876Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-07-28T23:49:10.877Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.723 ms
+info: 2020-07-28T23:49:10.888Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-07-28T23:49:10.889Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 7.933 ms
+info: 2020-07-28T23:49:10.895Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-07-28T23:49:10.896Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.508 ms
+info: 2020-07-28T23:49:10.901Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-07-28T23:49:10.902Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.817 ms
+info: 2020-07-28T23:49:10.908Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-07-28T23:49:10.908Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.601 ms
+info: 2020-07-28T23:49:10.915Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-07-28T23:49:10.915Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.406 ms
+info: 2020-07-28T23:49:10.923Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:49:10.924Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.823 ms
+info: 2020-07-28T23:49:10.930Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-07-28T23:49:10.931Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.326 ms
+info: 2020-07-28T23:49:10.937Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-07-28T23:49:10.937Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.305 ms
+info: 2020-07-28T23:49:11.047Z Nuevo producto agregado {"_id":"5f20b977c6efd538587db6c2","username":"test","email":"helptest@test.com","password":"$2b$10$peP.9neeqmjSOz3k.9z.leaGoqLn8wbupWLESBh.Pq/l9ifz42H/S","__v":0}
+info: 2020-07-28T23:49:11.048Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 105.444 ms
