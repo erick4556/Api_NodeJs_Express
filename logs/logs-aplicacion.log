@@ -1366,3 +1366,54 @@ info: 2020-07-24T23:48:30.750Z Usuario test3 completó autenticación exitosamen
 info: 2020-07-24T23:48:30.752Z ::1 - POST /users/login HTTP/1.1 200 183 - 73.701 ms
 info: 2020-07-24T23:48:31.841Z Usuario test3 completó autenticación exitosamente.
 info: 2020-07-24T23:48:31.843Z ::1 - POST /users/login HTTP/1.1 200 183 - 72.286 ms
+info: 2020-07-28T00:00:44.975Z Escuchando en el puerto 3000
+error: 2020-07-28T00:00:46.989Z Falló la conexión a mongodb
+info: 2020-07-28T00:09:26.595Z Escuchando en el puerto 3000
+error: 2020-07-28T00:09:28.608Z Falló la conexión a mongodb
+info: 2020-07-28T00:10:15.098Z Escuchando en el puerto 3000
+error: 2020-07-28T00:10:17.120Z Falló la conexión a mongodb
+info: 2020-07-28T00:11:48.643Z Escuchando en el puerto 3000
+error: 2020-07-28T00:11:50.656Z Falló la conexión a mongodb
+info: 2020-07-28T00:15:05.374Z Escuchando en el puerto 3000
+error: 2020-07-28T00:15:07.386Z Falló la conexión a mongodb
+info: 2020-07-28T00:16:11.150Z Escuchando en el puerto 3000
+error: 2020-07-28T00:16:13.163Z Falló la conexión a mongodb
+info: 2020-07-28T00:16:20.077Z Escuchando en el puerto 3000
+error: 2020-07-28T00:16:22.089Z Falló la conexión a mongodb
+info: 2020-07-28T00:16:35.315Z Escuchando en el puerto 3000
+error: 2020-07-28T00:16:37.321Z Falló la conexión a mongodb
+info: 2020-07-28T00:16:51.601Z Escuchando en el puerto 3000
+error: 2020-07-28T00:16:53.617Z Falló la conexión a mongodb
+info: 2020-07-28T00:17:01.152Z Escuchando en el puerto 3000
+error: 2020-07-28T00:17:03.165Z Falló la conexión a mongodb
+info: 2020-07-28T00:17:29.063Z Escuchando en el puerto 3000
+error: 2020-07-28T00:17:31.075Z Falló la conexión a mongodb
+info: 2020-07-28T00:17:37.224Z Escuchando en el puerto 3000
+error: 2020-07-28T00:17:39.236Z Falló la conexión a mongodb
+info: 2020-07-28T00:18:28.060Z Escuchando en el puerto 3000
+info: 2020-07-28T00:18:41.403Z ::1 - GET /products/ HTTP/1.1 200 428 - 23.188 ms
+info: 2020-07-28T00:18:49.277Z Escuchando en el puerto 3000
+info: 2020-07-28T00:19:02.262Z Escuchando en el puerto 3000
+info: 2020-07-28T00:19:16.871Z Escuchando en el puerto 3000
+info: 2020-07-28T00:19:24.237Z ::1 - GET /products/ HTTP/1.1 200 428 - 22.010 ms
+info: 2020-07-28T00:19:25.254Z ::1 - GET /products/ HTTP/1.1 200 428 - 4.572 ms
+info: 2020-07-28T00:19:30.312Z ::1 - GET /products/ HTTP/1.1 200 428 - 4.568 ms
+info: 2020-07-28T00:19:31.027Z ::1 - GET /products/ HTTP/1.1 200 428 - 3.208 ms
+info: 2020-07-28T00:19:31.660Z ::1 - GET /products/ HTTP/1.1 200 428 - 3.875 ms
+info: 2020-07-28T00:19:32.166Z ::1 - GET /products/ HTTP/1.1 200 428 - 2.626 ms
+info: 2020-07-28T00:19:32.674Z ::1 - GET /products/ HTTP/1.1 200 428 - 3.629 ms
+info: 2020-07-28T00:19:33.242Z ::1 - GET /products/ HTTP/1.1 200 428 - 4.916 ms
+info: 2020-07-28T00:19:33.650Z ::1 - GET /products/ HTTP/1.1 200 428 - 2.483 ms
+info: 2020-07-28T00:19:37.665Z Escuchando en el puerto 3000
+info: 2020-07-28T00:20:26.584Z Escuchando en el puerto 3000
+info: 2020-07-28T00:20:26.647Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 9.301 ms
+info: 2020-07-28T00:22:31.997Z Escuchando en el puerto 3000
+info: 2020-07-28T00:22:32.048Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.354 ms
+info: 2020-07-28T00:23:05.769Z Escuchando en el puerto 3000
+info: 2020-07-28T00:23:05.819Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.986 ms
+info: 2020-07-28T00:23:40.314Z Escuchando en el puerto 3000
+info: 2020-07-28T00:23:40.369Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.010 ms
+info: 2020-07-28T00:24:15.498Z Escuchando en el puerto 3000
+info: 2020-07-28T00:24:15.555Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 9.032 ms
+info: 2020-07-28T00:25:10.852Z Escuchando en el puerto 3000
+info: 2020-07-28T00:25:10.916Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 12.984 ms
