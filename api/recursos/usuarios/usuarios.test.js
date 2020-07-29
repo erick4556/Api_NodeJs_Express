@@ -3,6 +3,8 @@ const User = require("./usuarios.model");
 const app = require("../../../index").app;
 const server = require("../../../index").server;
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const config = require("../../../config");
 
 const testUsers = [
   {
@@ -287,6 +289,152 @@ describe("Usuarios", () => {
             },
             done
           );
+        });
+    });
+  });
+
+  describe("POST /login", () => {
+    test("Login debería fallar para un request que no tiene username", (done) => {
+      let bodyLogin = {
+        password: "passwordpassword",
+      };
+      request(app)
+        .post("/users/login")
+        .send(bodyLogin)
+        .end((err, res) => {
+          expect(res.status).toBe(400);
+          expect(typeof res.text).toBe("string");
+          done();
+        });
+    });
+
+    test("Login debería fallar para un request que no tiene password", (done) => {
+      let bodyLogin = {
+        username: "usernamedev",
+      };
+      request(app)
+        .post("/users/login")
+        .send(bodyLogin)
+        .end((err, res) => {
+          expect(res.status).toBe(400);
+          expect(typeof res.text).toBe("string");
+          done();
+        });
+    });
+
+    test("Login debería fallar para un usuario que no esta registrado", (done) => {
+      let bodyLogin = {
+        username: "usernamedev",
+        password: "passwordpassword",
+      };
+      request(app)
+        .post("/users/login")
+        .send(bodyLogin)
+        .end((err, res) => {
+          expect(res.status).toBe(400);
+          expect(typeof res.text).toBe("string");
+          done();
+        });
+    });
+
+    test("Login debería fallar para un usuario registrado que suministra una contraseña incorrecta", (done) => {
+      let user = {
+        username: "test",
+        email: "test@test.com",
+        password: "test123",
+      };
+
+      new User({
+        username: user.username,
+        email: user.email,
+        password: bcrypt.hashSync(user.password, 10),
+      })
+        .save()
+        .then((newUser) => {
+          request(app)
+            .post("/users/login")
+            .send({
+              username: user.username,
+              password: "pruebapass",
+            })
+            .end((err, res) => {
+              expect(res.status).toBe(400);
+              expect(typeof res.text).toBe("string");
+              done();
+            });
+        })
+        .catch((err) => {
+          done(err);
+        });
+    });
+
+    test("Usuario registrado debería obtener un JWT token al hacer login con credenciales correctas", (done) => {
+      let user = {
+        username: "test",
+        email: "test@test.com",
+        password: "test123",
+      };
+
+      new User({
+        username: user.username,
+        email: user.email,
+        password: bcrypt.hashSync(user.password, 10),
+      })
+        .save()
+        .then((newUser) => {
+          request(app)
+            .post("/users/login")
+            .send({
+              username: user.username,
+              password: user.password,
+            })
+            .end((err, res) => {
+              expect(res.status).toBe(200);
+              expect(res.body.token).toEqual(
+                jwt.sign({ id: newUser._id }, config.jwt.secret, {
+                  expiresIn: config.jwt.expirationTime,
+                })
+              );
+              done();
+            });
+        })
+        .catch((err) => {
+          done(err);
+        });
+    });
+
+    test("Al hacer login no debe importar la capitalización del username", (done) => {
+      let user = {
+        username: "test",
+        email: "test@test.com",
+        password: "test123",
+      };
+
+      new User({
+        username: user.username,
+        email: user.email,
+        password: bcrypt.hashSync(user.password, 10),
+      })
+        .save()
+        .then((newUser) => {
+          request(app)
+            .post("/users/login")
+            .send({
+              username: "TeST",
+              password: user.password,
+            })
+            .end((err, res) => {
+              expect(res.status).toBe(200);
+              expect(res.body.token).toEqual(
+                jwt.sign({ id: newUser._id }, config.jwt.secret, {
+                  expiresIn: config.jwt.expirationTime,
+                })
+              );
+              done();
+            });
+        })
+        .catch((err) => {
+          done(err);
         });
     });
   });
