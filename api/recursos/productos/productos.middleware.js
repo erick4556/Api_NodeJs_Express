@@ -4,7 +4,7 @@ const log = require("../../../utils/logger");
 const blueprintProducto = Joi.object({
   titulo: Joi.string().max(100).required(),
   precio: Joi.number().positive().precision(2).required(), //precision es para los decimales
-  moneda: Joi.string().length(3).uppercase(), //length se dice que estrictamente tiene que ser de ese tamaño
+  moneda: Joi.string().length(3).uppercase().required(), //length se dice que estrictamente tiene que ser de ese tamaño
 }); //Guardar como se ve un objeto válido
 
 //Middleware
