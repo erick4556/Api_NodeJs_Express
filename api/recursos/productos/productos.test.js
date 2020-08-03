@@ -275,4 +275,55 @@ describe("Productos", () => {
         });
     });
   });
+
+  describe("PUT /products/:id", () => {
+    let idProductExists;
+
+    beforeAll(getToken);
+
+    beforeEach((done) => {
+      Product.deleteMany({}, (err) => {
+        if (err) done(err);
+        Product(objTest)
+          .save()
+          .then((product) => {
+            idProductExists = product._id;
+            done();
+          })
+          .catch((err) => {
+            done(err);
+          });
+      });
+    });
+
+    test("Tratar de obtener un producto con un id inválido debería retornar 400", (done) => {
+      request(app)
+        .put("/products/123")
+        .set("Authorization", `Bearer ${authToken}`)
+        .end((err, res) => {
+          expect(res.status).toBe(400);
+          done();
+        });
+    });
+
+    test("Tratar de editar un producto que no existe debería retornar 404", (done) => {
+      request(app)
+        .put(`/products/${idInexistente}`)
+        .set("Authorization", `Bearer ${authToken}`)
+        .end((err, res) => {
+          expect(res.status).toBe(400);
+          done();
+        });
+    });
+
+    test("Si el usuario no provee un token de autenticación válido, debería retornar 401", (done) => {
+      request(app)
+        .put(`/products/${idProductExists}`)
+        .set("Authorization", `Bearer ${invalidToken}`)
+        .end((err, res) => {
+          expect(res.status).toBe(401);
+          done();
+        });
+    });
+  });
 });

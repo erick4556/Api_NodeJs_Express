@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit --runInBand",
+    "test": "NODE_ENV=test jest --forceExit --runInBand --coverage",
     "start": "nodemon index.js"
   },
   "author": "Erick",
@@ -28,5 +28,10 @@
   "devDependencies": {
     "jest": "^26.0.1",
     "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/config/"
+    ]
   }
 }
