@@ -17,6 +17,7 @@ mongoose.connection.on("error", () => {
   logger.error("Falló la conexión a mongodb");
   process.exit(1); //Mata el proceso de node
 });
+mongoose.set("useFindAndModify", false);
 
 const app = express();
 

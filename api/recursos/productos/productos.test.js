@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken");
 const config = require("../../../config");
 const Product = require("../productos/products.model");
 const User = require("../usuarios/usuarios.model");
+const mongoose = require("mongoose");
 
 const objTest = {
   titulo: "AlienWare",
@@ -58,12 +59,13 @@ const getToken = (done) => {
 
 describe("Productos", () => {
   beforeEach((done) => {
-    Product.remove({}, (err) => {
+    Product.deleteMany({}, (err) => {
       done();
     });
   });
-  afterAll(() => {
+  afterAll(async () => {
     server.close();
+    await mongoose.disconnect();
   });
 
   describe("GET /products/:id", () => {

@@ -6663,3 +6663,938 @@ info: 2020-08-03T02:30:59.582Z Usuario test completó autenticación exitosament
 info: 2020-08-03T02:30:59.583Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.637 ms
 info: 2020-08-03T02:31:20.345Z Escuchando en el puerto 3000
 info: 2020-08-03T02:31:42.259Z ::1 - GET /users HTTP/1.1 200 160 - 16.579 ms
+info: 2020-08-03T23:30:50.364Z Escuchando en el puerto 3000
+info: 2020-08-03T23:30:50.414Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 3.264 ms
+info: 2020-08-03T23:30:50.432Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 7.453 ms
+info: 2020-08-03T23:30:50.452Z ::ffff:127.0.0.1 - GET /products/5f289e2a26a86105dc217899 HTTP/1.1 200 107 - 3.360 ms
+info: 2020-08-03T23:30:50.718Z Nuevo producto agregado {"_id":"5f289e2a26a86105dc21789a","username":"test","email":"test@test.com","password":"$2b$10$3PBbbTHvE2n0e8txcjCoAOA.3d/F9JD1ApBjl3wcnDHV3yZtcERh2","__v":0}
+info: 2020-08-03T23:30:50.719Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 114.002 ms
+info: 2020-08-03T23:30:50.796Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:30:50.797Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 73.227 ms
+info: 2020-08-03T23:30:50.804Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:30:50.809Z Nuevo producto agregado {"_id":"5f289e2a26a86105dc21789b","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:30:50.810Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 8.563 ms
+info: 2020-08-03T23:30:50.816Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.669 ms
+info: 2020-08-03T23:30:50.825Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:30:50.826Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:30:50.830Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.140 ms
+info: 2020-08-03T23:30:50.836Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:30:50.837Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:30:50.838Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.885 ms
+info: 2020-08-03T23:30:50.844Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:30:50.844Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:30:50.845Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.544 ms
+info: 2020-08-03T23:30:50.922Z Nuevo producto agregado {"_id":"5f289e2a26a86105dc21789c","username":"test","email":"test@test.com","password":"$2b$10$.38o6o6TEWQ.qflEPxB62uSVEox/5LXt4kbAbK3TOb0ZFGBzfeoKe","__v":0}
+info: 2020-08-03T23:30:50.922Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 73.248 ms
+info: 2020-08-03T23:30:50.994Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:30:50.995Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.767 ms
+info: 2020-08-03T23:30:51.003Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:30:51.004Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.207 ms
+info: 2020-08-03T23:30:51.014Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:30:51.017Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:30:51.018Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 5.021 ms
+info: 2020-08-03T23:30:51.024Z ::ffff:127.0.0.1 - DELETE /products/5f289e2b26a86105dc21789f HTTP/1.1 401 - - 0.371 ms
+info: 2020-08-03T23:30:51.034Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:30:51.036Z Usuario test no es dueño del producto con id 5f289e2b26a86105dc2178a1. Dueño real es carl78.
+info: 2020-08-03T23:30:51.037Z ::ffff:127.0.0.1 - DELETE /products/5f289e2b26a86105dc2178a1 HTTP/1.1 401 107 - 4.340 ms
+info: 2020-08-03T23:30:51.045Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:30:51.052Z El producto con id 5f289e2b26a86105dc2178a2 fue borrado
+info: 2020-08-03T23:30:51.053Z ::ffff:127.0.0.1 - DELETE /products/5f289e2b26a86105dc2178a2 HTTP/1.1 200 107 - 9.640 ms
+info: 2020-08-03T23:30:51.136Z Nuevo producto agregado {"_id":"5f289e2b26a86105dc2178a3","username":"test","email":"test@test.com","password":"$2b$10$imKO1XhLBYKPAf4hrGOxqu7A2AFOv5SrH.5wr55boK1KJkKKJLPbW","__v":0}
+info: 2020-08-03T23:30:51.136Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 74.053 ms
+info: 2020-08-03T23:30:51.207Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:30:51.208Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.358 ms
+info: 2020-08-03T23:30:51.216Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:30:51.217Z El siguiente producto no paso la validación
+info: 2020-08-03T23:30:51.217Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.681 ms
+info: 2020-08-03T23:30:51.224Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:30:51.225Z El siguiente producto no paso la validación
+info: 2020-08-03T23:30:51.226Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.293 ms
+info: 2020-08-03T23:30:51.232Z ::ffff:127.0.0.1 - PUT /products/5f289e2b26a86105dc2178a6 HTTP/1.1 401 - - 0.455 ms
+info: 2020-08-03T23:30:52.280Z Escuchando en el puerto 3000
+info: 2020-08-03T23:30:52.325Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 14.148 ms
+info: 2020-08-03T23:30:52.357Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.235 ms
+info: 2020-08-03T23:30:52.449Z Nuevo producto agregado {"_id":"5f289e2cdf4e3405dced1042","username":"test","email":"test@test.com","password":"$2b$10$TlFe6HUPVl5MBPP3hvi7Xu6VWjMCxg1JUqR3LFKNirA.FurzbPE5W","__v":0}
+info: 2020-08-03T23:30:52.450Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 78.319 ms
+warn: 2020-08-03T23:30:52.536Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:30:52.536Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.677 ms
+warn: 2020-08-03T23:30:52.546Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:30:52.547Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.250 ms
+info: 2020-08-03T23:30:52.554Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:30:52.555Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.775 ms
+info: 2020-08-03T23:30:52.560Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:30:52.561Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.091 ms
+info: 2020-08-03T23:30:52.565Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:30:52.566Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.960 ms
+info: 2020-08-03T23:30:52.573Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:30:52.573Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.954 ms
+info: 2020-08-03T23:30:52.579Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:30:52.579Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.815 ms
+info: 2020-08-03T23:30:52.585Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:30:52.586Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.279 ms
+info: 2020-08-03T23:30:52.591Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:30:52.592Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.815 ms
+info: 2020-08-03T23:30:52.597Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:30:52.598Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.824 ms
+info: 2020-08-03T23:30:52.674Z Nuevo producto agregado {"_id":"5f289e2cdf4e3405dced1049","username":"test","email":"helptest@test.com","password":"$2b$10$GhaNJqr2i.BLH1bVex7UXeIqz4H8ws7z50E3XhbFErrSy9kf27gSK","__v":0}
+info: 2020-08-03T23:30:52.675Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 71.161 ms
+info: 2020-08-03T23:30:52.750Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.404 ms
+info: 2020-08-03T23:30:52.755Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.363 ms
+info: 2020-08-03T23:30:52.763Z Usuario usernamedev no existe.
+info: 2020-08-03T23:30:52.763Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.723 ms
+info: 2020-08-03T23:30:52.914Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:30:52.915Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 74.217 ms
+info: 2020-08-03T23:30:53.070Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:30:53.071Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 74.440 ms
+info: 2020-08-03T23:30:53.213Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:30:53.214Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.546 ms
+info: 2020-08-03T23:31:15.670Z Escuchando en el puerto 3000
+info: 2020-08-03T23:31:15.708Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.357 ms
+info: 2020-08-03T23:31:15.726Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 8.062 ms
+info: 2020-08-03T23:31:15.745Z ::ffff:127.0.0.1 - GET /products/5f289e4340d90f20b0ffc584 HTTP/1.1 200 107 - 3.176 ms
+info: 2020-08-03T23:31:15.854Z Nuevo producto agregado {"_id":"5f289e4340d90f20b0ffc585","username":"test","email":"test@test.com","password":"$2b$10$urd4lgw4UgG0XR6syvnbAu6IoRNwOhP6.XFggqZrXhBFKd7q14xri","__v":0}
+info: 2020-08-03T23:31:15.855Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 84.564 ms
+info: 2020-08-03T23:31:15.929Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:15.930Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.339 ms
+info: 2020-08-03T23:31:15.938Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:15.941Z Nuevo producto agregado {"_id":"5f289e4340d90f20b0ffc586","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:31:15.942Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 7.031 ms
+info: 2020-08-03T23:31:15.948Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.578 ms
+info: 2020-08-03T23:31:15.953Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:15.955Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:31:15.958Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 5.803 ms
+info: 2020-08-03T23:31:15.965Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:15.966Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:31:15.967Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.803 ms
+info: 2020-08-03T23:31:15.973Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:15.973Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:31:15.974Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.654 ms
+info: 2020-08-03T23:31:16.056Z Nuevo producto agregado {"_id":"5f289e4440d90f20b0ffc587","username":"test","email":"test@test.com","password":"$2b$10$3WzIHuV5uqBk72qi6xSb0e6inqOboyTM.fxiglQqwN/fzhWgsIP1a","__v":0}
+info: 2020-08-03T23:31:16.057Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 78.329 ms
+info: 2020-08-03T23:31:16.136Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:16.136Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 75.585 ms
+info: 2020-08-03T23:31:16.145Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:16.146Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 1.977 ms
+info: 2020-08-03T23:31:16.156Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:16.160Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:31:16.161Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 6.028 ms
+info: 2020-08-03T23:31:16.169Z ::ffff:127.0.0.1 - DELETE /products/5f289e4440d90f20b0ffc58a HTTP/1.1 401 - - 0.480 ms
+info: 2020-08-03T23:31:16.180Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:16.183Z Usuario test no es dueño del producto con id 5f289e4440d90f20b0ffc58c. Dueño real es carl78.
+info: 2020-08-03T23:31:16.184Z ::ffff:127.0.0.1 - DELETE /products/5f289e4440d90f20b0ffc58c HTTP/1.1 401 107 - 5.920 ms
+info: 2020-08-03T23:31:16.194Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:16.201Z El producto con id 5f289e4440d90f20b0ffc58d fue borrado
+info: 2020-08-03T23:31:16.202Z ::ffff:127.0.0.1 - DELETE /products/5f289e4440d90f20b0ffc58d HTTP/1.1 200 107 - 9.634 ms
+info: 2020-08-03T23:31:16.289Z Nuevo producto agregado {"_id":"5f289e4440d90f20b0ffc58e","username":"test","email":"test@test.com","password":"$2b$10$Kq9RY0DmgQhvD1YguO0UF.qIPBJx9GvtiwUkkHDalFld1F5G1Zoga","__v":0}
+info: 2020-08-03T23:31:16.290Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 78.989 ms
+info: 2020-08-03T23:31:16.367Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:16.368Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 74.548 ms
+info: 2020-08-03T23:31:16.377Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:16.377Z El siguiente producto no paso la validación
+info: 2020-08-03T23:31:16.378Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.875 ms
+info: 2020-08-03T23:31:16.387Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:16.387Z El siguiente producto no paso la validación
+info: 2020-08-03T23:31:16.388Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.876 ms
+info: 2020-08-03T23:31:16.395Z ::ffff:127.0.0.1 - PUT /products/5f289e4440d90f20b0ffc591 HTTP/1.1 401 - - 0.397 ms
+info: 2020-08-03T23:31:17.506Z Escuchando en el puerto 3000
+info: 2020-08-03T23:31:17.553Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 14.612 ms
+info: 2020-08-03T23:31:17.583Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.228 ms
+info: 2020-08-03T23:31:17.675Z Nuevo producto agregado {"_id":"5f289e451ac35420b0aca7b2","username":"test","email":"test@test.com","password":"$2b$10$jPP3nYszBSOWODchR1HZW.Dsb8oIPiwD.9dvYieUucyHZPW1F8yza","__v":0}
+info: 2020-08-03T23:31:17.675Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 77.092 ms
+warn: 2020-08-03T23:31:17.757Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:31:17.758Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.453 ms
+warn: 2020-08-03T23:31:17.768Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:31:17.768Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.136 ms
+info: 2020-08-03T23:31:17.776Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:31:17.777Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 4.141 ms
+info: 2020-08-03T23:31:17.783Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:31:17.783Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.645 ms
+info: 2020-08-03T23:31:17.788Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:31:17.789Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.873 ms
+info: 2020-08-03T23:31:17.797Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:31:17.797Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.170 ms
+info: 2020-08-03T23:31:17.803Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:31:17.804Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.893 ms
+info: 2020-08-03T23:31:17.810Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:31:17.811Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.145 ms
+info: 2020-08-03T23:31:17.816Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:31:17.817Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.800 ms
+info: 2020-08-03T23:31:17.822Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:31:17.823Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.774 ms
+info: 2020-08-03T23:31:17.900Z Nuevo producto agregado {"_id":"5f289e451ac35420b0aca7b9","username":"test","email":"helptest@test.com","password":"$2b$10$HK8aDEF3JZl2SaTuk2JX6eYrPTv/a6jMIyezR4TDVv7Biki.BoJr2","__v":0}
+info: 2020-08-03T23:31:17.900Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 71.800 ms
+info: 2020-08-03T23:31:17.974Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.410 ms
+info: 2020-08-03T23:31:17.978Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.287 ms
+info: 2020-08-03T23:31:17.985Z Usuario usernamedev no existe.
+info: 2020-08-03T23:31:17.985Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.779 ms
+info: 2020-08-03T23:31:18.127Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:31:18.127Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 69.943 ms
+info: 2020-08-03T23:31:18.276Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:18.276Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 72.790 ms
+info: 2020-08-03T23:31:18.436Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:18.437Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 77.609 ms
+info: 2020-08-03T23:31:44.930Z Escuchando en el puerto 3000
+info: 2020-08-03T23:31:44.966Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.074 ms
+info: 2020-08-03T23:31:44.985Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 7.508 ms
+info: 2020-08-03T23:31:45.003Z ::ffff:127.0.0.1 - GET /products/5f289e60c9bc4b5088ca5dde HTTP/1.1 200 107 - 3.206 ms
+info: 2020-08-03T23:31:45.121Z Nuevo producto agregado {"_id":"5f289e61c9bc4b5088ca5ddf","username":"test","email":"test@test.com","password":"$2b$10$66il9M9tdyVGaAi0ZDO6vOc9aW9M77t.VV59pCHZlykQ03uGjLOyu","__v":0}
+info: 2020-08-03T23:31:45.122Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 90.938 ms
+info: 2020-08-03T23:31:45.197Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:45.197Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 71.451 ms
+info: 2020-08-03T23:31:45.205Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:45.209Z Nuevo producto agregado {"_id":"5f289e61c9bc4b5088ca5de0","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:31:45.209Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 7.000 ms
+info: 2020-08-03T23:31:45.215Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.547 ms
+info: 2020-08-03T23:31:45.220Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:45.222Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:31:45.225Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 5.761 ms
+info: 2020-08-03T23:31:45.231Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:45.231Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:31:45.232Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.502 ms
+info: 2020-08-03T23:31:45.238Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:45.238Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:31:45.239Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.406 ms
+info: 2020-08-03T23:31:45.315Z Nuevo producto agregado {"_id":"5f289e61c9bc4b5088ca5de1","username":"test","email":"test@test.com","password":"$2b$10$BZl5N0WUWoAYeyzXaB5bweKchUL5ArYfH05Q6cZfyNTnldzkxrqca","__v":0}
+info: 2020-08-03T23:31:45.316Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 72.183 ms
+info: 2020-08-03T23:31:45.387Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:45.388Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.939 ms
+info: 2020-08-03T23:31:45.395Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:45.396Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 1.889 ms
+info: 2020-08-03T23:31:45.404Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:45.407Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:31:45.407Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 5.112 ms
+info: 2020-08-03T23:31:45.414Z ::ffff:127.0.0.1 - DELETE /products/5f289e61c9bc4b5088ca5de4 HTTP/1.1 401 - - 0.362 ms
+info: 2020-08-03T23:31:45.425Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:45.427Z Usuario test no es dueño del producto con id 5f289e61c9bc4b5088ca5de6. Dueño real es carl78.
+info: 2020-08-03T23:31:45.427Z ::ffff:127.0.0.1 - DELETE /products/5f289e61c9bc4b5088ca5de6 HTTP/1.1 401 107 - 4.199 ms
+info: 2020-08-03T23:31:45.435Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:31:45.441Z El producto con id 5f289e61c9bc4b5088ca5de7 fue borrado
+info: 2020-08-03T23:31:45.442Z ::ffff:127.0.0.1 - DELETE /products/5f289e61c9bc4b5088ca5de7 HTTP/1.1 200 107 - 8.424 ms
+info: 2020-08-03T23:31:45.523Z Nuevo producto agregado {"_id":"5f289e61c9bc4b5088ca5de8","username":"test","email":"test@test.com","password":"$2b$10$rwdQYdAz4HPiFiK7y9.5Vedjk2Gkz.wOz6d.lUNEnUcE2.pEKQDxy","__v":0}
+info: 2020-08-03T23:31:45.524Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 72.141 ms
+info: 2020-08-03T23:31:45.594Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:45.595Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.024 ms
+info: 2020-08-03T23:31:45.603Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:45.603Z El siguiente producto no paso la validación
+info: 2020-08-03T23:31:45.604Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.720 ms
+info: 2020-08-03T23:31:45.613Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:31:45.613Z El siguiente producto no paso la validación
+info: 2020-08-03T23:31:45.614Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 3.768 ms
+info: 2020-08-03T23:31:45.622Z ::ffff:127.0.0.1 - PUT /products/5f289e61c9bc4b5088ca5deb HTTP/1.1 401 - - 0.403 ms
+info: 2020-08-03T23:31:46.607Z Escuchando en el puerto 3000
+info: 2020-08-03T23:31:46.642Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.014 ms
+info: 2020-08-03T23:31:46.668Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.734 ms
+info: 2020-08-03T23:31:46.760Z Nuevo producto agregado {"_id":"5f289e626630c05088cca43a","username":"test","email":"test@test.com","password":"$2b$10$oBHHhBs9Ho3S/ADJLfyDIewX7YxrpbvDwCRIIzUrX56KqXcIlZ67C","__v":0}
+info: 2020-08-03T23:31:46.761Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 77.955 ms
+warn: 2020-08-03T23:31:46.846Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:31:46.846Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.571 ms
+warn: 2020-08-03T23:31:46.856Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:31:46.857Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.529 ms
+info: 2020-08-03T23:31:46.864Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:31:46.865Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.424 ms
+info: 2020-08-03T23:31:46.869Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:31:46.870Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.083 ms
+info: 2020-08-03T23:31:46.875Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:31:46.876Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.891 ms
+info: 2020-08-03T23:31:46.882Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:31:46.882Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.967 ms
+info: 2020-08-03T23:31:46.890Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:31:46.891Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.960 ms
+info: 2020-08-03T23:31:46.897Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:31:46.898Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.051 ms
+info: 2020-08-03T23:31:46.903Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:31:46.904Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.908 ms
+info: 2020-08-03T23:31:46.910Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:31:46.911Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.894 ms
+info: 2020-08-03T23:31:46.986Z Nuevo producto agregado {"_id":"5f289e626630c05088cca441","username":"test","email":"helptest@test.com","password":"$2b$10$mEqDm8fOGlSbAH144GaxheVyt6Yxd3CuvtcJUWjvxNkgEWuTIRkHG","__v":0}
+info: 2020-08-03T23:31:46.987Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 71.537 ms
+info: 2020-08-03T23:31:47.059Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.377 ms
+info: 2020-08-03T23:31:47.063Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.286 ms
+info: 2020-08-03T23:31:47.074Z Usuario usernamedev no existe.
+info: 2020-08-03T23:31:47.074Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.941 ms
+info: 2020-08-03T23:31:47.213Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:31:47.214Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 67.544 ms
+info: 2020-08-03T23:31:47.354Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:47.355Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.372 ms
+info: 2020-08-03T23:31:47.498Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:31:47.499Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.582 ms
+info: 2020-08-03T23:33:32.258Z Escuchando en el puerto 3000
+info: 2020-08-03T23:33:32.295Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.150 ms
+info: 2020-08-03T23:33:32.314Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 7.643 ms
+info: 2020-08-03T23:33:32.332Z ::ffff:127.0.0.1 - GET /products/5f289eccb7a4802f8cb99719 HTTP/1.1 200 107 - 3.017 ms
+info: 2020-08-03T23:33:32.440Z Nuevo producto agregado {"_id":"5f289eccb7a4802f8cb9971a","username":"test","email":"test@test.com","password":"$2b$10$b3ae8tqTavWF/qJzhhKzleKMK582Jnvq.jJvAcOsANswpZYAPYShm","__v":0}
+info: 2020-08-03T23:33:32.440Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 83.453 ms
+info: 2020-08-03T23:33:32.514Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:33:32.514Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.444 ms
+info: 2020-08-03T23:33:32.522Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:33:32.525Z Nuevo producto agregado {"_id":"5f289eccb7a4802f8cb9971b","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:33:32.526Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.735 ms
+info: 2020-08-03T23:33:32.532Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.622 ms
+info: 2020-08-03T23:33:32.538Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:33:32.540Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:33:32.544Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.974 ms
+info: 2020-08-03T23:33:32.550Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:33:32.551Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:33:32.551Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.646 ms
+info: 2020-08-03T23:33:32.557Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:33:32.558Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:33:32.559Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.866 ms
+info: 2020-08-03T23:33:32.633Z Nuevo producto agregado {"_id":"5f289eccb7a4802f8cb9971c","username":"test","email":"test@test.com","password":"$2b$10$DaMDEARMSsgQ2Qo0xmab4uGqweGzj6YdeaDhk3i8W3/S90jEWFh/2","__v":0}
+info: 2020-08-03T23:33:32.633Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 70.513 ms
+info: 2020-08-03T23:33:32.704Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:33:32.705Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.267 ms
+info: 2020-08-03T23:33:32.713Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:33:32.713Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 1.908 ms
+info: 2020-08-03T23:33:32.721Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:33:32.723Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:33:32.724Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.563 ms
+info: 2020-08-03T23:33:32.731Z ::ffff:127.0.0.1 - DELETE /products/5f289eccb7a4802f8cb9971f HTTP/1.1 401 - - 0.415 ms
+info: 2020-08-03T23:33:32.740Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:33:32.742Z Usuario test no es dueño del producto con id 5f289eccb7a4802f8cb99721. Dueño real es carl78.
+info: 2020-08-03T23:33:32.742Z ::ffff:127.0.0.1 - DELETE /products/5f289eccb7a4802f8cb99721 HTTP/1.1 401 107 - 3.766 ms
+info: 2020-08-03T23:33:32.750Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:33:32.755Z El producto con id 5f289eccb7a4802f8cb99722 fue borrado
+info: 2020-08-03T23:33:32.756Z ::ffff:127.0.0.1 - DELETE /products/5f289eccb7a4802f8cb99722 HTTP/1.1 200 107 - 7.504 ms
+info: 2020-08-03T23:33:32.842Z Nuevo producto agregado {"_id":"5f289eccb7a4802f8cb99723","username":"test","email":"test@test.com","password":"$2b$10$94I5ysyjJbbP5AqEfbQJEeBlZJ5X77Td7icUIfwuh3xrpI.RZ9h.i","__v":0}
+info: 2020-08-03T23:33:32.843Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 73.367 ms
+info: 2020-08-03T23:33:32.913Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:33:32.914Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.100 ms
+info: 2020-08-03T23:33:32.922Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:33:32.923Z El siguiente producto no paso la validación
+info: 2020-08-03T23:33:32.924Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 3.512 ms
+info: 2020-08-03T23:33:32.932Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:33:32.932Z El siguiente producto no paso la validación
+info: 2020-08-03T23:33:32.933Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.763 ms
+info: 2020-08-03T23:33:32.940Z ::ffff:127.0.0.1 - PUT /products/5f289eccb7a4802f8cb99726 HTTP/1.1 401 - - 0.417 ms
+info: 2020-08-03T23:33:33.965Z Escuchando en el puerto 3000
+info: 2020-08-03T23:33:34.008Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.930 ms
+info: 2020-08-03T23:33:34.037Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 5.211 ms
+info: 2020-08-03T23:33:34.126Z Nuevo producto agregado {"_id":"5f289ece56d46e2f8cfc815f","username":"test","email":"test@test.com","password":"$2b$10$n4k3vZJGpgcSaKkf6H2BKu/dxTYiMd07je1vG8lsAFaNnLHMgRniy","__v":0}
+info: 2020-08-03T23:33:34.127Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 76.183 ms
+warn: 2020-08-03T23:33:34.207Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:33:34.207Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.544 ms
+warn: 2020-08-03T23:33:34.217Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:33:34.218Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.477 ms
+info: 2020-08-03T23:33:34.226Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:33:34.227Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.710 ms
+info: 2020-08-03T23:33:34.232Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:33:34.232Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.871 ms
+info: 2020-08-03T23:33:34.237Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:33:34.237Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.905 ms
+info: 2020-08-03T23:33:34.243Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:33:34.244Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.976 ms
+info: 2020-08-03T23:33:34.250Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:33:34.250Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.927 ms
+info: 2020-08-03T23:33:34.257Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:33:34.257Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.158 ms
+info: 2020-08-03T23:33:34.263Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:33:34.263Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.765 ms
+info: 2020-08-03T23:33:34.269Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:33:34.269Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.745 ms
+info: 2020-08-03T23:33:34.345Z Nuevo producto agregado {"_id":"5f289ece56d46e2f8cfc8166","username":"test","email":"helptest@test.com","password":"$2b$10$AQ0CRg1mljc7kRhZfjuvzeoBOwp/ZyPcvPVnEPnXA4yFVOhfrO0/.","__v":0}
+info: 2020-08-03T23:33:34.345Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 71.614 ms
+info: 2020-08-03T23:33:34.419Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.382 ms
+info: 2020-08-03T23:33:34.423Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.297 ms
+info: 2020-08-03T23:33:34.429Z Usuario usernamedev no existe.
+info: 2020-08-03T23:33:34.430Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.793 ms
+info: 2020-08-03T23:33:34.572Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:33:34.573Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 67.220 ms
+info: 2020-08-03T23:33:34.713Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:33:34.714Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.236 ms
+info: 2020-08-03T23:33:34.858Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:33:34.858Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.338 ms
+info: 2020-08-03T23:36:13.207Z Escuchando en el puerto 3000
+info: 2020-08-03T23:36:13.244Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.165 ms
+info: 2020-08-03T23:36:13.263Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 7.942 ms
+info: 2020-08-03T23:36:13.282Z ::ffff:127.0.0.1 - GET /products/5f289f6d98dff137d0f69129 HTTP/1.1 200 107 - 3.434 ms
+info: 2020-08-03T23:36:13.392Z Nuevo producto agregado {"_id":"5f289f6d98dff137d0f6912a","username":"test","email":"test@test.com","password":"$2b$10$maOgtYkQIABZmsXlsce.PuoqJF5niTiiwAKxJgw54eJXqE7f/m/A2","__v":0}
+info: 2020-08-03T23:36:13.393Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 84.736 ms
+info: 2020-08-03T23:36:13.470Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:36:13.471Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 74.251 ms
+info: 2020-08-03T23:36:13.479Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:36:13.482Z Nuevo producto agregado {"_id":"5f289f6d98dff137d0f6912b","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:36:13.483Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.880 ms
+info: 2020-08-03T23:36:13.489Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.568 ms
+info: 2020-08-03T23:36:13.494Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:36:13.496Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:36:13.499Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.055 ms
+info: 2020-08-03T23:36:13.505Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:36:13.505Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:36:13.507Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.567 ms
+info: 2020-08-03T23:36:13.512Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:36:13.513Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:36:13.514Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.559 ms
+info: 2020-08-03T23:36:13.589Z Nuevo producto agregado {"_id":"5f289f6d98dff137d0f6912c","username":"test","email":"test@test.com","password":"$2b$10$.U9wX6mN1JmB/QxJ1WIYtui5WRmm1Gzvbk/ZGO/oFhjTinsRD3r.u","__v":0}
+info: 2020-08-03T23:36:13.589Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 71.331 ms
+info: 2020-08-03T23:36:13.662Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:36:13.662Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.835 ms
+info: 2020-08-03T23:36:13.670Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:36:13.671Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.108 ms
+info: 2020-08-03T23:36:13.680Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:36:13.682Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:36:13.683Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.852 ms
+info: 2020-08-03T23:36:13.690Z ::ffff:127.0.0.1 - DELETE /products/5f289f6d98dff137d0f6912f HTTP/1.1 401 - - 0.359 ms
+info: 2020-08-03T23:36:13.699Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:36:13.701Z Usuario test no es dueño del producto con id 5f289f6d98dff137d0f69131. Dueño real es carl78.
+info: 2020-08-03T23:36:13.702Z ::ffff:127.0.0.1 - DELETE /products/5f289f6d98dff137d0f69131 HTTP/1.1 401 107 - 3.716 ms
+info: 2020-08-03T23:36:13.710Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:36:13.716Z El producto con id 5f289f6d98dff137d0f69132 fue borrado
+info: 2020-08-03T23:36:13.717Z ::ffff:127.0.0.1 - DELETE /products/5f289f6d98dff137d0f69132 HTTP/1.1 200 107 - 7.903 ms
+info: 2020-08-03T23:36:13.801Z Nuevo producto agregado {"_id":"5f289f6d98dff137d0f69133","username":"test","email":"test@test.com","password":"$2b$10$TEdtBM33FT2.oXkAG87SKulEzpdFZ76xE0qOBy/uYC.5APotIEGtq","__v":0}
+info: 2020-08-03T23:36:13.801Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 75.643 ms
+info: 2020-08-03T23:36:13.872Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:36:13.873Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.412 ms
+info: 2020-08-03T23:36:13.882Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:36:13.884Z El siguiente producto no paso la validación
+info: 2020-08-03T23:36:13.885Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 4.869 ms
+info: 2020-08-03T23:36:13.894Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:36:13.894Z El siguiente producto no paso la validación
+info: 2020-08-03T23:36:13.895Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.355 ms
+info: 2020-08-03T23:36:13.901Z ::ffff:127.0.0.1 - PUT /products/5f289f6d98dff137d0f69136 HTTP/1.1 401 - - 0.342 ms
+info: 2020-08-03T23:36:14.940Z Escuchando en el puerto 3000
+info: 2020-08-03T23:36:14.972Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.822 ms
+info: 2020-08-03T23:36:15.002Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 5.858 ms
+info: 2020-08-03T23:36:15.092Z Nuevo producto agregado {"_id":"5f289f6f73864d37d0f571f7","username":"test","email":"test@test.com","password":"$2b$10$ns50K1VJmy4wDizdO3RWSu47f5EYsiMlwEoRDgFQoc4MYTDobPvlG","__v":0}
+info: 2020-08-03T23:36:15.093Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 76.613 ms
+warn: 2020-08-03T23:36:15.174Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:36:15.175Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.738 ms
+warn: 2020-08-03T23:36:15.185Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:36:15.186Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.283 ms
+info: 2020-08-03T23:36:15.193Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:36:15.194Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.249 ms
+info: 2020-08-03T23:36:15.198Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:36:15.199Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.884 ms
+info: 2020-08-03T23:36:15.203Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:36:15.204Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.988 ms
+info: 2020-08-03T23:36:15.211Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:36:15.212Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.985 ms
+info: 2020-08-03T23:36:15.217Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:36:15.218Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.845 ms
+info: 2020-08-03T23:36:15.224Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:36:15.225Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.013 ms
+info: 2020-08-03T23:36:15.230Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:36:15.230Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.950 ms
+info: 2020-08-03T23:36:15.237Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:36:15.237Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.954 ms
+info: 2020-08-03T23:36:15.319Z Nuevo producto agregado {"_id":"5f289f6f73864d37d0f571fe","username":"test","email":"helptest@test.com","password":"$2b$10$uz.xSNIbD4Mno2MWG9lVmuByoWxZ/.cmSgDu5UB7JlOLhXIfx2PuW","__v":0}
+info: 2020-08-03T23:36:15.319Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 76.601 ms
+info: 2020-08-03T23:36:15.396Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.503 ms
+info: 2020-08-03T23:36:15.400Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.295 ms
+info: 2020-08-03T23:36:15.408Z Usuario usernamedev no existe.
+info: 2020-08-03T23:36:15.408Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.817 ms
+info: 2020-08-03T23:36:15.554Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:36:15.554Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 69.543 ms
+info: 2020-08-03T23:36:15.696Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:36:15.696Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.596 ms
+info: 2020-08-03T23:36:15.840Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:36:15.841Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.858 ms
+info: 2020-08-03T23:37:26.481Z Escuchando en el puerto 3000
+info: 2020-08-03T23:37:26.518Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.104 ms
+info: 2020-08-03T23:37:26.535Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 8.086 ms
+info: 2020-08-03T23:37:26.554Z ::ffff:127.0.0.1 - GET /products/5f289fb6d2dac908c068f551 HTTP/1.1 200 107 - 2.970 ms
+info: 2020-08-03T23:37:26.661Z Nuevo producto agregado {"_id":"5f289fb6d2dac908c068f552","username":"test","email":"test@test.com","password":"$2b$10$j65LAFzO.DVz/9uCWo353O3q6T8faCh.IvBpMudxNyzzJqYJ7.He2","__v":0}
+info: 2020-08-03T23:37:26.662Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 82.111 ms
+info: 2020-08-03T23:37:26.734Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:37:26.735Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.852 ms
+info: 2020-08-03T23:37:26.742Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:37:26.745Z Nuevo producto agregado {"_id":"5f289fb6d2dac908c068f553","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:37:26.746Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.611 ms
+info: 2020-08-03T23:37:26.751Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.710 ms
+info: 2020-08-03T23:37:26.757Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:37:26.758Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:37:26.762Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.131 ms
+info: 2020-08-03T23:37:26.768Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:37:26.768Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:37:26.769Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.537 ms
+info: 2020-08-03T23:37:26.775Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:37:26.775Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:37:26.776Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.708 ms
+info: 2020-08-03T23:37:26.855Z Nuevo producto agregado {"_id":"5f289fb6d2dac908c068f554","username":"test","email":"test@test.com","password":"$2b$10$pCdS2V.ES./kDZToqW6P2eFD7.7J3GBRRcRy7Q5FvT0J7RuCJ/.tq","__v":0}
+info: 2020-08-03T23:37:26.855Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 74.956 ms
+info: 2020-08-03T23:37:26.926Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:37:26.926Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.483 ms
+info: 2020-08-03T23:37:26.936Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:37:26.936Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.241 ms
+info: 2020-08-03T23:37:26.944Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:37:26.947Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:37:26.947Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.911 ms
+info: 2020-08-03T23:37:26.954Z ::ffff:127.0.0.1 - DELETE /products/5f289fb6d2dac908c068f557 HTTP/1.1 401 - - 0.356 ms
+info: 2020-08-03T23:37:26.963Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:37:26.964Z Usuario test no es dueño del producto con id 5f289fb6d2dac908c068f559. Dueño real es carl78.
+info: 2020-08-03T23:37:26.965Z ::ffff:127.0.0.1 - DELETE /products/5f289fb6d2dac908c068f559 HTTP/1.1 401 107 - 3.510 ms
+info: 2020-08-03T23:37:26.973Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:37:26.979Z El producto con id 5f289fb6d2dac908c068f55a fue borrado
+info: 2020-08-03T23:37:26.980Z ::ffff:127.0.0.1 - DELETE /products/5f289fb6d2dac908c068f55a HTTP/1.1 200 107 - 8.102 ms
+info: 2020-08-03T23:37:27.061Z Nuevo producto agregado {"_id":"5f289fb7d2dac908c068f55b","username":"test","email":"test@test.com","password":"$2b$10$8lRcnx2eRW1H.X.wJdz9GuWDqWEAxFBy9WVDWT/JL68x7L7hf95Xa","__v":0}
+info: 2020-08-03T23:37:27.061Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 73.031 ms
+info: 2020-08-03T23:37:27.132Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:37:27.132Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.906 ms
+info: 2020-08-03T23:37:27.140Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:37:27.140Z El siguiente producto no paso la validación
+info: 2020-08-03T23:37:27.141Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.537 ms
+info: 2020-08-03T23:37:27.148Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:37:27.149Z El siguiente producto no paso la validación
+info: 2020-08-03T23:37:27.149Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.435 ms
+info: 2020-08-03T23:37:27.156Z ::ffff:127.0.0.1 - PUT /products/5f289fb7d2dac908c068f55e HTTP/1.1 401 - - 0.336 ms
+info: 2020-08-03T23:37:28.070Z Escuchando en el puerto 3000
+info: 2020-08-03T23:37:28.107Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.004 ms
+info: 2020-08-03T23:37:28.134Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.522 ms
+info: 2020-08-03T23:37:28.225Z Nuevo producto agregado {"_id":"5f289fb820425b08c029e072","username":"test","email":"test@test.com","password":"$2b$10$b338.2GiBAXH5N7/gJphW.WfLQTOIsHcNigMkIi3gkcZh8JBHjO3K","__v":0}
+info: 2020-08-03T23:37:28.225Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 77.158 ms
+warn: 2020-08-03T23:37:28.308Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:37:28.308Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.240 ms
+warn: 2020-08-03T23:37:28.319Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:37:28.320Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.113 ms
+info: 2020-08-03T23:37:28.327Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:37:28.328Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.568 ms
+info: 2020-08-03T23:37:28.333Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:37:28.333Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.913 ms
+info: 2020-08-03T23:37:28.338Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:37:28.338Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.909 ms
+info: 2020-08-03T23:37:28.345Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:37:28.345Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.909 ms
+info: 2020-08-03T23:37:28.350Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:37:28.351Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.844 ms
+info: 2020-08-03T23:37:28.357Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:37:28.358Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.167 ms
+info: 2020-08-03T23:37:28.363Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:37:28.363Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.747 ms
+info: 2020-08-03T23:37:28.369Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:37:28.370Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.814 ms
+info: 2020-08-03T23:37:28.446Z Nuevo producto agregado {"_id":"5f289fb820425b08c029e079","username":"test","email":"helptest@test.com","password":"$2b$10$bw5QYM.q94j/j.lxx33oPOoZLQ/oj12vT6vWsku0LSC4znCeZI/Y2","__v":0}
+info: 2020-08-03T23:37:28.447Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 72.396 ms
+info: 2020-08-03T23:37:28.518Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.345 ms
+info: 2020-08-03T23:37:28.523Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.352 ms
+info: 2020-08-03T23:37:28.530Z Usuario usernamedev no existe.
+info: 2020-08-03T23:37:28.530Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.405 ms
+info: 2020-08-03T23:37:28.672Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:37:28.672Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 67.802 ms
+info: 2020-08-03T23:37:28.813Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:37:28.814Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.186 ms
+info: 2020-08-03T23:37:28.954Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:37:28.955Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.425 ms
+info: 2020-08-03T23:40:13.315Z Escuchando en el puerto 3000
+info: 2020-08-03T23:40:13.353Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.650 ms
+info: 2020-08-03T23:40:13.375Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 10.702 ms
+info: 2020-08-03T23:40:13.394Z ::ffff:127.0.0.1 - GET /products/5f28a05d35c9ad390097b3be HTTP/1.1 200 107 - 3.226 ms
+info: 2020-08-03T23:40:13.504Z Nuevo producto agregado {"_id":"5f28a05d35c9ad390097b3bf","username":"test","email":"test@test.com","password":"$2b$10$d.HJN/BsBHfABjie82XMx.AcJ2MWEYlWLMnk63sHIELi0Ju4twp0y","__v":0}
+info: 2020-08-03T23:40:13.504Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 83.982 ms
+info: 2020-08-03T23:40:13.580Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:40:13.581Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 72.831 ms
+info: 2020-08-03T23:40:13.588Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:40:13.592Z Nuevo producto agregado {"_id":"5f28a05d35c9ad390097b3c0","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:40:13.593Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.768 ms
+info: 2020-08-03T23:40:13.598Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.618 ms
+info: 2020-08-03T23:40:13.604Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:40:13.606Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:40:13.610Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 7.427 ms
+info: 2020-08-03T23:40:13.617Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:40:13.617Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:40:13.618Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.580 ms
+info: 2020-08-03T23:40:13.623Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:40:13.624Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:40:13.625Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.568 ms
+info: 2020-08-03T23:40:13.701Z Nuevo producto agregado {"_id":"5f28a05d35c9ad390097b3c1","username":"test","email":"test@test.com","password":"$2b$10$Pb6tZoXtzQ2QXguNB.pdGecmSVz0f3dOzYsrPadesJG3iCRdzklLe","__v":0}
+info: 2020-08-03T23:40:13.702Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 72.600 ms
+info: 2020-08-03T23:40:13.775Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:40:13.776Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.705 ms
+info: 2020-08-03T23:40:13.785Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:40:13.785Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.180 ms
+info: 2020-08-03T23:40:13.794Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:40:13.797Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:40:13.797Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.816 ms
+info: 2020-08-03T23:40:13.804Z ::ffff:127.0.0.1 - DELETE /products/5f28a05d35c9ad390097b3c4 HTTP/1.1 401 - - 0.554 ms
+info: 2020-08-03T23:40:13.814Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:40:13.817Z Usuario test no es dueño del producto con id 5f28a05d35c9ad390097b3c6. Dueño real es carl78.
+info: 2020-08-03T23:40:13.818Z ::ffff:127.0.0.1 - DELETE /products/5f28a05d35c9ad390097b3c6 HTTP/1.1 401 107 - 4.818 ms
+info: 2020-08-03T23:40:13.826Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:40:13.832Z El producto con id 5f28a05d35c9ad390097b3c7 fue borrado
+info: 2020-08-03T23:40:13.833Z ::ffff:127.0.0.1 - DELETE /products/5f28a05d35c9ad390097b3c7 HTTP/1.1 200 107 - 8.035 ms
+info: 2020-08-03T23:40:13.915Z Nuevo producto agregado {"_id":"5f28a05d35c9ad390097b3c8","username":"test","email":"test@test.com","password":"$2b$10$46voTwBPQvschBnt1C725ed/CXVH5gxA1L1gZAcYFZMVsdGPGQa06","__v":0}
+info: 2020-08-03T23:40:13.915Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 74.568 ms
+info: 2020-08-03T23:40:13.987Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:40:13.988Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.498 ms
+info: 2020-08-03T23:40:13.995Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:40:13.996Z El siguiente producto no paso la validación
+info: 2020-08-03T23:40:13.996Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.471 ms
+info: 2020-08-03T23:40:14.004Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:40:14.005Z El siguiente producto no paso la validación
+info: 2020-08-03T23:40:14.005Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.355 ms
+info: 2020-08-03T23:40:14.012Z ::ffff:127.0.0.1 - PUT /products/5f28a05e35c9ad390097b3cb HTTP/1.1 401 - - 0.377 ms
+info: 2020-08-03T23:40:14.966Z Escuchando en el puerto 3000
+info: 2020-08-03T23:40:15.003Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.943 ms
+info: 2020-08-03T23:40:15.034Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 4.233 ms
+info: 2020-08-03T23:40:15.125Z Nuevo producto agregado {"_id":"5f28a05fd8849f3900e8b73d","username":"test","email":"test@test.com","password":"$2b$10$4RF9AGTXFZwtA5tC4dd15OiBc95TXj6CGOM05Dtok4r4kPJt65dFy","__v":0}
+info: 2020-08-03T23:40:15.126Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 77.872 ms
+warn: 2020-08-03T23:40:15.209Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:40:15.210Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.381 ms
+warn: 2020-08-03T23:40:15.220Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:40:15.221Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.064 ms
+info: 2020-08-03T23:40:15.228Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:40:15.228Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.535 ms
+info: 2020-08-03T23:40:15.233Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:40:15.234Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.905 ms
+info: 2020-08-03T23:40:15.238Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:40:15.239Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.817 ms
+info: 2020-08-03T23:40:15.245Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:40:15.246Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.114 ms
+info: 2020-08-03T23:40:15.252Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:40:15.252Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.057 ms
+info: 2020-08-03T23:40:15.260Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:40:15.260Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.456 ms
+info: 2020-08-03T23:40:15.266Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:40:15.266Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.801 ms
+info: 2020-08-03T23:40:15.272Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:40:15.273Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.848 ms
+info: 2020-08-03T23:40:15.349Z Nuevo producto agregado {"_id":"5f28a05fd8849f3900e8b744","username":"test","email":"helptest@test.com","password":"$2b$10$auXnpHgrZYW3RoVGgZqpb./w4N1au1MNDvmWm18VniRrVefS3tngK","__v":0}
+info: 2020-08-03T23:40:15.349Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 71.503 ms
+info: 2020-08-03T23:40:15.423Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.564 ms
+info: 2020-08-03T23:40:15.428Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.430 ms
+info: 2020-08-03T23:40:15.436Z Usuario usernamedev no existe.
+info: 2020-08-03T23:40:15.436Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.744 ms
+info: 2020-08-03T23:40:15.589Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:40:15.590Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 74.836 ms
+info: 2020-08-03T23:40:15.741Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:40:15.742Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 74.928 ms
+info: 2020-08-03T23:40:15.900Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:40:15.900Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 75.556 ms
+info: 2020-08-03T23:41:04.324Z Escuchando en el puerto 3000
+info: 2020-08-03T23:41:04.362Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.165 ms
+info: 2020-08-03T23:41:04.386Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 12.967 ms
+info: 2020-08-03T23:41:04.406Z ::ffff:127.0.0.1 - GET /products/5f28a090e4cced1b2855a56a HTTP/1.1 200 107 - 3.201 ms
+info: 2020-08-03T23:41:04.515Z Nuevo producto agregado {"_id":"5f28a090e4cced1b2855a56b","username":"test","email":"test@test.com","password":"$2b$10$fpnK00MUuQElO4evtZ15ZOBIt1kRqu3w3m0E7WWc3.ugtOlvaRrtC","__v":0}
+info: 2020-08-03T23:41:04.516Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 85.229 ms
+info: 2020-08-03T23:41:04.593Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:41:04.593Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 73.675 ms
+info: 2020-08-03T23:41:04.601Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:41:04.604Z Nuevo producto agregado {"_id":"5f28a090e4cced1b2855a56c","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:41:04.605Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.710 ms
+info: 2020-08-03T23:41:04.611Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.641 ms
+info: 2020-08-03T23:41:04.617Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:41:04.619Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:41:04.623Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.799 ms
+info: 2020-08-03T23:41:04.628Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:41:04.629Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:41:04.630Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.539 ms
+info: 2020-08-03T23:41:04.635Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:41:04.636Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:41:04.636Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.392 ms
+info: 2020-08-03T23:41:04.711Z Nuevo producto agregado {"_id":"5f28a090e4cced1b2855a56d","username":"test","email":"test@test.com","password":"$2b$10$/.C6ftp6JefnOlBuot6KL./KZ0mAEhucvg3bSzdCCJAVOzUI2JX6S","__v":0}
+info: 2020-08-03T23:41:04.712Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 71.156 ms
+info: 2020-08-03T23:41:04.783Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:41:04.784Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.662 ms
+info: 2020-08-03T23:41:04.792Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:41:04.793Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 1.957 ms
+info: 2020-08-03T23:41:04.800Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:41:04.803Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:41:04.804Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.812 ms
+info: 2020-08-03T23:41:04.814Z ::ffff:127.0.0.1 - DELETE /products/5f28a090e4cced1b2855a570 HTTP/1.1 401 - - 0.375 ms
+info: 2020-08-03T23:41:04.826Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:41:04.830Z Usuario test no es dueño del producto con id 5f28a090e4cced1b2855a572. Dueño real es carl78.
+info: 2020-08-03T23:41:04.831Z ::ffff:127.0.0.1 - DELETE /products/5f28a090e4cced1b2855a572 HTTP/1.1 401 107 - 7.024 ms
+info: 2020-08-03T23:41:04.845Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:41:04.853Z El producto con id 5f28a090e4cced1b2855a573 fue borrado
+info: 2020-08-03T23:41:04.853Z ::ffff:127.0.0.1 - DELETE /products/5f28a090e4cced1b2855a573 HTTP/1.1 200 107 - 11.234 ms
+info: 2020-08-03T23:41:04.937Z Nuevo producto agregado {"_id":"5f28a090e4cced1b2855a574","username":"test","email":"test@test.com","password":"$2b$10$nZfayfbISljI4ggNJw.m0.vYqg.Ek9FgVBOnY/eEUhIBej/sJ4Uhy","__v":0}
+info: 2020-08-03T23:41:04.937Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 75.855 ms
+info: 2020-08-03T23:41:05.013Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:41:05.014Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 73.249 ms
+info: 2020-08-03T23:41:05.023Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:41:05.023Z El siguiente producto no paso la validación
+info: 2020-08-03T23:41:05.024Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.487 ms
+info: 2020-08-03T23:41:05.032Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:41:05.033Z El siguiente producto no paso la validación
+info: 2020-08-03T23:41:05.034Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.917 ms
+info: 2020-08-03T23:41:05.041Z ::ffff:127.0.0.1 - PUT /products/5f28a091e4cced1b2855a577 HTTP/1.1 401 - - 0.368 ms
+info: 2020-08-03T23:41:06.131Z Escuchando en el puerto 3000
+info: 2020-08-03T23:41:06.185Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.758 ms
+info: 2020-08-03T23:41:06.210Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.518 ms
+info: 2020-08-03T23:41:06.311Z Nuevo producto agregado {"_id":"5f28a0927eac351b28dc43ba","username":"test","email":"test@test.com","password":"$2b$10$MbsTkF2qKkVJ5J7u2MjIsOeFh4iNBhbBDYmoFLE2Ys4Ayz49dTrXa","__v":0}
+info: 2020-08-03T23:41:06.312Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 87.861 ms
+warn: 2020-08-03T23:41:06.393Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:41:06.394Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.302 ms
+warn: 2020-08-03T23:41:06.403Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:41:06.404Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.134 ms
+info: 2020-08-03T23:41:06.414Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:41:06.415Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 6.199 ms
+info: 2020-08-03T23:41:06.419Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:41:06.420Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.963 ms
+info: 2020-08-03T23:41:06.424Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:41:06.425Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.836 ms
+info: 2020-08-03T23:41:06.431Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:41:06.431Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.934 ms
+info: 2020-08-03T23:41:06.437Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:41:06.437Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.863 ms
+info: 2020-08-03T23:41:06.444Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:41:06.445Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.175 ms
+info: 2020-08-03T23:41:06.450Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:41:06.451Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.883 ms
+info: 2020-08-03T23:41:06.457Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:41:06.458Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.025 ms
+info: 2020-08-03T23:41:06.531Z Nuevo producto agregado {"_id":"5f28a0927eac351b28dc43c1","username":"test","email":"helptest@test.com","password":"$2b$10$/e.xeoSMzJm0QuDSJ91PEOCu5Gk7e5qeTnik7NgreHSq7uo80k/Sm","__v":0}
+info: 2020-08-03T23:41:06.532Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 68.697 ms
+info: 2020-08-03T23:41:06.608Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.395 ms
+info: 2020-08-03T23:41:06.613Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.310 ms
+info: 2020-08-03T23:41:06.620Z Usuario usernamedev no existe.
+info: 2020-08-03T23:41:06.621Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.856 ms
+info: 2020-08-03T23:41:06.770Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:41:06.770Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 73.355 ms
+info: 2020-08-03T23:41:06.922Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:41:06.922Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 78.089 ms
+info: 2020-08-03T23:41:07.070Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:41:07.071Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.234 ms
+info: 2020-08-03T23:44:02.297Z Escuchando en el puerto 3000
+info: 2020-08-03T23:44:02.334Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 3.120 ms
+info: 2020-08-03T23:44:02.356Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 12.249 ms
+info: 2020-08-03T23:44:02.375Z ::ffff:127.0.0.1 - GET /products/5f28a1427d5e6450f44070af HTTP/1.1 200 107 - 3.289 ms
+info: 2020-08-03T23:44:02.486Z Nuevo producto agregado {"_id":"5f28a1427d5e6450f44070b0","username":"test","email":"test@test.com","password":"$2b$10$cgVY/0PHpZrMcGgAgbPmVeU0hEO1SoRw.cqOBPJtMGjsA6PPkPJvq","__v":0}
+info: 2020-08-03T23:44:02.487Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 85.195 ms
+info: 2020-08-03T23:44:02.580Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:44:02.580Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 89.530 ms
+info: 2020-08-03T23:44:02.588Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:44:02.591Z Nuevo producto agregado {"_id":"5f28a1427d5e6450f44070b1","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:44:02.592Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.556 ms
+info: 2020-08-03T23:44:02.597Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.529 ms
+info: 2020-08-03T23:44:02.603Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:44:02.605Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:44:02.609Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 6.442 ms
+info: 2020-08-03T23:44:02.615Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:44:02.616Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:44:02.617Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.646 ms
+info: 2020-08-03T23:44:02.623Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:44:02.623Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:44:02.624Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.933 ms
+info: 2020-08-03T23:44:02.700Z Nuevo producto agregado {"_id":"5f28a1427d5e6450f44070b2","username":"test","email":"test@test.com","password":"$2b$10$4Q5U0z6HX4rb3nAUVMu4/eA4DjPDd.WUsipVPu/VaTa.IBSE5HaaG","__v":0}
+info: 2020-08-03T23:44:02.701Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 71.714 ms
+info: 2020-08-03T23:44:02.772Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:44:02.773Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.742 ms
+info: 2020-08-03T23:44:02.782Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:44:02.783Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.411 ms
+info: 2020-08-03T23:44:02.793Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:44:02.800Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:44:02.800Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 9.212 ms
+info: 2020-08-03T23:44:02.808Z ::ffff:127.0.0.1 - DELETE /products/5f28a1427d5e6450f44070b5 HTTP/1.1 401 - - 0.347 ms
+info: 2020-08-03T23:44:02.818Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:44:02.820Z Usuario test no es dueño del producto con id 5f28a1427d5e6450f44070b7. Dueño real es carl78.
+info: 2020-08-03T23:44:02.820Z ::ffff:127.0.0.1 - DELETE /products/5f28a1427d5e6450f44070b7 HTTP/1.1 401 107 - 3.877 ms
+info: 2020-08-03T23:44:02.827Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:44:02.833Z El producto con id 5f28a1427d5e6450f44070b8 fue borrado
+info: 2020-08-03T23:44:02.834Z ::ffff:127.0.0.1 - DELETE /products/5f28a1427d5e6450f44070b8 HTTP/1.1 200 107 - 8.041 ms
+info: 2020-08-03T23:44:02.916Z Nuevo producto agregado {"_id":"5f28a1427d5e6450f44070b9","username":"test","email":"test@test.com","password":"$2b$10$zJYGKtfMsfXUPBJH.9r4vuevEhyHZ13ybN0JtoWp10KIEBoNoGnv.","__v":0}
+info: 2020-08-03T23:44:02.916Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 74.082 ms
+info: 2020-08-03T23:44:02.990Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:44:02.991Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.818 ms
+info: 2020-08-03T23:44:02.999Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:44:03.000Z El siguiente producto no paso la validación
+info: 2020-08-03T23:44:03.001Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.827 ms
+info: 2020-08-03T23:44:03.010Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:44:03.010Z El siguiente producto no paso la validación
+info: 2020-08-03T23:44:03.011Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.944 ms
+info: 2020-08-03T23:44:03.018Z ::ffff:127.0.0.1 - PUT /products/5f28a1437d5e6450f44070bc HTTP/1.1 401 - - 0.346 ms
+info: 2020-08-03T23:44:04.077Z Escuchando en el puerto 3000
+info: 2020-08-03T23:44:04.107Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.592 ms
+info: 2020-08-03T23:44:04.133Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.576 ms
+info: 2020-08-03T23:44:04.225Z Nuevo producto agregado {"_id":"5f28a14420234f50f438e063","username":"test","email":"test@test.com","password":"$2b$10$evkrBWCr2xH8MU/P.6BJBeWVFofYaByQYfP6ARwnpd.NRV5PWYXzi","__v":0}
+info: 2020-08-03T23:44:04.225Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 78.102 ms
+warn: 2020-08-03T23:44:04.306Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:44:04.307Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.143 ms
+warn: 2020-08-03T23:44:04.316Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:44:04.316Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.105 ms
+info: 2020-08-03T23:44:04.325Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:44:04.326Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.645 ms
+info: 2020-08-03T23:44:04.331Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:44:04.331Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.988 ms
+info: 2020-08-03T23:44:04.336Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:44:04.337Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.922 ms
+info: 2020-08-03T23:44:04.343Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:44:04.343Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.893 ms
+info: 2020-08-03T23:44:04.349Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:44:04.349Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.897 ms
+info: 2020-08-03T23:44:04.356Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:44:04.356Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.102 ms
+info: 2020-08-03T23:44:04.362Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:44:04.362Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.849 ms
+info: 2020-08-03T23:44:04.368Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:44:04.368Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.862 ms
+info: 2020-08-03T23:44:04.445Z Nuevo producto agregado {"_id":"5f28a14420234f50f438e06a","username":"test","email":"helptest@test.com","password":"$2b$10$WnVExBdnSKl3tk.8IQmlzu.EL8Txi5x7Vbvkg2ziR441yqMJkMuPS","__v":0}
+info: 2020-08-03T23:44:04.446Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 72.388 ms
+info: 2020-08-03T23:44:04.519Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.409 ms
+info: 2020-08-03T23:44:04.523Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.374 ms
+info: 2020-08-03T23:44:04.531Z Usuario usernamedev no existe.
+info: 2020-08-03T23:44:04.532Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 3.685 ms
+info: 2020-08-03T23:44:04.672Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:44:04.673Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 69.325 ms
+info: 2020-08-03T23:44:04.814Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:44:04.814Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.939 ms
+info: 2020-08-03T23:44:04.959Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:44:04.960Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.780 ms
+info: 2020-08-03T23:47:12.687Z Escuchando en el puerto 3000
+info: 2020-08-03T23:47:12.722Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.179 ms
+info: 2020-08-03T23:47:12.744Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 11.982 ms
+info: 2020-08-03T23:47:12.763Z ::ffff:127.0.0.1 - GET /products/5f28a200c98581329081b6bc HTTP/1.1 200 107 - 3.025 ms
+info: 2020-08-03T23:47:12.876Z Nuevo producto agregado {"_id":"5f28a200c98581329081b6bd","username":"test","email":"test@test.com","password":"$2b$10$aSu0ybarCc3ogcwE02OSZu0HAxAAlkngomn2UffTIVo3U/5v38TWm","__v":0}
+info: 2020-08-03T23:47:12.877Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 83.283 ms
+info: 2020-08-03T23:47:12.967Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:47:12.968Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 87.453 ms
+info: 2020-08-03T23:47:12.976Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:47:12.979Z Nuevo producto agregado {"_id":"5f28a200c98581329081b6be","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:47:12.980Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.907 ms
+info: 2020-08-03T23:47:12.985Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.695 ms
+info: 2020-08-03T23:47:12.991Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:47:12.993Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:47:12.996Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 5.934 ms
+info: 2020-08-03T23:47:13.002Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:47:13.003Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:47:13.004Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.943 ms
+info: 2020-08-03T23:47:13.010Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:47:13.011Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:47:13.012Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 3.149 ms
+info: 2020-08-03T23:47:13.088Z Nuevo producto agregado {"_id":"5f28a201c98581329081b6bf","username":"test","email":"test@test.com","password":"$2b$10$BT8pTUYRZ.2.qNIRosLx2.Yc1.XYG/4wl4XN7/SCgmywB2pFBZmrq","__v":0}
+info: 2020-08-03T23:47:13.088Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 71.062 ms
+info: 2020-08-03T23:47:13.160Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:47:13.161Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.056 ms
+info: 2020-08-03T23:47:13.169Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:47:13.170Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.079 ms
+info: 2020-08-03T23:47:13.178Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:47:13.181Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:47:13.181Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 4.733 ms
+info: 2020-08-03T23:47:13.189Z ::ffff:127.0.0.1 - DELETE /products/5f28a201c98581329081b6c2 HTTP/1.1 401 - - 0.316 ms
+info: 2020-08-03T23:47:13.198Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:47:13.203Z Usuario test no es dueño del producto con id 5f28a201c98581329081b6c4. Dueño real es carl78.
+info: 2020-08-03T23:47:13.204Z ::ffff:127.0.0.1 - DELETE /products/5f28a201c98581329081b6c4 HTTP/1.1 401 107 - 6.980 ms
+info: 2020-08-03T23:47:13.211Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:47:13.216Z El producto con id 5f28a201c98581329081b6c5 fue borrado
+info: 2020-08-03T23:47:13.217Z ::ffff:127.0.0.1 - DELETE /products/5f28a201c98581329081b6c5 HTTP/1.1 200 107 - 6.582 ms
+info: 2020-08-03T23:47:13.294Z Nuevo producto agregado {"_id":"5f28a201c98581329081b6c6","username":"test","email":"test@test.com","password":"$2b$10$5AZ4XMYtCukCVi3NQaoIy.wrub8DZ4Rzoe/5vOxfI/ftcJNsL758q","__v":0}
+info: 2020-08-03T23:47:13.294Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 70.155 ms
+info: 2020-08-03T23:47:13.365Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:47:13.366Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.925 ms
+info: 2020-08-03T23:47:13.374Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:47:13.374Z El siguiente producto no paso la validación
+info: 2020-08-03T23:47:13.375Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.709 ms
+info: 2020-08-03T23:47:13.382Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:47:13.383Z El siguiente producto no paso la validación
+info: 2020-08-03T23:47:13.384Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.369 ms
+info: 2020-08-03T23:47:13.391Z ::ffff:127.0.0.1 - PUT /products/5f28a201c98581329081b6c9 HTTP/1.1 401 - - 0.367 ms
+info: 2020-08-03T23:47:14.363Z Escuchando en el puerto 3000
+info: 2020-08-03T23:47:14.392Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 8.203 ms
+info: 2020-08-03T23:47:14.419Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.769 ms
+info: 2020-08-03T23:47:14.526Z Nuevo producto agregado {"_id":"5f28a202b9646e3290e203c2","username":"test","email":"test@test.com","password":"$2b$10$1/THqq/TZ0KBtyjXGlOEuOv1gnTZwV7fHOYiKK4vcg/cgdxGR3WA.","__v":0}
+info: 2020-08-03T23:47:14.527Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 94.176 ms
+warn: 2020-08-03T23:47:14.609Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:47:14.610Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.323 ms
+warn: 2020-08-03T23:47:14.620Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:47:14.620Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.783 ms
+info: 2020-08-03T23:47:14.628Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:47:14.628Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.295 ms
+info: 2020-08-03T23:47:14.633Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:47:14.633Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.117 ms
+info: 2020-08-03T23:47:14.638Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:47:14.638Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.813 ms
+info: 2020-08-03T23:47:14.645Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:47:14.646Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.968 ms
+info: 2020-08-03T23:47:14.652Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:47:14.652Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.125 ms
+info: 2020-08-03T23:47:14.660Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:47:14.660Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.448 ms
+info: 2020-08-03T23:47:14.665Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:47:14.666Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.815 ms
+info: 2020-08-03T23:47:14.672Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:47:14.672Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.887 ms
+info: 2020-08-03T23:47:14.749Z Nuevo producto agregado {"_id":"5f28a202b9646e3290e203c9","username":"test","email":"helptest@test.com","password":"$2b$10$AgTsmkeugL8SWAJoLiso2eBIpbj6Bbt7njeNRblCi8GYOUEnBwguS","__v":0}
+info: 2020-08-03T23:47:14.750Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 72.557 ms
+info: 2020-08-03T23:47:14.826Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.404 ms
+info: 2020-08-03T23:47:14.830Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.332 ms
+info: 2020-08-03T23:47:14.836Z Usuario usernamedev no existe.
+info: 2020-08-03T23:47:14.837Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 2.450 ms
+info: 2020-08-03T23:47:14.980Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:47:14.981Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 70.754 ms
+info: 2020-08-03T23:47:15.139Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:47:15.139Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 71.869 ms
+info: 2020-08-03T23:47:15.282Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:47:15.282Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 67.345 ms
+info: 2020-08-03T23:50:26.082Z Escuchando en el puerto 3000
+info: 2020-08-03T23:50:26.117Z ::ffff:127.0.0.1 - GET /products/123 HTTP/1.1 401 47 - 2.117 ms
+info: 2020-08-03T23:50:26.138Z ::ffff:127.0.0.1 - GET /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 332 - 12.429 ms
+info: 2020-08-03T23:50:26.156Z ::ffff:127.0.0.1 - GET /products/5f28a2c207701352e08036a3 HTTP/1.1 200 107 - 3.055 ms
+info: 2020-08-03T23:50:26.265Z Nuevo producto agregado {"_id":"5f28a2c207701352e08036a4","username":"test","email":"test@test.com","password":"$2b$10$2JORUl/B9UK4/emxehD9iOcrYTCzQsPo2eO51Us0fienWqvQFURTK","__v":0}
+info: 2020-08-03T23:50:26.266Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 84.420 ms
+info: 2020-08-03T23:50:26.341Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:50:26.342Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 72.813 ms
+info: 2020-08-03T23:50:26.350Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:50:26.353Z Nuevo producto agregado {"_id":"5f28a2c207701352e08036a5","titulo":"MacBook","precio":800,"moneda":"USD","owner":"test","__v":0}
+info: 2020-08-03T23:50:26.354Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 201 104 - 6.826 ms
+info: 2020-08-03T23:50:26.360Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 401 - - 0.579 ms
+info: 2020-08-03T23:50:26.366Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:50:26.367Z El siguiente producto no paso la validación {"moneda":"USD","precio":800}
+info: 2020-08-03T23:50:26.370Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 5.927 ms
+info: 2020-08-03T23:50:26.377Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:50:26.377Z El siguiente producto no paso la validación {"titulo":"MacBook","moneda":"USD"}
+info: 2020-08-03T23:50:26.378Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.553 ms
+info: 2020-08-03T23:50:26.384Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:50:26.384Z El siguiente producto no paso la validación {"titulo":"MacBook","precio":800}
+info: 2020-08-03T23:50:26.385Z ::ffff:127.0.0.1 - POST /products HTTP/1.1 400 22 - 2.582 ms
+info: 2020-08-03T23:50:26.461Z Nuevo producto agregado {"_id":"5f28a2c207701352e08036a6","username":"test","email":"test@test.com","password":"$2b$10$ENfjDTXrXJB8uhO0SPEj5u/.6N1ubSu.Eh6bR8CmkonJFD.8na/AS","__v":0}
+info: 2020-08-03T23:50:26.462Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 72.216 ms
+info: 2020-08-03T23:50:26.535Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:50:26.535Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 70.252 ms
+info: 2020-08-03T23:50:26.544Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:50:26.545Z ::ffff:127.0.0.1 - DELETE /products/123 HTTP/1.1 401 47 - 2.250 ms
+info: 2020-08-03T23:50:26.553Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:50:26.559Z El producto con id 5f23102c342b9203d4ef4a80 no existe
+info: 2020-08-03T23:50:26.559Z ::ffff:127.0.0.1 - DELETE /products/5f23102c342b9203d4ef4a80 HTTP/1.1 404 53 - 7.923 ms
+info: 2020-08-03T23:50:26.567Z ::ffff:127.0.0.1 - DELETE /products/5f28a2c207701352e08036a9 HTTP/1.1 401 - - 0.324 ms
+info: 2020-08-03T23:50:26.577Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:50:26.580Z Usuario test no es dueño del producto con id 5f28a2c207701352e08036ab. Dueño real es carl78.
+info: 2020-08-03T23:50:26.581Z ::ffff:127.0.0.1 - DELETE /products/5f28a2c207701352e08036ab HTTP/1.1 401 107 - 5.005 ms
+info: 2020-08-03T23:50:26.588Z Usuario test suministró token válido. Autenticación completada.
+info: 2020-08-03T23:50:26.593Z El producto con id 5f28a2c207701352e08036ac fue borrado
+info: 2020-08-03T23:50:26.593Z ::ffff:127.0.0.1 - DELETE /products/5f28a2c207701352e08036ac HTTP/1.1 200 107 - 6.310 ms
+info: 2020-08-03T23:50:26.670Z Nuevo producto agregado {"_id":"5f28a2c207701352e08036ad","username":"test","email":"test@test.com","password":"$2b$10$qqOiqbLMcU1NqUtO5frw1u9rh6.JEhWZ4GOzDayUb4iWkL3P5lzGG","__v":0}
+info: 2020-08-03T23:50:26.671Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 70.525 ms
+info: 2020-08-03T23:50:26.743Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:50:26.744Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 68.559 ms
+info: 2020-08-03T23:50:26.751Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:50:26.752Z El siguiente producto no paso la validación
+info: 2020-08-03T23:50:26.753Z ::ffff:127.0.0.1 - PUT /products/123 HTTP/1.1 400 66 - 2.630 ms
+info: 2020-08-03T23:50:26.760Z Usuario test suministró token válido. Autenticación completada.
+warn: 2020-08-03T23:50:26.761Z El siguiente producto no paso la validación
+info: 2020-08-03T23:50:26.761Z ::ffff:127.0.0.1 - PUT /products/5f23102c342b9203d4ef4a80 HTTP/1.1 400 66 - 2.393 ms
+info: 2020-08-03T23:50:26.768Z ::ffff:127.0.0.1 - PUT /products/5f28a2c207701352e08036b0 HTTP/1.1 401 - - 0.369 ms
+info: 2020-08-03T23:50:27.832Z Escuchando en el puerto 3000
+info: 2020-08-03T23:50:27.862Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 2 - 7.488 ms
+info: 2020-08-03T23:50:27.888Z ::ffff:127.0.0.1 - GET /users HTTP/1.1 200 317 - 3.792 ms
+info: 2020-08-03T23:50:27.994Z Nuevo producto agregado {"_id":"5f28a2c37ce50e52e0492ab4","username":"test","email":"test@test.com","password":"$2b$10$P/f66Jop98VjOiIrZVrd7etzDb8EBzV3RMs2r3MJ4wAkB1rFZ168q","__v":0}
+info: 2020-08-03T23:50:27.995Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 158 - 92.274 ms
+warn: 2020-08-03T23:50:28.078Z Email testhelp@test.com o username test ya existen en la base de datos
+info: 2020-08-03T23:50:28.079Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.700 ms
+warn: 2020-08-03T23:50:28.091Z Email test@test.com o username helpuser ya existen en la base de datos
+info: 2020-08-03T23:50:28.091Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 409 50 - 2.262 ms
+info: 2020-08-03T23:50:28.098Z Falló la validación del usuario  {"0":"\"username\" is required"}
+info: 2020-08-03T23:50:28.099Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 3.424 ms
+info: 2020-08-03T23:50:28.104Z Falló la validación del usuario  {"0":"\"password\" is required"}
+info: 2020-08-03T23:50:28.104Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.248 ms
+info: 2020-08-03T23:50:28.109Z Falló la validación del usuario  {"0":"\"email\" is required"}
+info: 2020-08-03T23:50:28.110Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.812 ms
+info: 2020-08-03T23:50:28.116Z Falló la validación del usuario  {"0":"\"email\" must be a valid email"}
+info: 2020-08-03T23:50:28.116Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.893 ms
+info: 2020-08-03T23:50:28.122Z Falló la validación del usuario  {"0":"\"username\" length must be at least 3 characters long"}
+info: 2020-08-03T23:50:28.122Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.839 ms
+info: 2020-08-03T23:50:28.129Z Falló la validación del usuario  {"0":"\"username\" length must be less than or equal to 30 characters long","1":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:50:28.130Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 1.159 ms
+info: 2020-08-03T23:50:28.135Z Falló la validación del usuario  {"0":"\"password\" length must be at least 6 characters long"}
+info: 2020-08-03T23:50:28.136Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.902 ms
+info: 2020-08-03T23:50:28.142Z Falló la validación del usuario  {"0":"\"password\" length must be less than or equal to 200 characters long"}
+info: 2020-08-03T23:50:28.143Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 400 54 - 0.912 ms
+info: 2020-08-03T23:50:28.219Z Nuevo producto agregado {"_id":"5f28a2c47ce50e52e0492abb","username":"test","email":"helptest@test.com","password":"$2b$10$/.lwsc2tR3m8WhzAHxA8Euhz2/LgY0LVtcz9nEdsQqXmVRTMYG35a","__v":0}
+info: 2020-08-03T23:50:28.220Z ::ffff:127.0.0.1 - POST /users HTTP/1.1 201 162 - 72.063 ms
+info: 2020-08-03T23:50:28.294Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.469 ms
+info: 2020-08-03T23:50:28.298Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 56 - 0.284 ms
+info: 2020-08-03T23:50:28.305Z Usuario usernamedev no existe.
+info: 2020-08-03T23:50:28.305Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 69 - 3.010 ms
+info: 2020-08-03T23:50:28.448Z Usuario test no completo la autenticación, contraseña incorrecta.
+info: 2020-08-03T23:50:28.449Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 400 81 - 69.600 ms
+info: 2020-08-03T23:50:28.592Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:50:28.593Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 71.898 ms
+info: 2020-08-03T23:50:28.737Z Usuario test completó autenticación exitosamente.
+info: 2020-08-03T23:50:28.737Z ::ffff:127.0.0.1 - POST /users/login HTTP/1.1 200 183 - 69.859 ms

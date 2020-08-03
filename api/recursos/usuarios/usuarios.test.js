@@ -5,6 +5,7 @@ const server = require("../../../index").server;
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("../../../config");
+const mongoose = require("mongoose");
 
 const testUsers = [
   {
@@ -57,14 +58,15 @@ const userDoesNotExist = async (user, done) => {
 describe("Usuarios", () => {
   //Antes de cada test ejectuar este callback, para borrar la tabla de los usuarios
   beforeEach((done) => {
-    User.remove({}, (err) => {
+    User.deleteMany({}, (err) => {
       done();
     });
   });
 
   //Ejecuta el callback despues que todos los test hayan sido ejecutados
-  afterAll(() => {
+  afterAll(async () => {
     server.close();
+    await mongoose.disconnect();
   });
 
   describe("GET /users", () => {
