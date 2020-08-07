@@ -22,6 +22,7 @@ mongoose.set("useFindAndModify", false);
 const app = express();
 
 app.use(bodyParser.json());
+app.use(bodyParser.raw({ type: "image/*", limit: "1mb" })); //Función para la imagen
 app.use(
   morgan("short", {
     stream: {
@@ -37,6 +38,7 @@ app.use("/users", usersRouter);
 
 //Manejo de errores para las rutas
 app.use(errorHandler.processErrorsDb);
+app.use(errorHandler.processErrorsSizeBody);
 if (config === "prod") {
   app.use(errorHandler.errorsInProduction);
 } else {

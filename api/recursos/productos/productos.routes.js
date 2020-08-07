@@ -13,6 +13,7 @@ const {
   ProductoNoExiste,
   UsuarioNoEsDuen,
 } = require("../productos/productos.error");
+const { processErrors } = require("../../libs/errorHandler");
 
 productsRouter.get(
   "/",
@@ -77,12 +78,12 @@ productsRouter.put(
         log.info(
           `Usuario ${authenticatedUser} no es dueño del producto con id ${id}. Dueño real es ${productToReplace.owner}.`
         );
-         res
+        res
           .status(401)
           .send(
             `No eres dueño del producto con id ${id}. Solo puedes editar productos creados por ti.`
           );
-          
+
         /* throw new UsuarioNoEsDuen(
           `No eres dueño del producto con id ${id}. Solo puedes editar productos creados por ti.`
         ); */
@@ -134,7 +135,7 @@ productsRouter.delete(
         log.info(
           `Usuario ${authenticatedUser} no es dueño del producto con id ${id}. Dueño real es ${productToDelete.owner}.`
         );
-         res
+        res
           .status(401)
           .send(
             `No eres dueño del producto con id ${id}. Solo puedes eliminar productos creados por ti.`
@@ -153,6 +154,15 @@ productsRouter.delete(
       }
     }
   }
+);
+
+productsRouter.put(
+  "/:id/image",
+  middValidarProducto.validarImagen,
+  errorHandler.processErrors(async (req, res) => {
+    log.info("Request para subir imagen", req.body);
+    res.json({ url: "updated" });
+  })
 );
 
 module.exports = productsRouter;

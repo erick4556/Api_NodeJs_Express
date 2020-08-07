@@ -34,9 +34,20 @@ const errorsInDevelopment = (err, req, res, next) => {
   });
 };
 
+const processErrorsSizeBody = (err, req, res, next) => {
+  if (err.status === 413) {
+    log.error(
+      `Request enviada a la ruta [${req.path}] excedió el límite de tamaño.`
+    );
+    err.message = `Request enviada a la ruta [${req.path}] excedió el límite de tamaño. Máximo tamaño permitido es ${err.limit} bytes.`;
+  }
+  next(err);
+};
+
 module.exports = {
   processErrors,
   processErrorsDb,
   errorsInProduction,
   errorsInDevelopment,
+  processErrorsSizeBody,
 };
