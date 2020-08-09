@@ -4,6 +4,10 @@ const configuracionBase = {
   jwt: {},
   puerto: 3000,
   suprimirLogs: false,
+  s3: {
+    accessKeyId: "AKIAZYJG3L2FEYYYL7MS",
+    secretAccessKey: "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",
+  },
 };
 
 let configuracionAmbiente = {};
