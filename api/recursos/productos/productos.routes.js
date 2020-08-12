@@ -13,7 +13,7 @@ const {
   ProductoNoExiste,
   UsuarioNoEsDuen,
 } = require("../productos/productos.error");
-const { processErrors } = require("../../libs/errorHandler");
+const saveImage = require("../../data/images.controller").saveImage;
 
 productsRouter.get(
   "/",
@@ -158,10 +158,27 @@ productsRouter.delete(
 
 productsRouter.put(
   "/:id/image",
-  middValidarProducto.validarImagen,
+  [jwtAuth, middValidarProducto.validarImagen],
   errorHandler.processErrors(async (req, res) => {
-    log.info("Request para subir imagen", req.body);
-    res.json({ url: "updated" });
+    const id = req.params.id;
+    const usuario = req.user.username;
+    log.info(
+      `Request recibido de usuario [${usuario}] para guardar imagen de producto con id [${id}]`
+    );
+
+    const randomName = `${uuidv4()}.${req.fileExtension}`;
+
+    await saveImage(req.body, randomName);
+
+    const imageUrl = `https://nodejs-project-express.s3.us-east-2.amazonaws.com/images/${randomName}`;
+
+    const updatedProduct = await productController.saveImageUrl(id, imageUrl);
+
+    log.info(
+      `Imagen de producto con id [${id}] fue modificada. Link a nueva imagen [${imageUrl}]. Cambiado por el dueño: [${usuario}]`
+    );
+
+    res.json(updatedProduct);
   })
 );
 

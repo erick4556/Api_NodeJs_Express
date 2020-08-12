@@ -7,7 +7,7 @@ const saveImage = (imageData, fileName) => {
   return s3Client
     .putObject({
       Body: imageData,
-      Bucket: "sellProducts",
+      Bucket: "nodejs-project-express",
       Key: `images/${fileName}`,
     })
     .promise();

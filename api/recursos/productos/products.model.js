@@ -20,6 +20,9 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: [true, "Producto debe tener una propietario."],
   },
+  image: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model("products", productSchema);

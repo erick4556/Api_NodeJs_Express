@@ -27,10 +27,24 @@ const deleteProduct = (id) => {
   return Product.findByIdAndRemove(id);
 };
 
+const saveImageUrl = (id, imageUrl) => {
+  return Product.findOneAndUpdate(
+    { _id: id },
+    {
+      //Cuando encuentres ese id, modifique la propiedad image
+      image: imageUrl,
+    },
+    {
+      new: true, //Permite que una vez que haya hecho el update, que retorne el objeto modificado.
+    }
+  );
+};
+
 module.exports = {
   createProduct,
   getProducts,
   getProductId,
   editProduct,
   deleteProduct,
+  saveImageUrl,
 };

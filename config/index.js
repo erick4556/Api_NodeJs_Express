@@ -5,8 +5,8 @@ const configuracionBase = {
   puerto: 3000,
   suprimirLogs: false,
   s3: {
-    accessKeyId: "AKIAZYJG3L2FEYYYL7MS",
-    secretAccessKey: "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",
+    accessKeyId: "AKIAZYJG3L2FAX5JILVI",
+    secretAccessKey: "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",
   },
 };
 
