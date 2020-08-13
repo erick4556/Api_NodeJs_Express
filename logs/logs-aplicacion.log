@@ -7805,3 +7805,34 @@ info: 2020-08-12T02:38:52.813Z Usuario testimage suministró token válido. Aute
 info: 2020-08-12T02:38:52.824Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
 info: 2020-08-12T02:38:54.030Z Imagen de producto con id [5f334cac64583000589eb524] fue modificada. Link a nueva imagen [https://nodejs-project-express.s3.us-east-2.amazonaws.com/images/c6337b8b-7be6-4e82-92d3-619fcafa63d3.jpg]. Cambiado por el dueño: [testimage]
 info: 2020-08-12T02:38:54.054Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 200 226 - 1242.648 ms
+info: 2020-08-12T02:54:36.790Z Escuchando en el puerto 3000
+info: 2020-08-12T02:55:27.058Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-12T02:55:27.078Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-12T02:55:28.397Z Imagen de producto con id [5f334cac64583000589eb524] fue modificada. Link a nueva imagen [https://nodejs-project-express.s3.us-east-2.amazonaws.com/images/af87f801-7b22-4adb-b26a-da514de1e7e5.jpg]. Cambiado por el dueño: [testimage]
+info: 2020-08-12T02:55:28.441Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 200 226 - 1373.406 ms
+info: 2020-08-12T02:56:07.864Z Escuchando en el puerto 3000
+info: 2020-08-12T02:56:22.792Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-12T02:56:22.805Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-12T02:56:23.990Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 500 2201 - 1211.460 ms
+info: 2020-08-12T02:56:40.330Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-12T02:56:40.341Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-12T02:56:40.997Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 500 2201 - 667.228 ms
+info: 2020-08-12T02:58:11.577Z Escuchando en el puerto 3000
+info: 2020-08-12T02:58:13.275Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-12T02:58:13.287Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-12T02:58:14.555Z Imagen de producto con id [5f334cac64583000589eb524] fue modificada. Link a nueva imagen [https://nodejs-project-express.s3.us-east-2.amazonaws.com/images/2f45e77e-6cb8-47cd-8f55-18a77c03741d.jpg]. Cambiado por el dueño: [testimage]
+info: 2020-08-12T02:58:14.593Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 200 226 - 1308.693 ms
+info: 2020-08-13T01:25:03.157Z Escuchando en el puerto 3000
+info: 2020-08-13T01:26:25.167Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-13T01:26:25.186Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-13T01:27:07.244Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 500 219 - 42104.701 ms
+info: 2020-08-13T01:27:37.570Z Escuchando en el puerto 3000
+info: 2020-08-13T01:27:41.733Z ::1 - GET /products/ HTTP/1.1 200 336 - 18.204 ms
+info: 2020-08-13T01:27:48.229Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-13T01:27:48.239Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-13T01:27:49.670Z Imagen de producto con id [5f334cac64583000589eb524] fue modificada. Link a nueva imagen [https://nodejs-project-express.s3.us-east-2.amazonaws.com/images/3466ce38-8cbc-4fd2-9569-883c060644b9.jpg]. Cambiado por el dueño: [testimage]
+info: 2020-08-13T01:27:49.696Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 200 226 - 1450.793 ms
+info: 2020-08-13T01:28:28.915Z Escuchando en el puerto 3000
+info: 2020-08-13T01:29:29.188Z Usuario testimage suministró token válido. Autenticación completada.
+info: 2020-08-13T01:29:29.200Z Request recibido de usuario [testimage] para guardar imagen de producto con id [5f334cac64583000589eb524]
+info: 2020-08-13T01:30:11.243Z ::1 - PUT /products/5f334cac64583000589eb524/image HTTP/1.1 500 219 - 42069.963 ms
